@@ -8,6 +8,16 @@
   assign viewer = section.settings.launch_url | default: 'https://mondanosize.vercel.app'
   assign name_enc = product.title | url_encode
   assign viewer_url = viewer | append: '?sku=' | append: product.handle | append: '&name=' | append: name_enc
+
+  assign hide = false
+  assign hide_list = section.settings.hide_handles | split: ','
+  for h in hide_list
+    assign hh = h | strip
+    if hh == product.handle
+      assign hide = true
+    endif
+  endfor
+
   assign size_index = 0
   for option in product.options_with_values
     if option.name == 'Talla' or option.name == 'Tamaño'
@@ -16,6 +26,7 @@
   endfor
 -%}
 
+{%- unless hide -%}
 <div class="visor-root" id="visor-{{ section.id }}">
 
   <button type="button" class="visor-btn" data-visor-open>
@@ -169,6 +180,8 @@
   </style>
 </div>
 
+{%- endunless -%}
+
 {% schema %}
 {
   "name": "Visor de talla",
@@ -191,6 +204,13 @@
       "id": "hint",
       "label": "Texto de ayuda",
       "default": "Sin salir de la ficha · no se guardan tus datos"
+    },
+    {
+      "type": "textarea",
+      "id": "hide_handles",
+      "label": "Ocultar en estos productos (handles)",
+      "info": "Lista separada por comas. Úsala para fichas que aún no tienen tabla de tallas.",
+      "default": "falda-camel-leather,abrigo-camel-leather,vestido-samba-rose,vestido-brisa-carioca,conjunto-ipanema,conjunto-copacabana,vestido-eolo,pantalon-flow-maestro,cortaviento-susurro-del-bosque,vestido-brisa-de-verano,conjunto-dos-piezas-susurro-de-atardecer,vestido-olas-nomadas,conjunto-dos-piezas-susurro-de-olas,denim-jacket,straight-jeans,polera-you-are-lucky,snake-baggy-jeans,black-baggy-jeans,vestido-tirantes-full-colors,parka-acorchada-sin-mangas,poleron-1,parka-impermeable-urban"
     }
   ],
   "presets": [

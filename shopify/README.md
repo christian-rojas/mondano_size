@@ -90,6 +90,14 @@ La sección ya lo resuelve:
 
 > El mapa usa `variant.option1`, que en este catálogo es siempre la talla (52 productos usan "Talla" y 40 "Tamaño" como primera opción).
 
+## 3.1 Ocultar el botón en productos sin tabla
+
+La sección trae el ajuste **"Ocultar en estos productos (handles)"**: una lista separada por comas. Si el handle del producto está ahí, la sección no renderiza nada.
+
+Hoy incluye los **22 productos sin tabla** (pantalones, vestidos, faldas, algunos conjuntos y prendas sin guía). Se edita desde Personalizar → Visor de talla, sin tocar código.
+
+> Si un producto nuevo aún no tiene tabla, añade su handle a la lista hasta que se transcriba la guía.
+
 ## 4. Analítica
 
 La sección empuja eventos a `dataLayer`:
