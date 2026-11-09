@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Encuentra tu talla · Mondano</title>
+<style>
+  :root{
+    --ink:#16161a; --muted:#6b6670; --bg:#faf6f2; --card:#fff;
+    --pink:#e8738f; --pink-deep:#c8466a; --purple:#3b2a6b;
+    --line:#ebe2d9; --soft:#f4ece5; --stage:#f3eee8;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;min-height:100%}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.45;-webkit-font-smoothing:antialiased;
+    display:flex;align-items:center;justify-content:center;padding:clamp(12px,3vw,32px);
+  }
+  .app{width:100%;max-width:1020px;display:grid;grid-template-columns:1.02fr .98fr;gap:clamp(16px,3vw,28px);align-items:center}
+
+  /* ---------- maniquí ---------- */
+  .preview{
+    background:var(--stage);border-radius:22px;height:min(74vh,660px);
+    display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;
+  }
+  .preview svg{width:100%;height:100%;display:block}
+  .preview-note{
+    position:absolute;left:0;right:0;bottom:12px;text-align:center;font-size:10.5px;color:var(--muted)
+  }
+
+  /* ---------- tarjeta del quiz ---------- */
+  .quiz{
+    background:var(--card);border:1px solid var(--line);border-radius:22px;
+    box-shadow:0 10px 40px rgba(59,42,107,.06);
+    padding:18px 20px 20px;display:flex;flex-direction:column;min-height:min(74vh,640px);
+  }
+  .head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px}
+  .icon{
+    width:34px;height:34px;border-radius:10px;border:1px solid var(--line);background:#fff;
+    color:var(--ink);font-size:16px;line-height:1;cursor:pointer;display:grid;place-items:center;
+    transition:.15s
+  }
+  .icon:hover{background:var(--soft)}
+  .icon:disabled{opacity:.3;cursor:default}
+  .icon:focus-visible{outline:2px solid var(--pink-deep);outline-offset:2px}
+  .brand{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62%}
+  .brand b{color:var(--pink-deep)}
+
+  .progress{display:flex;gap:5px;margin:4px 0 18px}
+  .progress i{flex:1;height:3px;border-radius:2px;background:var(--soft)}
+  .progress i.on{background:var(--ink)}
+
+  .slides{flex:1;display:flex;flex-direction:column;min-height:0}
+  .slide{display:none}
+  .slide.on{display:flex;flex-direction:column;justify-content:flex-start;flex:1;min-height:0;overflow-y:auto;padding-top:clamp(6px,4vh,40px);animation:slideIn .18s ease}
+  .slide[data-step="4"].on{justify-content:center;padding-top:0}
+  @keyframes slideIn{from{transform:translateY(4px)}to{transform:none}}
+
+  .kicker{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:0 0 8px}
+  h2{font-size:clamp(21px,3vw,26px);line-height:1.15;letter-spacing:-.02em;margin:0 0 6px;font-weight:700}
+  .sub{font-size:13px;color:var(--muted);margin:0 0 22px;max-width:40ch}
+
+  .field{margin-bottom:20px}
+  .field .row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:2px}
+  .field label{font-size:13.5px;font-weight:600}
+  .field .val{font-size:26px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+  .field .val small{font-size:11px;color:var(--muted);font-weight:600;margin-left:2px}
+  .field .hint{font-size:11px;color:var(--muted);margin-top:2px}
+  input[type=range]{width:100%;accent-color:var(--pink-deep);height:26px;margin:0;cursor:pointer}
+
+  .types{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:12px}
+  .people .type{padding:18px 8px 16px}
+  .people .type b{font-size:15px}
+  .people .type span{font-size:10px;margin-top:3px}
+  .type{
+    font:inherit;background:#fff;border:1.5px solid var(--line);border-radius:14px;
+    padding:12px 8px 10px;cursor:pointer;transition:.15s;text-align:center;color:var(--ink)
+  }
+  .type:hover{border-color:#dccfc2}
+  .type[aria-pressed=true]{border-color:var(--pink-deep);background:#fdf2f5}
+  .type:focus-visible{outline:2px solid var(--pink-deep);outline-offset:2px}
+  .type svg{display:block;margin:0 auto 6px}
+  .type b{display:block;font-size:12.5px;font-weight:650}
+  .type span{display:block;font-size:10px;color:var(--muted);margin-top:1px;line-height:1.35}
+
+  .chestbox{background:var(--soft);border-radius:14px;padding:14px 14px 12px}
+  .chestbox .row{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .chestbox label{font-size:13px;font-weight:600}
+  .chestbox .val{font-size:20px;font-weight:700;font-variant-numeric:tabular-nums}
+  .chestbox .tag{font-size:9.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:700}
+  .link{
+    background:none;border:0;padding:0;font:inherit;font-size:11.5px;color:var(--pink-deep);
+    text-decoration:underline;cursor:pointer
+  }
+
+  .foot{margin-top:auto;padding-top:16px;display:flex;gap:10px}
+  .btn{
+    flex:1;font:inherit;font-size:14px;font-weight:650;padding:14px;border-radius:12px;border:1px solid transparent;
+    background:var(--ink);color:#fff;cursor:pointer;transition:.15s
+  }
+  .btn:hover{opacity:.9}
+  .btn:disabled{opacity:.35;cursor:not-allowed}
+  .btn:focus-visible{outline:2px solid var(--pink-deep);outline-offset:2px}
+  .btn.ghost{background:#fff;color:var(--ink);border-color:var(--line);flex:0 0 auto;padding:14px 18px}
+
+  /* ---------- resultado ---------- */
+  .result-figure{display:none}
+  .size-big{font-size:76px;line-height:.95;font-weight:700;letter-spacing:-.04em;margin:2px 0 6px}
+  .result-meta{font-size:12.5px;color:var(--muted);margin:0 0 16px}
+  .result-meta b{color:var(--ink);font-weight:650}
+  .poms{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:0 0 14px}
+  .poms div{background:#fff;padding:9px 11px}
+  .poms dt{font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:0 0 2px}
+  .poms dd{margin:0;font-size:16px;font-weight:650;font-variant-numeric:tabular-nums}
+  .poms dd small{font-size:10px;font-weight:500;color:var(--muted);margin-left:1px}
+  .chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+  .chips button{
+    font:inherit;font-size:12.5px;font-weight:600;color:var(--muted);background:var(--soft);
+    border:1px solid transparent;border-radius:9px;min-width:44px;padding:8px 6px;cursor:pointer
+  }
+  .chips button[aria-pressed=true]{background:var(--purple);color:#fff}
+  .reset{font-size:12px;color:var(--pink-deep);background:none;border:0;padding:6px 0;cursor:pointer;text-decoration:underline}
+  .privacy{font-size:10px;color:var(--muted);margin-top:10px}
+
+  @media (max-width:820px){
+    body{display:block;padding:0;background:var(--bg)}
+    .app{grid-template-columns:1fr;gap:0;max-width:none}
+    .preview{display:none}
+    .quiz{
+      border:0;border-radius:0;box-shadow:none;min-height:100dvh;
+      padding:calc(14px + env(safe-area-inset-top)) 20px calc(18px + env(safe-area-inset-bottom));
+    }
+    .result-figure{display:block;height:300px;background:var(--stage);border-radius:16px;margin:4px 0 16px}
+    .result-figure svg{width:100%;height:100%}
+    .size-big{font-size:64px}
+  }
+  @media (max-width:360px){
+    .types{gap:6px}
+    .type{padding:10px 4px 8px}
+  }
+</style>
+</head>
+<body>
+<div class="app" id="app" data-step="0">
+
+  <div class="preview">
+    <svg id="figurePreview" viewBox="0 0 300 540" role="img" aria-label="Maniquí con la prenda"></svg>
+    <div class="preview-note">Maniquí neutro · sin cuerpos reales</div>
+  </div>
+
+  <section class="quiz" aria-live="polite">
+    <div class="head">
+      <button class="icon" id="back" aria-label="Atrás" disabled>←</button>
+      <span class="brand">Mondano <b>·</b> <span id="productName">Cortaviento</span></span>
+      <button class="icon" id="close" aria-label="Reiniciar">✕</button>
+    </div>
+
+    <div class="progress" id="progress">
+      <i class="on"></i><i></i><i></i><i></i><i></i>
+    </div>
+
+    <div class="slides">
+      <!-- PASO 1 -->
+      <div class="slide on" data-step="0">
+        <p class="kicker">Paso 1 de 4</p>
+        <h2>¿Para quién es?</h2>
+        <p class="sub">Nos sirve para ajustar la estimación del pecho. No cambia el precio ni la talla disponible.</p>
+
+        <div class="types people" id="people">
+          <button class="type" data-person="mujer" aria-pressed="true">
+            <b>Mujer</b><span>Ajuste de pecho femenino</span>
+          </button>
+          <button class="type" data-person="hombre" aria-pressed="false">
+            <b>Hombre</b><span>Ajuste de pecho masculino</span>
+          </button>
+          <button class="type" data-person="unisex" aria-pressed="false">
+            <b>Unisex</b><span>Prefiero no decir</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- PASO 2 -->
+      <div class="slide" data-step="1">
+        <p class="kicker">Paso 2 de 4</p>
+        <h2>¿Cuánto mides y pesas?</h2>
+        <p class="sub">Con esto estimamos tu contextura. No se guarda ni se envía nada.</p>
+
+        <div class="field">
+          <div class="row"><label for="height">Estatura</label><span class="val" id="hOut">170<small>cm</small></span></div>
+          <input type="range" id="height" min="145" max="205" step="1" value="170">
+        </div>
+
+        <div class="field">
+          <div class="row"><label for="weight">Peso</label><span class="val" id="wOut">70<small>kg</small></span></div>
+          <input type="range" id="weight" min="40" max="130" step="1" value="70">
+        </div>
+      </div>
+
+      <!-- PASO 2 -->
+      <div class="slide" data-step="2">
+        <p class="kicker">Paso 3 de 4</p>
+        <h2>¿Cómo describirías tu cuerpo?</h2>
+        <p class="sub">Elige la forma que más se parezca. Nos ayuda a ajustar la estimación.</p>
+
+        <div class="types" id="types">
+          <button class="type" data-type="recta" aria-pressed="false">
+            <svg width="52" height="64" viewBox="0 0 52 64" fill="none" stroke="#8d8a85" stroke-width="1.6">
+              <path d="M15 6 Q26 3 37 6 L38 22 L36 34 L37 48 L39 60 Q26 62 13 60 L15 48 L16 34 L14 22 Z" fill="#f4ece5"/>
+            </svg>
+            <b>Recta</b><span>Hombros y caderas similares</span>
+          </button>
+          <button class="type" data-type="curva" aria-pressed="true">
+            <svg width="52" height="64" viewBox="0 0 52 64" fill="none" stroke="#8d8a85" stroke-width="1.6">
+              <path d="M15 6 Q26 3 37 6 L38 22 Q32 26 31 34 Q40 42 41 50 L39 60 Q26 62 13 60 L11 50 Q12 42 21 34 Q20 26 14 22 Z" fill="#f4ece5"/>
+            </svg>
+            <b>Curva</b><span>Cintura marcada</span>
+          </button>
+          <button class="type" data-type="redonda" aria-pressed="false">
+            <svg width="52" height="64" viewBox="0 0 52 64" fill="none" stroke="#8d8a85" stroke-width="1.6">
+              <path d="M15 6 Q26 3 37 6 L41 22 Q43 30 42 38 L40 60 Q26 62 12 60 L10 38 Q9 30 11 22 Z" fill="#f4ece5"/>
+            </svg>
+            <b>Redondeada</b><span>Más volumen al centro</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- PASO 3 -->
+      <div class="slide" data-step="3">
+        <p class="kicker">Paso 4 de 4 · opcional</p>
+        <h2>¿Sabes tu contorno de pecho?</h2>
+        <p class="sub">Si lo sabes, la talla es más exacta. Si no, usamos la estimación.</p>
+
+        <div class="chestbox">
+          <div class="row">
+            <label for="chest">Contorno de pecho</label>
+            <span class="val" id="cOut">95<small style="font-size:10px;color:var(--muted)"> cm</small></span>
+          </div>
+          <input type="range" id="chest" min="70" max="135" step="1" value="95">
+          <div class="row" style="margin-top:6px">
+            <span class="tag" id="cTag">estimado de tu estatura y peso</span>
+            <button class="link" id="useEstimate" style="display:none">Usar estimación</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- RESULTADO -->
+      <div class="slide" data-step="4">
+        <div class="result-figure"><svg id="figureResult" viewBox="0 0 300 540"></svg></div>
+        <p class="kicker">Tu talla</p>
+        <div class="size-big" id="sizeBig">M</div>
+        <p class="result-meta" id="resultMeta"></p>
+        <dl class="poms">
+          <div><dt>Pecho</dt><dd id="mChest">130<small>cm</small></dd></div>
+          <div><dt>Largo manga</dt><dd id="mSleeve">78<small>cm</small></dd></div>
+          <div><dt>Largo talle</dt><dd id="mTalle">72<small>cm</small></dd></div>
+          <div><dt>Contorno ruedo</dt><dd id="mHem">112<small>cm</small></dd></div>
+        </dl>
+        <div class="chips" id="chips"></div>
+        <button class="reset" id="restart">Repetir el test</button>
+        <p class="privacy">Tus datos no se guardan ni se envían. La talla es una recomendación basada en la tabla del producto.</p>
+      </div>
+    </div>
+
+    <div class="foot" id="foot">
+      <button class="btn" id="next">Continuar</button>
+    </div>
+  </section>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var DEFAULT_PRODUCT = {
+    sku: "cortaviento-purple-spring-trend",
+    title: "Cortaviento Purple Spring Trend",
+    base: "M", palette: "hero", ease: 30,
+    sizes: [
+      { id:"XS",  chest:118, sleeve:74, talle:68, hem:100 },
+      { id:"S",   chest:124, sleeve:76, talle:70, hem:106 },
+      { id:"M",   chest:130, sleeve:78, talle:72, hem:112 },
+      { id:"L",   chest:136, sleeve:80, talle:74, hem:118 },
+      { id:"XL",  chest:142, sleeve:82, talle:76, hem:124 },
+      { id:"XXL", chest:148, sleeve:84, talle:78, hem:128 }
+    ]
+  };
+
+  var PALETTES = {
+    hero:    { top:"#f2a3b8", bottom:"#4a3580", sleeve:"#f5b21e", cuff:"#3a2867",
+               sTop:"#d98ba0", sSleeve:"#d99f16", sBottom:"#33235c" },
+    neutral: { top:"#c9cfd8", bottom:"#3e4757", sleeve:"#a7b0bd", cuff:"#2f3744",
+               sTop:"#a9b1bd", sSleeve:"#8d97a5", sBottom:"#2b3341" }
+  };
+  var PAL = PALETTES.hero;
+
+  // ajustes del tipo de cuerpo (cm)
+  var BODY = {
+    recta:    { chest: -2, hip: -2 },
+    curva:    { chest: 0,  hip: 1 },
+    redonda:  { chest: 3,  hip: 4 }
+  };
+  // ajuste de pecho por contextura (cm)
+  var PERSON = { mujer: 0, hombre: 6, unisex: 3 };
+
+  var state = {
+    step: 0, person: "mujer", height: 170, weight: 70, type: "curva",
+    chestOverride: null, size: "M", forced: false, product: DEFAULT_PRODUCT
+  };
+
+  var app = document.getElementById("app");
+  var previewSvg = document.getElementById("figurePreview");
+  var resultSvg = document.getElementById("figureResult");
+  var nextBtn = document.getElementById("next");
+  var backBtn = document.getElementById("back");
+  var foot = document.getElementById("foot");
+  var sizeBig = document.getElementById("sizeBig");
+  var resultMeta = document.getElementById("resultMeta");
+  var chips = document.getElementById("chips");
+  var productName = document.getElementById("productName");
+
+  function list(){ return state.product.sizes; }
+  function base(){ return state.product.base; }
+  function byId(id){ var a=list(); for (var i=0;i<a.length;i++) if (a[i].id===id) return a[i]; return null; }
+
+  /* ---------- estimación ---------- */
+  function estimateChest(h, w, type){
+    var base = 0.55*h + 0.35*w - 22.75;
+    return Math.round(base + (BODY[type] ? BODY[type].chest : 0) + (PERSON[state.person] || 0));
+  }
+  function currentChest(){
+    return state.chestOverride != null
+      ? state.chestOverride
+      : estimateChest(state.height, state.weight, state.type);
+  }
+
+  /* ---------- geometría ---------- */
+  var TOP = 18, CX = 150, FIG_H = 500;
+
+  function geom(chest, height, size, hipAdj){
+    var k = FIG_H / height;
+    var y = function(cm){ return TOP + cm * k; };
+    var headH = height / 7.4, headW = headH * 0.74;
+    var sh = chest * 0.45, ch = chest * 0.38, wa = chest * 0.34;
+    var hi = Math.max(20, chest * 0.36 + (hipAdj || 0));
+    var yHead = y(0), ySh = y(height*0.155), yCh = y(height*0.28),
+        yWa = y(height*0.37), yHi = y(height*0.45), yA = y(height*0.97);
+    var armLen = height * 0.34 * k;
+    var ease = size ? Math.max(0, size.chest - chest) : 20;
+    var gCh = ch + ease * 0.45;
+    var hipC = chest * 0.98;
+    var gHem = hi + (size ? Math.max(0, size.hem - hipC) : 0) * 0.45;
+    return { k:k, headH:headH*k, headW:headW*k, sh:sh*k, ch:ch*k, wa:wa*k, hi:hi*k,
+             yHead:yHead, ySh:ySh, yCh:yCh, yWa:yWa, yHi:yHi, yA:yA,
+             armLen:armLen, gCh:gCh*k, gHem:gHem*k, ease:ease };
+  }
+
+  var BODY_FILL = "#e5ded4", BODY_LINE = "#d2c9bd";
+
+  function body(g){
+    var s = "";
+    s += '<ellipse cx="'+CX+'" cy="'+(g.yHead+g.headH/2)+'" rx="'+(g.headW/2)+'" ry="'+(g.headH/2)+'" fill="'+BODY_FILL+'" stroke="'+BODY_LINE+'" stroke-width="1"/>';
+    var neckY = g.yHead + g.headH*0.9;
+    s += '<rect x="'+(CX-g.headW*0.18)+'" y="'+neckY+'" width="'+(g.headW*0.36)+'" height="'+(g.ySh-neckY+2)+'" fill="'+BODY_FILL+'"/>';
+    var t = "M "+(CX-g.sh/2)+" "+g.ySh+
+      " C "+(CX-g.ch/2)+" "+(g.ySh+8)+" "+(CX-g.ch/2)+" "+(g.yCh-8)+" "+(CX-g.ch/2)+" "+g.yCh+
+      " L "+(CX-g.wa/2)+" "+g.yWa+
+      " L "+(CX-g.hi/2)+" "+g.yHi+
+      " L "+(CX+g.hi/2)+" "+g.yHi+
+      " L "+(CX+g.wa/2)+" "+g.yWa+
+      " L "+(CX+g.ch/2)+" "+g.yCh+
+      " C "+(CX+g.ch/2)+" "+(g.yCh-8)+" "+(CX+g.ch/2)+" "+(g.ySh+8)+" "+(CX+g.sh/2)+" "+g.ySh+" Z";
+    s += '<path d="'+t+'" fill="'+BODY_FILL+'" stroke="'+BODY_LINE+'" stroke-width="1"/>';
+    var aTop = g.ySh+4, aBot = aTop+g.armLen;
+    var aIn = g.sh/2-2, aOut = aIn+g.armLen*0.30;
+    var armW = Math.max(6, g.ch*0.075);
+    [1,-1].forEach(function(sign){
+      s += '<line x1="'+(CX+sign*aIn)+'" y1="'+aTop+'" x2="'+(CX+sign*aOut)+'" y2="'+aBot+'" stroke="'+BODY_LINE+'" stroke-width="'+(armW+1.4)+'" stroke-linecap="round"/>';
+      s += '<line x1="'+(CX+sign*aIn)+'" y1="'+aTop+'" x2="'+(CX+sign*aOut)+'" y2="'+aBot+'" stroke="'+BODY_FILL+'" stroke-width="'+armW+'" stroke-linecap="round"/>';
+    });
+    var legW = g.hi*0.42;
+    s += '<line x1="'+(CX-g.hi*0.22)+'" y1="'+(g.yHi-4)+'" x2="'+(CX-g.hi*0.24)+'" y2="'+g.yA+'" stroke="'+BODY_LINE+'" stroke-width="'+(legW+1.4)+'" stroke-linecap="round"/>';
+    s += '<line x1="'+(CX+g.hi*0.22)+'" y1="'+(g.yHi-4)+'" x2="'+(CX+g.hi*0.24)+'" y2="'+g.yA+'" stroke="'+BODY_LINE+'" stroke-width="'+(legW+1.4)+'" stroke-linecap="round"/>';
+    s += '<line x1="'+(CX-g.hi*0.22)+'" y1="'+(g.yHi-4)+'" x2="'+(CX-g.hi*0.24)+'" y2="'+g.yA+'" stroke="'+BODY_FILL+'" stroke-width="'+legW+'" stroke-linecap="round"/>';
+    s += '<line x1="'+(CX+g.hi*0.22)+'" y1="'+(g.yHi-4)+'" x2="'+(CX+g.hi*0.24)+'" y2="'+g.yA+'" stroke="'+BODY_FILL+'" stroke-width="'+legW+'" stroke-linecap="round"/>';
+    return s;
+  }
+
+  function garment(g, size){
+    var cw = g.gCh/2, hw = g.gHem/2;
+    var ySh = g.ySh, hemY = ySh + size.talle*g.k;
+    var split = ySh + size.talle*0.42*g.k;
+    var sleeveLen = (size.sleeve > 70 ? size.sleeve-10 : size.sleeve) * g.k;
+    var sw = Math.max(11, size.chest*0.092)*g.k;
+    var cuff = Math.max(9.5, size.chest*0.082)*g.k;
+    var ang = 12*Math.PI/180, dx = Math.sin(ang), dy = Math.cos(ang);
+
+    function arm(sign){
+      var sx = CX + sign*(cw-2), sy = ySh+4;
+      var ex = sx + sign*dx*sleeveLen, ey = sy + dy*sleeveLen;
+      var px = -dy, py = sign*dx;
+      var a = [sx+px*sw/2, sy+py*sw/2], b = [ex+px*cuff/2, ey+py*cuff/2];
+      var c = [ex-px*cuff/2, ey-py*cuff/2], d = [sx-px*sw/2, sy-py*sw/2];
+      return { d:"M "+a.join(" ")+" L "+b.join(" ")+" L "+c.join(" ")+" L "+d.join(" ")+" Z",
+               ex:ex, ey:ey, px:px, py:py, cuff:cuff, ddx:sign*dx, ddy:dy };
+    }
+    var L = arm(-1), R = arm(1);
+    var hoodW = cw*0.94;
+    var hood = "M "+(CX-hoodW/2)+" "+(ySh+1)+" C "+(CX-hoodW/2)+" "+(ySh-34)+" "+(CX+hoodW/2)+" "+(ySh-34)+" "+(CX+hoodW/2)+" "+(ySh+1)+" Z";
+    var upper = "M "+(CX-cw)+" "+(ySh+6)+" Q "+(CX-cw)+" "+ySh+" "+(CX-cw+6)+" "+ySh+
+      " L "+(CX+cw-6)+" "+ySh+" Q "+(CX+cw)+" "+ySh+" "+(CX+cw)+" "+(ySh+6)+
+      " L "+(CX+cw-1)+" "+split+" L "+(CX-cw+1)+" "+split+" Z";
+    var lower = "M "+(CX-cw+1)+" "+split+" L "+(CX+cw-1)+" "+split+
+      " L "+(CX+hw)+" "+hemY+" L "+(CX-hw)+" "+hemY+" Z";
+
+    var s = "";
+    s += '<path d="'+hood+'" fill="'+PAL.top+'" stroke="'+PAL.sTop+'" stroke-width="1.3" stroke-linejoin="round"/>';
+    s += '<path d="'+L.d+'" fill="'+PAL.sleeve+'" stroke="'+PAL.sSleeve+'" stroke-width="1.3" stroke-linejoin="round"/>';
+    s += '<path d="'+R.d+'" fill="'+PAL.sleeve+'" stroke="'+PAL.sSleeve+'" stroke-width="1.3" stroke-linejoin="round"/>';
+    s += '<path d="'+upper+'" fill="'+PAL.top+'" stroke="'+PAL.sTop+'" stroke-width="1.3" stroke-linejoin="round"/>';
+    s += '<path d="'+lower+'" fill="'+PAL.bottom+'" stroke="'+PAL.sBottom+'" stroke-width="1.3" stroke-linejoin="round"/>';
+    [[L,-1],[R,1]].forEach(function(pair){
+      var a = pair[0], band = 4.2*g.k;
+      var p1 = [a.ex+a.px*a.cuff/2, a.ey+a.py*a.cuff/2];
+      var p2 = [a.ex-a.px*a.cuff/2, a.ey-a.py*a.cuff/2];
+      var p3 = [p2[0]-a.ddx*band, p2[1]-a.ddy*band];
+      var p4 = [p1[0]-a.ddx*band, p1[1]-a.ddy*band];
+      s += '<path d="M '+p1.join(" ")+' L '+p2.join(" ")+' L '+p3.join(" ")+' L '+p4.join(" ")+' Z" fill="'+PAL.cuff+'"/>';
+    });
+    s += '<line x1="'+CX+'" y1="'+(ySh+9)+'" x2="'+CX+'" y2="'+(hemY-5)+'" stroke="'+PAL.sBottom+'" stroke-width="1.2" stroke-dasharray="3 2" opacity=".55"/>';
+    s += '<line x1="'+(CX-hw)+'" y1="'+(hemY-4)+'" x2="'+(CX+hw)+'" y2="'+(hemY-4)+'" stroke="'+PAL.sBottom+'" stroke-width=".8" opacity=".35"/>';
+    return s;
+  }
+
+  function drawInto(el, fid){
+    if (!el) return;
+    var size = byId(state.size) || list()[0];
+    var chest = currentChest();
+    var hipAdj = BODY[state.type] ? BODY[state.type].hip : 0;
+    var g = geom(chest, state.height, size, hipAdj);
+    var id = "sh" + (fid || "X");
+    el.innerHTML =
+      '<defs><filter id="'+id+'" x="-25%" y="-20%" width="150%" height="150%">'+
+      '<feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#3b2a6b" flood-opacity=".16"/></filter></defs>' +
+      body(g) + '<g filter="url(#'+id+')">' + garment(g, size) + '</g>';
+  }
+
+  /* ---------- recomendación ---------- */
+  function recommend(chest){
+    var arr = list(), target = state.product.ease || 16;
+    var best = arr[0], bestScore = Infinity;
+    arr.forEach(function(s){
+      var ease = s.chest - chest;
+      var score = Math.abs(ease - target);
+      if (ease < target - 4) score += 12;
+      if (ease < 4) score += 30;
+      if (score < bestScore){ bestScore = score; best = s; }
+    });
+    return best;
+  }
+
+  /* ---------- UI ---------- */
+  function setStep(n){
+    state.step = n;
+    app.setAttribute("data-step", String(n));
+    Array.prototype.forEach.call(document.querySelectorAll(".slide"), function(el){
+      el.classList.toggle("on", Number(el.getAttribute("data-step")) === n);
+    });
+    backBtn.disabled = n === 0;
+    foot.style.display = n === 4 ? "none" : "flex";
+    nextBtn.textContent = n === 3 ? "Ver mi talla" : "Continuar";
+    Array.prototype.forEach.call(document.querySelectorAll("#progress i"), function(el, i){
+      el.classList.toggle("on", i <= n);
+    });
+    if (n === 4) renderResult();
+  }
+
+  function renderResult(){
+    var chest = currentChest();
+    var size = state.forced && byId(state.size) ? byId(state.size) : recommend(chest);
+    state.size = size.id;
+    sizeBig.textContent = size.id;
+    var ease = size.chest - chest;
+    resultMeta.innerHTML = "Pecho de la prenda <b>" + size.chest + " cm</b> · holgura <b>" +
+      (ease > 0 ? "+" : "") + ease + " cm</b><br>Estimación sobre " + chest + " cm de pecho" +
+      (state.chestOverride == null ? " (calculado)" : " (tu medida)") + ".";
+    document.getElementById("mChest").innerHTML = size.chest + "<small>cm</small>";
+    document.getElementById("mSleeve").innerHTML = size.sleeve + "<small>cm</small>";
+    document.getElementById("mTalle").innerHTML = size.talle + "<small>cm</small>";
+    document.getElementById("mHem").innerHTML = size.hem + "<small>cm</small>";
+    drawInto(resultSvg, "R");
+    buildChips();
+    if (window.parent !== window) window.parent.postMessage({ type:"mondano:size", size: size.id }, "*");
+  }
+
+  function buildChips(){
+    chips.innerHTML = "";
+    list().forEach(function(s){
+      var b = document.createElement("button");
+      b.type = "button"; b.textContent = s.id;
+      b.setAttribute("aria-pressed", s.id === state.size ? "true" : "false");
+      b.addEventListener("click", function(){
+        state.size = s.id;
+        sizeBig.textContent = s.id;
+        Array.prototype.forEach.call(chips.children, function(c){ c.setAttribute("aria-pressed", "false"); });
+        b.setAttribute("aria-pressed", "true");
+        document.getElementById("mChest").innerHTML = s.chest + "<small>cm</small>";
+        document.getElementById("mSleeve").innerHTML = s.sleeve + "<small>cm</small>";
+        document.getElementById("mTalle").innerHTML = s.talle + "<small>cm</small>";
+        document.getElementById("mHem").innerHTML = s.hem + "<small>cm</small>";
+        drawInto(resultSvg, "R"); drawInto(previewSvg, "P");
+      });
+      chips.appendChild(b);
+    });
+  }
+
+  function syncInputs(){
+    document.getElementById("hOut").innerHTML = state.height + "<small>cm</small>";
+    document.getElementById("wOut").innerHTML = state.weight + "<small>kg</small>";
+    document.getElementById("height").value = state.height;
+    document.getElementById("weight").value = state.weight;
+    var ch = currentChest();
+    document.getElementById("chest").value = ch;
+    document.getElementById("cOut").innerHTML = ch + '<small style="font-size:10px;color:var(--muted)"> cm</small>';
+    document.getElementById("cTag").textContent = state.chestOverride == null
+      ? "estimado de tu estatura y peso"
+      : "tu medida";
+    document.getElementById("useEstimate").style.display = state.chestOverride == null ? "none" : "inline";
+    Array.prototype.forEach.call(document.querySelectorAll("#types .type"), function(b){
+      b.setAttribute("aria-pressed", b.getAttribute("data-type") === state.type ? "true" : "false");
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("#people .type"), function(b){
+      b.setAttribute("aria-pressed", b.getAttribute("data-person") === state.person ? "true" : "false");
+    });
+    drawInto(previewSvg, "P");
+  }
+
+  /* ---------- eventos ---------- */
+  document.getElementById("height").addEventListener("input", function(){
+    state.height = Number(this.value); state.forced = false; syncInputs();
+  });
+  document.getElementById("weight").addEventListener("input", function(){
+    state.weight = Number(this.value); state.forced = false; syncInputs();
+  });
+  document.getElementById("chest").addEventListener("input", function(){
+    state.chestOverride = Number(this.value); state.forced = false; syncInputs();
+  });
+  document.getElementById("useEstimate").addEventListener("click", function(){
+    state.chestOverride = null; syncInputs();
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll("#people .type"), function(b){
+    b.addEventListener("click", function(){
+      state.person = b.getAttribute("data-person"); state.forced = false;
+      syncInputs();
+    });
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll("#types .type"), function(b){
+    b.addEventListener("click", function(){
+      state.type = b.getAttribute("data-type"); state.forced = false;
+      syncInputs();
+    });
+  });
+
+  nextBtn.addEventListener("click", function(){
+    if (state.step < 4) setStep(state.step + 1);
+  });
+  backBtn.addEventListener("click", function(){
+    if (state.step > 0) setStep(state.step - 1);
+  });
+  document.getElementById("restart").addEventListener("click", function(){
+    state.step = 0; state.chestOverride = null; state.forced = false;
+    setStep(0); syncInputs();
+  });
+  document.getElementById("close").addEventListener("click", function(){
+    if (window.parent !== window) window.parent.postMessage({ type: "mondano:close" }, "*");
+    else { state.step = 0; state.chestOverride = null; state.forced = false; setStep(0); syncInputs(); }
+  });
+
+  window.addEventListener("message", function(e){
+    if (!e.data || e.data.type !== "mondano:set") return;
+    var v = String(e.data.size || "").toUpperCase();
+    if (byId(v)){ state.size = v; state.forced = true; setStep(3); }
+  });
+
+  document.addEventListener("keydown", function(e){
+    if (e.key === "ArrowRight" && state.step < 4 && e.target.tagName !== "INPUT") setStep(state.step + 1);
+    if (e.key === "ArrowLeft" && state.step > 0 && e.target.tagName !== "INPUT") setStep(state.step - 1);
+  });
+
+  /* ---------- producto ---------- */
+  function applyProduct(p){
+    state.product = p;
+    PAL = PALETTES[p.palette] || PALETTES.neutral;
+    productName.textContent = p.title.length > 34 ? p.title.slice(0, 32) + "…" : p.title;
+    document.title = "Encuentra tu talla · " + p.title;
+    state.chestOverride = null;
+    syncInputs();
+  }
+
+  var params = new URLSearchParams(location.search);
+  var sku = params.get("sku") || params.get("handle") || params.get("p");
+
+  applyProduct(DEFAULT_PRODUCT);
+  setStep(0);
+
+  if (sku){
+    fetch("visor-data.json").then(function(r){ return r.json(); }).then(function(data){
+      var found = null;
+      for (var i=0;i<data.products.length;i++){
+        if (data.products[i].sku.toLowerCase() === String(sku).toLowerCase()){ found = data.products[i]; break; }
+      }
+      if (found) applyProduct(found);
+    }).catch(function(){});
+  }
+})();
+</script>
+</body>
+</html>

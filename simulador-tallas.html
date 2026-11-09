@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mondano 3D · Simulador de talla</title>
+<style>
+  :root{
+    --ink:#1b1b1f; --muted:#6b6670; --bg:#faf6f2; --card:#fff;
+    --pink:#e8738f; --pink-deep:#c8466a; --yellow:#f0b429; --purple:#3b2a6b;
+    --line:#ebe2d9; --soft:#f4ece5;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.45;
+    -webkit-font-smoothing:antialiased;
+    padding:clamp(16px,4vw,48px);
+  }
+  .wrap{max-width:1120px;margin:0 auto}
+  header{margin-bottom:clamp(20px,3vw,34px)}
+  .eyebrow{
+    font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--pink-deep);font-weight:600;margin:0 0 8px
+  }
+  h1{font-size:clamp(28px,4.4vw,44px);line-height:1.05;letter-spacing:-.02em;margin:0 0 10px;font-weight:650}
+  .lede{margin:0;color:var(--muted);max-width:62ch;font-size:15px}
+  .grid-top{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);
+    grid-template-areas:"controls mannequin" "result mannequin";
+    gap:16px;margin-bottom:16px;align-items:stretch;
+  }
+  #controls{grid-area:controls}
+  #mannequin{grid-area:mannequin}
+  #result{grid-area:result}
+  .panel{
+    background:var(--card);border:1px solid var(--line);border-radius:18px;
+    padding:clamp(16px,2.4vw,26px);
+  }
+  .panel h2{
+    font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--muted);font-weight:600;margin:0 0 18px
+  }
+  .field{margin-bottom:18px}
+  .field:last-child{margin-bottom:0}
+  .field-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;gap:12px}
+  .field label{font-size:14px;font-weight:550}
+  .val{font-variant-numeric:tabular-nums;font-weight:650;font-size:15px}
+  .val span{font-size:11px;color:var(--muted);font-weight:500;margin-left:3px}
+  input[type=range]{
+    width:100%;accent-color:var(--pink-deep);height:22px;margin:0;cursor:pointer
+  }
+  .seg{display:flex;gap:6px;flex-wrap:wrap}
+  .seg button{
+    font:inherit;font-size:13px;font-weight:550;color:var(--muted);
+    background:var(--soft);border:1px solid transparent;border-radius:999px;
+    padding:8px 14px;cursor:pointer;transition:.15s
+  }
+  .seg button:hover{color:var(--ink)}
+  .seg button[aria-pressed=true]{
+    background:var(--purple);color:#fff;border-color:var(--purple)
+  }
+
+  .result{display:flex;flex-direction:column;justify-content:space-between}
+  .result-top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+  .bignum{
+    font-size:clamp(54px,8vw,80px);line-height:.9;font-weight:700;
+    letter-spacing:-.04em;margin:2px 0 0
+  }
+  .bignum small{font-size:13px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:var(--muted);display:block;margin-bottom:12px}
+  .badge{
+    font-size:11px;font-weight:650;letter-spacing:.06em;text-transform:uppercase;
+    padding:6px 10px;border-radius:999px;white-space:nowrap
+  }
+  .badge.brand{background:rgba(232,115,143,.15);color:#a83253}
+  .badge.ok{background:rgba(59,42,107,.1);color:var(--purple)}
+  .badge.warn{background:rgba(240,180,41,.2);color:#7d5400}
+  .ease-row{display:flex;align-items:baseline;gap:8px;margin-top:18px}
+  .ease-num{font-size:26px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+  .ease-row span{color:var(--muted);font-size:13px}
+  .breakdown{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+    border-radius:12px;overflow:hidden;margin-top:18px;border:1px solid var(--line)
+  }
+  .breakdown div{background:#fff;padding:12px 10px}
+  .breakdown dt{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 4px}
+  .breakdown dd{margin:0;font-size:16px;font-weight:650;font-variant-numeric:tabular-nums}
+  .note{font-size:13px;color:var(--muted);margin:14px 0 0;padding-left:12px;border-left:2px solid var(--line)}
+  .note strong{color:var(--ink);font-weight:600}
+  .warnbox{
+    margin-top:14px;padding:10px 12px;border-radius:10px;font-size:13px;
+    background:rgba(240,180,41,.14);color:#6b4700
+  }
+
+  .compare{margin-bottom:16px}
+  table.sizes{width:100%;max-width:760px;margin:0 auto;border-collapse:collapse;font-variant-numeric:tabular-nums}  table.sizes th,table.sizes td{text-align:right;padding:9px 6px;font-size:13px}
+  table.sizes thead th{
+    font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);
+    font-weight:600;border-bottom:1px solid var(--line);padding-bottom:8px
+  }
+  table.sizes thead th:first-child,table.sizes tbody th{text-align:left}
+  table.sizes tbody tr{cursor:pointer;transition:.12s;border-bottom:1px solid #f6f0ea}
+  table.sizes tbody tr:hover{background:#fdf8f4}
+  table.sizes tbody tr.on{background:rgba(232,115,143,.09)}
+  table.sizes tbody th{font-size:14px;font-weight:650;position:relative}
+  table.sizes tbody tr.on th::after{
+    content:"";position:absolute;left:-10px;top:50%;transform:translateY(-50%);
+    width:3px;height:18px;border-radius:2px;background:var(--pink-deep)
+  }
+  .chip{
+    display:inline-block;padding:3px 7px;border-radius:6px;font-size:12px;font-weight:650;
+    background:var(--soft);color:var(--purple)
+  }
+  .chip.brand{background:rgba(232,115,143,.16);color:#a83253}
+  .chip.warn{background:rgba(240,180,41,.22);color:#7d5400}
+  .chip.ok{background:rgba(59,42,107,.1);color:var(--purple)}
+  .dot{
+    display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--pink-deep);
+    margin-left:5px;vertical-align:middle
+  }
+
+  #body .garm path{fill:rgba(232,115,143,.16);stroke:var(--pink-deep);stroke-width:.95;stroke-linejoin:round}
+  #body .garm .zip{stroke:var(--purple);stroke-opacity:.35;stroke-width:.5;stroke-dasharray:1.2 1.2}
+  #mannequin{display:flex;flex-direction:column}
+  #mannequin h2{margin-bottom:8px}
+  #mannequin #body{flex:1;display:flex;align-items:center;justify-content:center;min-height:220px}
+  #body svg{width:100%;max-width:430px;height:auto;display:block}
+  .bodytext{font-size:13px;color:var(--muted);margin:14px 0 0;line-height:1.5}
+  .bodytext strong{color:var(--ink);font-weight:600}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:12px}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+  .caption{font-size:12px;color:var(--muted);margin:14px 0 0;text-align:center}
+
+  footer{font-size:12px;color:var(--muted);margin-top:26px;padding-top:18px;border-top:1px solid var(--line)}
+
+  @media (max-width:860px){
+    .grid-top{grid-template-columns:1fr;grid-template-areas:"controls" "mannequin" "result"}
+    .breakdown{grid-template-columns:repeat(3,1fr)}
+    .hide-sm{display:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Mondano 3D · Prototipo</p>
+    <h1>Simulador de talla</h1>
+    <p class="lede">Cortavientos oversize. Las 6 tallas se derivan de la tabla oficial (pecho, manga, talle y ruedo) para mostrarte cómo caería cada una sobre tu cuerpo.</p>
+  </header>
+
+  <div class="grid-top">
+    <section class="panel" id="controls">
+      <h2>Tus medidas</h2>
+
+      <div class="field">
+        <div class="field-head">
+          <label for="chest">Contorno de pecho</label>
+          <span class="val" id="chestOut">100<span>cm</span></span>
+        </div>
+        <input type="range" id="chest" min="70" max="135" step="1" value="100" aria-label="Contorno de pecho en centímetros">
+      </div>
+
+      <div class="field">
+        <div class="field-head">
+          <label for="height">Estatura</label>
+          <span class="val" id="heightOut">175<span>cm</span></span>
+        </div>
+        <input type="range" id="height" min="145" max="205" step="1" value="175" aria-label="Estatura en centímetros">
+      </div>
+
+      <div class="field">
+        <div class="field-head"><label>Calce que buscas</label></div>
+        <div class="seg" id="fit">
+          <button data-fit="tight">Ajustado</button>
+          <button data-fit="regular">Regular</button>
+          <button data-fit="oversize" aria-pressed="true">Oversize (como está diseñada)</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="mannequin">
+      <h2>Sobre tu cuerpo</h2>
+      <div id="body"></div>
+      <p class="bodytext" id="bodyText"></p>
+      <div class="legend">
+        <span><i style="background:#e6ded5;border:1px solid #d5ccc2"></i>Tu cuerpo</span>
+        <span><i style="background:#e8738f"></i>La prenda</span>
+      </div>
+    </section>
+
+    <section class="panel result" id="result">
+      <!-- inyectado por JS -->
+    </section>
+  </div>
+
+  <section class="panel compare">
+    <h2>Tabla oficial</h2>
+    <table class="sizes">
+      <thead>
+        <tr>
+          <th>Talla</th>
+          <th>Pecho</th>
+          <th class="hide-sm">Ruedo</th>
+          <th class="hide-sm">Talle</th>
+          <th class="hide-sm">Manga</th>
+          <th>Holgura</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <p class="caption">Toca una talla para verla sobre tu cuerpo.</p>
+  </section>
+
+  <footer>
+    Mondano 3D · Prototipo de recomendación y comparación de tallas. Medidas en cm tomadas de la tabla del producto. El ancho corporal se estima a partir del contorno de pecho; es una referencia visual, no una medición antropométrica.
+  </footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var SIZES = [
+    { id:"XS",  chest:118, sleeve:74, talle:68, hem:100 },
+    { id:"S",   chest:124, sleeve:76, talle:70, hem:106 },
+    { id:"M",   chest:130, sleeve:78, talle:72, hem:112 },
+    { id:"L",   chest:136, sleeve:80, talle:74, hem:118 },
+    { id:"XL",  chest:142, sleeve:82, talle:76, hem:124 },
+    { id:"XXL", chest:148, sleeve:84, talle:78, hem:128 }
+  ];
+
+  var FIT_TARGET = { tight:12, regular:18, oversize:30 };
+
+  var state = { chest:100, height:175, fit:"oversize", selected:null };
+
+  var CX = 85, SY = 26;
+  var ANG = 62 * Math.PI / 180;
+  var COS = Math.cos(ANG), SIN = Math.sin(ANG);
+
+  function n(v){ return Math.round(v*10)/10; }
+  function byId(id){ return document.getElementById(id); }
+
+  /* ---------- lógica ---------- */
+
+  function recommend(){
+    var target = FIT_TARGET[state.fit];
+    var best = SIZES[0], bestScore = Infinity;
+    SIZES.forEach(function(s){
+      var ease = s.chest - state.chest;
+      var score = Math.abs(ease - target);
+      if (ease < target - 4) score += 12;
+      if (ease < 4) score += 25;
+      if (score < bestScore){ bestScore = score; best = s; }
+    });
+    return best;
+  }
+
+  function verdict(ease){
+    if (ease < 0)  return { text:"No te cubre", tone:"warn" };
+    if (ease < 6)  return { text:"Muy ajustado", tone:"warn" };
+    if (ease < 14) return { text:"Ajustado", tone:"ok" };
+    if (ease < 22) return { text:"Regular", tone:"ok" };
+    if (ease < 28) return { text:"Holgado", tone:"ok" };
+    if (ease < 38) return { text:"Oversize, como está diseñada", tone:"brand" };
+    return { text:"Muy oversize", tone:"warn" };
+  }
+
+  function lengthNote(s){
+    var ratio = s.talle / state.height;
+    if (ratio < 0.385) return "Con tu estatura, el talle puede quedarte corto.";
+    if (ratio > 0.44)  return "Con tu estatura, el talle te quedará largo.";
+    return "El largo de talle va bien con tu estatura.";
+  }
+
+  function currentSize(){
+    if (state.selected){
+      return SIZES.filter(function(s){ return s.id === state.selected; })[0];
+    }
+    return recommend();
+  }
+
+  /* ---------- geometría ---------- */
+
+  function garmentGeom(s, chestW, hemW, sleeveLen){
+    var cw = chestW / 2;
+    var hw = hemW / 2;
+    var hemY = SY + s.talle;
+    var hoodW = cw * 0.85;
+    var sw = Math.max(14, s.chest * 0.17);
+    var cuff = Math.max(11, s.chest * 0.13);
+
+    var torso = "M " + n(CX-cw) + " " + n(SY+5) +
+      " Q " + n(CX-cw) + " " + SY + " " + n(CX-cw+5) + " " + SY +
+      " L " + n(CX+cw-5) + " " + SY +
+      " Q " + n(CX+cw) + " " + SY + " " + n(CX+cw) + " " + n(SY+5) +
+      " L " + n(CX+hw) + " " + n(hemY) +
+      " L " + n(CX-hw) + " " + n(hemY) + " Z";
+
+    var hood = "M " + n(CX-hoodW/2) + " " + n(SY+1) +
+      " C " + n(CX-hoodW/2) + " " + n(SY-26) + " " +
+              n(CX+hoodW/2) + " " + n(SY-26) + " " +
+              n(CX+hoodW/2) + " " + n(SY+1) + " Z";
+
+    function arm(sign){
+      var sx = CX + sign * (cw - 2);
+      var sy = SY + 4;
+      var dx = sign * COS, dy = SIN;
+      var px = -dy, py = dx;
+      var ex = sx + dx * sleeveLen;
+      var ey = sy + dy * sleeveLen;
+      var a = [sx + px*sw/2, sy + py*sw/2];
+      var b = [ex + px*cuff/2, ey + py*cuff/2];
+      var c = [ex - px*cuff/2, ey - py*cuff/2];
+      var d = [sx - px*sw/2, sy - py*sw/2];
+      return "M " + n(a[0]) + " " + n(a[1]) + " L " + n(b[0]) + " " + n(b[1]) +
+             " L " + n(c[0]) + " " + n(c[1]) + " L " + n(d[0]) + " " + n(d[1]) + " Z";
+    }
+
+    return { torso:torso, hood:hood, left:arm(-1), right:arm(1), hemY:hemY };
+  }
+
+  /* ---------- render ---------- */
+
+  function renderRows(){
+    var rec = recommend();
+    var html = "";
+    SIZES.forEach(function(s){
+      var ease = s.chest - state.chest;
+      var v = verdict(ease);
+      var sel = currentSize();
+      html += '<tr data-size="' + s.id + '" tabindex="0" class="' + (s.id === sel.id ? "on" : "") + '">' +
+        '<th scope="row">' + s.id + (s.id === rec.id ? '<span class="dot" title="Recomendada"></span>' : '') + '</th>' +
+        '<td>' + s.chest + '</td>' +
+        '<td class="hide-sm">' + s.hem + '</td>' +
+        '<td class="hide-sm">' + s.talle + '</td>' +
+        '<td class="hide-sm">' + s.sleeve + '</td>' +
+        '<td><span class="chip ' + v.tone + '">' + (ease > 0 ? "+" : "") + ease + '</span></td>' +
+      '</tr>';
+    });
+    byId("rows").innerHTML = html;
+
+    Array.prototype.forEach.call(byId("rows").querySelectorAll("tr"), function(tr){
+      function pick(){
+        state.selected = tr.getAttribute("data-size");
+        renderAll();
+      }
+      tr.addEventListener("click", pick);
+      tr.addEventListener("keydown", function(e){
+        if (e.key === "Enter" || e.key === " "){ e.preventDefault(); pick(); }
+      });
+    });
+  }
+
+  function renderResult(){
+    var rec = recommend();
+    var ease = rec.chest - state.chest;
+    var v = verdict(ease);
+    var target = FIT_TARGET[state.fit];
+    var notes = [];
+
+    var mismatch = ease - target;
+
+    if (ease < 0){
+      notes.push("Ninguna talla cubre tu pecho de " + state.chest + " cm: incluso la XXL quedaría por debajo de tu medida.");
+    } else if (mismatch < -4){
+      notes.push("La talla más grande disponible (" + rec.id + ") te deja menos holgura que el calce de diseño.");
+    } else if (mismatch > 4){
+      notes.push("La talla más pequeña disponible (" + rec.id + ") te queda más holgada que el calce que buscas.");
+    }
+    notes.push(lengthNote(rec));
+
+    byId("result").innerHTML =
+      '<h2>Talla recomendada</h2>' +
+      '<div class="result-top">' +
+        '<div>' +
+          '<p class="bignum"><small>Tu talla</small>' + rec.id + '</p>' +
+        '</div>' +
+        '<span class="badge ' + v.tone + '">' + v.text + '</span>' +
+      '</div>' +
+      '<div class="ease-row">' +
+        '<span class="ease-num">' + (ease > 0 ? "+" : "") + ease + ' cm</span>' +
+        '<span>de holgura en el pecho</span>' +
+      '</div>' +
+      '<div class="breakdown">' +
+        '<div><dt>Tu pecho</dt><dd>' + state.chest + '</dd></div>' +
+        '<div><dt>Pecho prenda</dt><dd>' + rec.chest + '</dd></div>' +
+        '<div><dt>Manga</dt><dd>' + rec.sleeve + '</dd></div>' +
+      '</div>' +
+      '<p class="note"><strong>' + rec.id + ':</strong> pecho ' + rec.chest + ' cm, ruedo ' + rec.hem +
+        ' cm, talle ' + rec.talle + ' cm, manga ' + rec.sleeve + ' cm. ' + notes.join(" ") + '</p>' +
+      (ease < 0 || Math.abs(mismatch) > 8
+        ? '<div class="warnbox">La tabla no ofrece el calce que pediste. La opción más cercana está resaltada en la tabla.</div>'
+        : '');
+  }
+
+  function renderBody(){
+    var s = currentSize();
+    var chestW = state.chest * 0.38;
+    var hipW   = state.chest * 0.36;
+    var shoulderW = Math.min(state.chest * 0.45, 58);
+    var hipY = SY + state.height * 0.30;
+    var legY = 150;
+    var headR = state.height * 0.042;
+    var headCY = SY - 6 - headR;
+
+    var ease = s.chest - state.chest;
+    var gChestW = chestW + Math.max(0, ease) * 0.55;
+    var gHemW = hipW + Math.max(0, s.hem - state.chest * 0.98) * 0.55;
+    var g = garmentGeom(s, gChestW, gHemW, s.sleeve - 10);
+
+    var bodyTorso =
+      "M " + n(CX-shoulderW/2) + " " + n(SY+4) +
+      " C " + n(CX-chestW/2) + " " + n(SY+9) + " " + n(CX-chestW/2) + " " + n(SY+13) + " " + n(CX-chestW/2) + " " + n(SY+20) +
+      " L " + n(CX-hipW/2) + " " + n(hipY) +
+      " L " + n(CX+hipW/2) + " " + n(hipY) +
+      " C " + n(CX+chestW/2) + " " + n(SY+20) + " " + n(CX+chestW/2) + " " + n(SY+13) + " " + n(CX+shoulderW/2) + " " + n(SY+4) +
+      " Z";
+
+    var legW = hipW * 0.40;
+
+    var armLen = state.height * 0.35;
+    var armW = Math.max(7, state.chest * 0.085);
+    function limb(x1,y1,x2,y2,w){
+      return '<line x1="' + n(x1) + '" y1="' + n(y1) + '" x2="' + n(x2) + '" y2="' + n(y2) + '" stroke="#d5ccc2" stroke-width="' + n(w+1.4) + '" stroke-linecap="round"/>' +
+             '<line x1="' + n(x1) + '" y1="' + n(y1) + '" x2="' + n(x2) + '" y2="' + n(y2) + '" stroke="#e6ded5" stroke-width="' + n(w) + '" stroke-linecap="round"/>';
+    }
+    function arm(sign){
+      var sx = CX + sign * (shoulderW/2 - 2);
+      var sy = SY + 7;
+      var ex = sx + sign * COS * armLen;
+      var ey = sy + SIN * armLen;
+      return limb(sx,sy,ex,ey,armW) +
+             '<circle cx="' + n(ex) + '" cy="' + n(ey) + '" r="' + n(armW*0.62) + '" fill="#e6ded5" stroke="#d5ccc2" stroke-width=".6"/>';
+    }
+
+    var body =
+      '<circle cx="' + CX + '" cy="' + n(headCY) + '" r="' + n(headR) + '" fill="#e6ded5" stroke="#d5ccc2" stroke-width=".6"/>' +
+      '<rect x="' + n(CX-headR*0.55) + '" y="' + n(headCY+headR*0.6) + '" width="' + n(headR*1.1) + '" height="' + n(SY-headCY-headR*0.6) + '" rx="2" fill="#e6ded5" stroke="#d5ccc2" stroke-width=".6"/>' +
+      arm(-1) + arm(1) +
+      '<path d="' + bodyTorso + '" fill="#e6ded5" stroke="#d5ccc2" stroke-width=".7" stroke-linejoin="round"/>' +
+      limb(CX-hipW*0.22, hipY-6, CX-hipW*0.26, legY, legW) +
+      limb(CX+hipW*0.22, hipY-6, CX+hipW*0.26, legY, legW);
+
+    var garm =
+      '<g class="garm on" style="pointer-events:none">' +
+        '<path d="' + g.left + '"/>' +
+        '<path d="' + g.right + '"/>' +
+        '<path d="' + g.torso + '"/>' +
+        '<path d="' + g.hood + '"/>' +
+        '<line class="zip" x1="' + CX + '" y1="' + (SY+8) + '" x2="' + CX + '" y2="' + n(SY+s.talle-4) + '"/>' +
+      '</g>';
+
+    byId("body").innerHTML =
+      '<svg viewBox="0 0 170 162" role="img" aria-label="Cómo cae la talla ' + s.id + ' sobre un cuerpo de ' + state.chest + ' cm de pecho">' +
+        body + garm +
+      '</svg>';
+
+    var txt = document.getElementById("bodyText");
+    txt.innerHTML = "Con <strong>" + state.chest + " cm</strong> de pecho, la talla <strong>" + s.id +
+      "</strong> te deja <strong>" + (ease > 0 ? "+" : "") + ease + " cm</strong> de holgura: " +
+      verdict(ease).text.toLowerCase() + ". El ruedo mide " + s.hem + " cm y el talle " + s.talle +
+      " cm, así que " + (s.talle / state.height > 0.44 ? "te quedará largo" : s.talle / state.height < 0.385 ? "puede quedarte corto" : "te quedará a la altura de la cadera") + ".";
+  }
+
+  function renderControls(){
+    byId("chestOut").innerHTML = state.chest + "<span>cm</span>";
+    byId("heightOut").innerHTML = state.height + "<span>cm</span>";
+    Array.prototype.forEach.call(byId("fit").querySelectorAll("button"), function(b){
+      b.setAttribute("aria-pressed", b.getAttribute("data-fit") === state.fit ? "true" : "false");
+    });
+  }
+
+  function renderAll(){
+    renderControls();
+    renderResult();
+    renderRows();
+    renderBody();
+  }
+
+  /* ---------- eventos ---------- */
+
+  byId("chest").addEventListener("input", function(e){
+    state.chest = Number(e.target.value);
+    state.selected = null;
+    renderAll();
+  });
+
+  byId("height").addEventListener("input", function(e){
+    state.height = Number(e.target.value);
+    state.selected = null;
+    renderAll();
+  });
+
+  Array.prototype.forEach.call(byId("fit").querySelectorAll("button"), function(b){
+    b.addEventListener("click", function(){
+      state.fit = b.getAttribute("data-fit");
+      state.selected = null;
+      renderAll();
+    });
+  });
+
+  renderAll();
+})();
+</script>
+</body>
+</html>

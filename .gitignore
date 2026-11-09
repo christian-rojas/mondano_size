@@ -1,0 +1,17 @@
+.DS_Store
+.vercel
+node_modules/
+.playwright-mcp/
+*.log
+.env
+.env.*
+
+# Datos internos del negocio — el repositorio es público.
+# Se mantienen solo en local (no se versionan).
+reversso-pedidos.json
+reembolsos-2025-2026.json
+pedidos-resumen.json
+pedidos-test.json
+caso-negocio-devoluciones.md
+informe-devoluciones.html
+informe-devoluciones.pdf

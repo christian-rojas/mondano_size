@@ -1,0 +1,5 @@
+# Publicar solo el visor y sus datos
+*
+!visor-tallas.html
+!visor-data.json
+!vercel.json

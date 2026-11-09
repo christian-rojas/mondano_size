@@ -1,0 +1,8433 @@
+{
+ "shop": "mondano.cl",
+ "generated_at": "2026-11-08T22:33:00.306287+00:00",
+ "source": "Transcripción visual de las guías publicadas en la descripción de cada producto.",
+ "summary": {
+  "guides_transcribed": 118,
+  "unique_tables": 55,
+  "formats": {
+   "pom": 105,
+   "rango": 8,
+   "oscuro": 5
+  },
+  "confidence": {
+   "alta": 114,
+   "media": 3,
+   "baja": 1
+  },
+  "with_shoulder": 76,
+  "products_covered": 96
+ },
+ "tables": [
+  {
+   "index": 0,
+   "product_id": "8560944218335",
+   "product": "Abrigo - CREAM",
+   "image": "8560944218335_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      110,
+      114,
+      118,
+      122,
+      126,
+      130
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      52,
+      54,
+      56,
+      58,
+      60,
+      62
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      76,
+      78,
+      80,
+      82,
+      84,
+      86
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      110,
+      114,
+      118,
+      122,
+      126,
+      130
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "product_id": "8560944218335",
+   "product": "Abrigo - CREAM",
+   "image": "8560944218335_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      110,
+      114,
+      118,
+      122,
+      126,
+      130
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      52,
+      54,
+      56,
+      58,
+      60,
+      62
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      96,
+      98,
+      100,
+      102,
+      104,
+      106
+     ]
+    },
+    {
+     "label": "Cortorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      110,
+      114,
+      118,
+      122,
+      126,
+      130
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "product_id": "8560944218335",
+   "product": "Abrigo - CREAM",
+   "image": "8560944218335_2.jpg",
+   "format": "rango",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno de Busto (cm)",
+     "canonical": "otro",
+     "values": [
+      "88-92",
+      "93-97",
+      "98-102",
+      "103-107",
+      "108-112",
+      "113-117"
+     ]
+    },
+    {
+     "label": "Contorno de Cadera (cm)",
+     "canonical": "otro",
+     "values": [
+      "93-94",
+      "95-99",
+      "100-104",
+      "105-109",
+      "110-114",
+      "115-119"
+     ]
+    },
+    {
+     "label": "Largo de Mangas (cm)",
+     "canonical": "manga",
+     "values": [
+      "60-61",
+      "61-62",
+      "62-63",
+      "63-64",
+      "64-65",
+      "65-66"
+     ]
+    },
+    {
+     "label": "Ancho Hombros",
+     "canonical": "hombro",
+     "values": [
+      "34-36",
+      "36-38",
+      "38-40",
+      "40-42",
+      "42-44",
+      "44-46"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "product_id": "9315660726495",
+   "product": "Abrigo - Tedd a Cuadros",
+   "image": "9315660726495_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      84,
+      86,
+      88,
+      90,
+      92,
+      94
+     ]
+    },
+    {
+     "label": "Cortorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      112,
+      116,
+      120,
+      124,
+      128,
+      132
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      36,
+      38,
+      40,
+      42,
+      44,
+      46
+     ]
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "product_id": "9315663708383",
+   "product": "Abrigo - Zebra Teddy Coat",
+   "image": "9315663708383_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      84,
+      86,
+      88,
+      90,
+      92,
+      94
+     ]
+    },
+    {
+     "label": "Cortorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      112,
+      116,
+      120,
+      124,
+      128,
+      132
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      36,
+      38,
+      40,
+      42,
+      44,
+      46
+     ]
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "product_id": "9157106467039",
+   "product": "Camisa - BOHO ARENA MAO",
+   "image": "9157106467039_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      110,
+      114,
+      118,
+      122,
+      126,
+      130
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Cortorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      106,
+      110,
+      114,
+      118,
+      122,
+      126
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "product_id": "9157115281631",
+   "product": "Camisa - CELESTE MAO COSTERA",
+   "image": "9157115281631_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      110,
+      114,
+      118,
+      122,
+      126,
+      130
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Cortorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      106,
+      110,
+      114,
+      118,
+      122,
+      126
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "product_id": "7779217244383",
+   "product": "Casaca - CAPUCHA POLERON",
+   "image": "7779217244383_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      116,
+      122,
+      130,
+      136,
+      142,
+      148
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      68,
+      72,
+      76,
+      80,
+      84,
+      88
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      114,
+      120,
+      126,
+      132,
+      148
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      48,
+      50,
+      52,
+      54,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "product_id": "9036247597279",
+   "product": "Casaca - IMPERMEABLE WINTERTRAINER",
+   "image": "9036247597279_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      63,
+      65,
+      67,
+      69,
+      71,
+      73
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      77,
+      79,
+      81,
+      83,
+      85,
+      87
+     ]
+    },
+    {
+     "label": "Cortorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      116,
+      120,
+      124,
+      128,
+      132,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 9,
+   "product_id": "9269382119647",
+   "product": "Casaca - IMPERMEABLE WINTERTRAINER",
+   "image": "9269382119647_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      63,
+      65,
+      67,
+      69,
+      71,
+      73
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      77,
+      79,
+      81,
+      83,
+      85,
+      87
+     ]
+    },
+    {
+     "label": "Cortorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      116,
+      120,
+      124,
+      128,
+      132,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 10,
+   "product_id": "7785155494111",
+   "product": "Casaca - Impermeable Collor con Forro Thermaflecee",
+   "image": "7785155494111_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      116,
+      122,
+      130,
+      136,
+      142,
+      148
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      68,
+      72,
+      76,
+      80,
+      84,
+      88
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      114,
+      120,
+      126,
+      132,
+      148
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      48,
+      50,
+      52,
+      54,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 11,
+   "product_id": "9361582555359",
+   "product": "Casaca - Mujer - Velvet Fur",
+   "image": "9361582555359_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      63,
+      65,
+      67,
+      69,
+      71,
+      73
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      77,
+      79,
+      81,
+      83,
+      85,
+      87
+     ]
+    },
+    {
+     "label": "Cortorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      116,
+      120,
+      124,
+      128,
+      132,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 12,
+   "product_id": "9096587215071",
+   "product": "Casaca - WIND JACKET",
+   "image": "9096587215071_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      116,
+      122,
+      130,
+      136,
+      142,
+      148
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      68,
+      72,
+      76,
+      80,
+      84,
+      88
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      114,
+      120,
+      126,
+      132,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      48,
+      50,
+      52,
+      54,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 13,
+   "product_id": "8592327377119",
+   "product": "Casaca/Parka - COLOUR BLOCK",
+   "image": "8592327377119_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      134
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      53,
+      53,
+      55,
+      57,
+      57,
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "index": 14,
+   "product_id": "8592327377119",
+   "product": "Casaca/Parka - COLOUR BLOCK",
+   "image": "8592327377119_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      134
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+     ]
+    },
+    {
+     "label": "Cortorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      53,
+      53,
+      55,
+      57,
+      57,
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "index": 15,
+   "product_id": "8592286384351",
+   "product": "Casaca/Parka - ICONIC CALYPSO",
+   "image": "8592286384351_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      134
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      53,
+      53,
+      55,
+      57,
+      57,
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "index": 16,
+   "product_id": "8592286384351",
+   "product": "Casaca/Parka - ICONIC CALYPSO",
+   "image": "8592286384351_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      132
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+     ]
+    },
+    {
+     "label": "Cortorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      53,
+      53,
+      55,
+      57,
+      57,
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "index": 17,
+   "product_id": "8571124613343",
+   "product": "Casaca/Parka - ICONIC PINK",
+   "image": "8571124613343_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      134
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      53,
+      53,
+      55,
+      57,
+      57,
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "index": 18,
+   "product_id": "8571124613343",
+   "product": "Casaca/Parka - ICONIC PINK",
+   "image": "8571124613343_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      132
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+     ]
+    },
+    {
+     "label": "Cortorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      53,
+      53,
+      55,
+      57,
+      57,
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "index": 19,
+   "product_id": "8571096367327",
+   "product": "Casaca/Parka - ICONIC PURPLE",
+   "image": "8571096367327_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      134
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      53,
+      53,
+      55,
+      57,
+      57,
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "index": 20,
+   "product_id": "8571096367327",
+   "product": "Casaca/Parka - ICONIC PURPLE",
+   "image": "8571096367327_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      132
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+     ]
+    },
+    {
+     "label": "Cortorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      53,
+      53,
+      55,
+      57,
+      57,
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "index": 21,
+   "product_id": "8569716572383",
+   "product": "Casaca/Parka - ICONIC YELLOW",
+   "image": "8569716572383_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      134
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      53,
+      53,
+      55,
+      57,
+      57,
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "index": 22,
+   "product_id": "8569716572383",
+   "product": "Casaca/Parka - ICONIC YELLOW",
+   "image": "8569716572383_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      132
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+     ]
+    },
+    {
+     "label": "Cortorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      53,
+      53,
+      55,
+      57,
+      57,
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "index": 23,
+   "product_id": "9315649224927",
+   "product": "Chaqueta - la Black Fur",
+   "image": "9315649224927_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      56,
+      58,
+      60,
+      62,
+      64,
+      66
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      56,
+      58,
+      60,
+      62,
+      64,
+      66
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 24,
+   "product_id": "8922902429919",
+   "product": "Conjunto - ABSTRACT FLOWERS",
+   "image": "8922902429919_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      92,
+      96,
+      100,
+      104,
+      108,
+      112
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      82,
+      86,
+      90,
+      94,
+      98,
+      102
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      34,
+      36,
+      38,
+      40,
+      42,
+      44
+     ]
+    }
+   ]
+  },
+  {
+   "index": 25,
+   "product_id": "8922902429919",
+   "product": "Conjunto - ABSTRACT FLOWERS",
+   "image": "8922902429919_1.jpg",
+   "format": "rango",
+   "sizes": [
+    "XS/S",
+    "M/L",
+    "XL/XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno Cintura",
+     "canonical": "cintura",
+     "values": [
+      "70-85",
+      "85-100",
+      "100-115"
+     ]
+    },
+    {
+     "label": "Contorno Total",
+     "canonical": "largo",
+     "values": [
+      110,
+      130,
+      150
+     ]
+    },
+    {
+     "label": "Largo Delantero",
+     "canonical": "largo",
+     "values": [
+      28,
+      34,
+      40
+     ]
+    },
+    {
+     "label": "Largo Trasera",
+     "canonical": "largo",
+     "values": [
+      92,
+      98,
+      104
+     ]
+    }
+   ]
+  },
+  {
+   "index": 26,
+   "product_id": "9035017224415",
+   "product": "Conjunto - CARGO WIND",
+   "image": "9035017224415_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      134
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    }
+   ]
+  },
+  {
+   "index": 27,
+   "product_id": "9035017224415",
+   "product": "Conjunto - CARGO WIND",
+   "image": "9035017224415_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno cintura",
+     "canonical": "cintura",
+     "values": [
+      88,
+      92,
+      96,
+      100,
+      104,
+      108
+     ]
+    },
+    {
+     "label": "Contorno cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      92,
+      96,
+      100,
+      104,
+      108,
+      112
+     ]
+    },
+    {
+     "label": "Largo pierna",
+     "canonical": "otro",
+     "values": [
+      100,
+      102,
+      104,
+      106,
+      108,
+      110
+     ]
+    }
+   ]
+  },
+  {
+   "index": 28,
+   "product_id": "9288951300319",
+   "product": "Conjunto - COPACABANA",
+   "image": "9288951300319_0.jpg",
+   "format": "oscuro",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Cintura",
+     "canonical": "otro",
+     "values": [
+      73,
+      75,
+      77,
+      79,
+      81
+     ]
+    },
+    {
+     "label": "Busto",
+     "canonical": "pecho",
+     "values": [
+      43,
+      45,
+      47,
+      49,
+      51
+     ]
+    },
+    {
+     "label": "Largo Total",
+     "canonical": "largo",
+     "values": [
+      18,
+      20,
+      22,
+      24,
+      26
+     ]
+    }
+   ]
+  },
+  {
+   "index": 29,
+   "product_id": "9288951300319",
+   "product": "Conjunto - COPACABANA",
+   "image": "9288951300319_1.jpg",
+   "format": "oscuro",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Cadera",
+     "canonical": "otro",
+     "values": [
+      93,
+      95,
+      97,
+      99,
+      101
+     ]
+    },
+    {
+     "label": "Largo Total",
+     "canonical": "largo",
+     "values": [
+      28,
+      30,
+      32,
+      34,
+      36
+     ]
+    }
+   ]
+  },
+  {
+   "index": 30,
+   "product_id": "9035036885215",
+   "product": "Conjunto - CROP TOP",
+   "image": "9035036885215_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      118,
+      122,
+      126,
+      130,
+      134,
+      138
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    }
+   ]
+  },
+  {
+   "index": 31,
+   "product_id": "9035036885215",
+   "product": "Conjunto - CROP TOP",
+   "image": "9035036885215_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno cintura",
+     "canonical": "cintura",
+     "values": [
+      88,
+      92,
+      96,
+      100,
+      104,
+      108
+     ]
+    },
+    {
+     "label": "Contorno cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      92,
+      96,
+      100,
+      104,
+      108,
+      112
+     ]
+    },
+    {
+     "label": "Largo pierna",
+     "canonical": "otro",
+     "values": [
+      100,
+      102,
+      104,
+      106,
+      108,
+      110
+     ]
+    }
+   ]
+  },
+  {
+   "index": 32,
+   "product_id": "9152360317151",
+   "product": "Conjunto - DOS PIEZAS SUSURRO de ATARDECER",
+   "image": "9152360317151_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Alto",
+     "canonical": "otro",
+     "values": [
+      20,
+      20,
+      22,
+      22,
+      24,
+      24
+     ]
+    },
+    {
+     "label": "Contorno Pecho",
+     "canonical": "pecho",
+     "values": [
+      74,
+      78,
+      82,
+      86,
+      90,
+      94
+     ]
+    }
+   ]
+  },
+  {
+   "index": 33,
+   "product_id": "9152360317151",
+   "product": "Conjunto - DOS PIEZAS SUSURRO de ATARDECER",
+   "image": "9152360317151_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno Cintura",
+     "canonical": "cintura",
+     "values": [
+      70,
+      70,
+      80,
+      80,
+      90,
+      90
+     ]
+    },
+    {
+     "label": "Largo",
+     "canonical": "otro",
+     "values": [
+      105,
+      105,
+      105,
+      105,
+      110,
+      110
+     ]
+    }
+   ]
+  },
+  {
+   "index": 34,
+   "product_id": "9152119832799",
+   "product": "Conjunto - DOS PIEZAS SUSURRO de OLAS",
+   "image": "9152119832799_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Alto",
+     "canonical": "otro",
+     "values": [
+      20,
+      20,
+      22,
+      22,
+      24,
+      24
+     ]
+    },
+    {
+     "label": "Contorno Pecho",
+     "canonical": "pecho",
+     "values": [
+      74,
+      78,
+      82,
+      86,
+      90,
+      94
+     ]
+    }
+   ]
+  },
+  {
+   "index": 35,
+   "product_id": "9152119832799",
+   "product": "Conjunto - DOS PIEZAS SUSURRO de OLAS",
+   "image": "9152119832799_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno Cintura",
+     "canonical": "cintura",
+     "values": [
+      70,
+      70,
+      80,
+      80,
+      90,
+      90
+     ]
+    },
+    {
+     "label": "Largo",
+     "canonical": "otro",
+     "values": [
+      105,
+      105,
+      105,
+      105,
+      110,
+      110
+     ]
+    }
+   ]
+  },
+  {
+   "index": 36,
+   "product_id": "9162128818399",
+   "product": "Conjunto - FUCSIA BOLD",
+   "image": "9162128818399_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      106,
+      112,
+      118,
+      124,
+      130,
+      136
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      50,
+      52,
+      55,
+      57,
+      58,
+      60
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      56,
+      59,
+      62,
+      65,
+      68,
+      72
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      106,
+      112,
+      118,
+      124,
+      130,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      58,
+      60,
+      63,
+      66,
+      70,
+      74
+     ]
+    }
+   ]
+  },
+  {
+   "index": 37,
+   "product_id": "9162128818399",
+   "product": "Conjunto - FUCSIA BOLD",
+   "image": "9162128818399_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Largo",
+     "canonical": "otro",
+     "values": [
+      76,
+      78,
+      80,
+      82,
+      84,
+      86
+     ]
+    },
+    {
+     "label": "Contorno Cintura",
+     "canonical": "cintura",
+     "values": [
+      90,
+      94,
+      98,
+      102,
+      106,
+      110
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      92,
+      96,
+      100,
+      104,
+      108,
+      112
+     ]
+    }
+   ]
+  },
+  {
+   "index": 38,
+   "product_id": "9288952676575",
+   "product": "Conjunto - IPANEMA",
+   "image": "9288952676575_0.jpg",
+   "format": "oscuro",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Falda Azul - Cadera",
+     "canonical": "otro",
+     "values": [
+      93,
+      95,
+      97,
+      99,
+      101
+     ]
+    },
+    {
+     "label": "Falda Azul - Largo Total",
+     "canonical": "largo",
+     "values": [
+      68,
+      70,
+      72,
+      74,
+      76
+     ]
+    },
+    {
+     "label": "Top Amarillo - Cintura",
+     "canonical": "otro",
+     "values": [
+      73,
+      75,
+      77,
+      79,
+      81
+     ]
+    },
+    {
+     "label": "Top Amarillo - Busto",
+     "canonical": "otro",
+     "values": [
+      40,
+      42,
+      44,
+      46,
+      48
+     ]
+    },
+    {
+     "label": "Top Amarillo - Largo Total",
+     "canonical": "largo",
+     "values": [
+      43,
+      45,
+      47,
+      49,
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "index": 39,
+   "product_id": "7891383714015",
+   "product": "Conjunto - NEW COLORFUL",
+   "image": "7891383714015_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      104,
+      108,
+      112,
+      116,
+      120,
+      124
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      62,
+      64,
+      66,
+      68,
+      70
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "index": 40,
+   "product_id": "7891383714015",
+   "product": "Conjunto - NEW COLORFUL",
+   "image": "7891383714015_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno elástico",
+     "canonical": "otro",
+     "values": [
+      88,
+      92,
+      96,
+      100,
+      104,
+      108
+     ]
+    },
+    {
+     "label": "Contorno cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      92,
+      96,
+      100,
+      104,
+      108,
+      112
+     ]
+    },
+    {
+     "label": "Largo pierna",
+     "canonical": "otro",
+     "values": [
+      88,
+      91,
+      94,
+      97,
+      100,
+      103
+     ]
+    }
+   ]
+  },
+  {
+   "index": 41,
+   "product_id": "7891130384607",
+   "product": "Conjunto - Unisex - CASUAL",
+   "image": "7891130384607_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      104,
+      108,
+      112,
+      116,
+      120,
+      124
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      62,
+      64,
+      66,
+      68,
+      70
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "index": 42,
+   "product_id": "7891130384607",
+   "product": "Conjunto - Unisex - CASUAL",
+   "image": "7891130384607_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno elástico",
+     "canonical": "otro",
+     "values": [
+      88,
+      92,
+      96,
+      100,
+      104,
+      108
+     ]
+    },
+    {
+     "label": "Contorno cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      92,
+      96,
+      100,
+      104,
+      108,
+      112
+     ]
+    },
+    {
+     "label": "Largo pierna",
+     "canonical": "otro",
+     "values": [
+      88,
+      91,
+      94,
+      97,
+      100,
+      103
+     ]
+    }
+   ]
+  },
+  {
+   "index": 43,
+   "product_id": "7891370541279",
+   "product": "Conjunto - Unisex - MULTICOLOR",
+   "image": "7891370541279_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      104,
+      108,
+      112,
+      116,
+      120,
+      124
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      62,
+      64,
+      66,
+      68,
+      70
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "index": 44,
+   "product_id": "7891370541279",
+   "product": "Conjunto - Unisex - MULTICOLOR",
+   "image": "7891370541279_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno elástico",
+     "canonical": "otro",
+     "values": [
+      88,
+      92,
+      96,
+      100,
+      104,
+      108
+     ]
+    },
+    {
+     "label": "Contorno cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      92,
+      96,
+      100,
+      104,
+      108,
+      112
+     ]
+    },
+    {
+     "label": "Largo pierna",
+     "canonical": "otro",
+     "values": [
+      88,
+      91,
+      94,
+      97,
+      100,
+      103
+     ]
+    }
+   ]
+  },
+  {
+   "index": 45,
+   "product_id": "15491931635935",
+   "product": "Conjunto Comfy Urbano",
+   "image": "15491931635935_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno Busto",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      114,
+      120,
+      126
+     ]
+    },
+    {
+     "label": "Largo Manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo Talle",
+     "canonical": "talle",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      98,
+      102,
+      106,
+      110,
+      114,
+      118
+     ]
+    },
+    {
+     "label": "Espalda",
+     "canonical": "largo",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 46,
+   "product_id": "15491931635935",
+   "product": "Conjunto Comfy Urbano",
+   "image": "15491931635935_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno Cintura",
+     "canonical": "cintura",
+     "values": [
+      76,
+      78,
+      84,
+      90,
+      96,
+      102
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      96,
+      98,
+      104,
+      110,
+      116,
+      122
+     ]
+    },
+    {
+     "label": "Largo Total",
+     "canonical": "largo",
+     "values": [
+      107,
+      107,
+      108,
+      109,
+      109,
+      110
+     ]
+    }
+   ]
+  },
+  {
+   "index": 47,
+   "product_id": "8090313162975",
+   "product": "Cortaviento - ASHES",
+   "image": "8090313162975_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      118,
+      124,
+      130,
+      136,
+      142,
+      148
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      74,
+      76,
+      78,
+      80,
+      82,
+      84
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      63,
+      65,
+      67,
+      69,
+      71,
+      73
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      100,
+      106,
+      112,
+      118,
+      124,
+      128
+     ]
+    }
+   ]
+  },
+  {
+   "index": 48,
+   "product_id": "8103820886239",
+   "product": "Cortaviento - COLOR BLOCK EXPEDITION",
+   "image": "8103820886239_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      116,
+      122,
+      130,
+      136,
+      142,
+      148
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      62,
+      64,
+      66,
+      68,
+      70
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      56,
+      58,
+      60,
+      62,
+      64,
+      66
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      114,
+      120,
+      126,
+      132,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      48,
+      50,
+      52,
+      54,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 49,
+   "product_id": "8094905565407",
+   "product": "Cortaviento - CROP LAVENDER",
+   "image": "8094905565407_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      118,
+      122,
+      126,
+      130,
+      134,
+      138
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    }
+   ]
+  },
+  {
+   "index": 50,
+   "product_id": "8098990096607",
+   "product": "Cortaviento - CROP PINKADELIC",
+   "image": "8098990096607_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      118,
+      122,
+      126,
+      130,
+      134,
+      138
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    }
+   ]
+  },
+  {
+   "index": 51,
+   "product_id": "7438315225311",
+   "product": "Cortaviento - Fuchsia Urban",
+   "image": "7438315225311_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      122,
+      126,
+      130,
+      134,
+      138,
+      142
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      68,
+      70,
+      72,
+      74,
+      76,
+      78
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      122,
+      126,
+      130,
+      134,
+      138,
+      142
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      45,
+      47,
+      49,
+      51,
+      53,
+      55
+     ]
+    }
+   ]
+  },
+  {
+   "index": 52,
+   "product_id": "7438328398047",
+   "product": "Cortaviento - Orange Spring Trend",
+   "image": "7438328398047_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      118,
+      124,
+      130,
+      136,
+      142,
+      148
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      74,
+      76,
+      78,
+      80,
+      82,
+      84
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      68,
+      70,
+      72,
+      74,
+      76,
+      78
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      100,
+      106,
+      112,
+      118,
+      124,
+      128
+     ]
+    }
+   ]
+  },
+  {
+   "index": 53,
+   "product_id": "8826623721695",
+   "product": "Cortaviento - Pistachio Beach",
+   "image": "8826623721695_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      63,
+      65,
+      67,
+      69,
+      71,
+      73
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      77,
+      79,
+      81,
+      83,
+      85,
+      87
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      116,
+      120,
+      124,
+      128,
+      132,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 54,
+   "product_id": "7438325285087",
+   "product": "Cortaviento - Pistachio Spring Trend",
+   "image": "7438325285087_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      118,
+      124,
+      130,
+      136,
+      142,
+      148
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      74,
+      76,
+      78,
+      80,
+      82,
+      84
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      68,
+      70,
+      72,
+      74,
+      76,
+      78
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      100,
+      106,
+      112,
+      118,
+      124,
+      128
+     ]
+    }
+   ]
+  },
+  {
+   "index": 55,
+   "product_id": "7438325285087",
+   "product": "Cortaviento - Pistachio Spring Trend",
+   "image": "7438325285087_1.jpg",
+   "format": "rango",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno de Busto (cm)",
+     "canonical": "otro",
+     "values": [
+      "88-92",
+      "93-97",
+      "98-102",
+      "103-107",
+      "108-112",
+      "113-117"
+     ]
+    },
+    {
+     "label": "Contorno de Cadera (cm)",
+     "canonical": "otro",
+     "values": [
+      "93-94",
+      "95-99",
+      "100-104",
+      "105-109",
+      "110-114",
+      "115-119"
+     ]
+    },
+    {
+     "label": "Largo de Mangas (cm)",
+     "canonical": "manga",
+     "values": [
+      "60-61",
+      "61-62",
+      "62-63",
+      "63-64",
+      "64-65",
+      "65-66"
+     ]
+    },
+    {
+     "label": "Ancho Hombros",
+     "canonical": "hombro",
+     "values": [
+      "34-36",
+      "36-38",
+      "38-40",
+      "40-42",
+      "42-44",
+      "44-46"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 56,
+   "product_id": "7438330069215",
+   "product": "Cortaviento - Purple Spring Trend",
+   "image": "7438330069215_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      118,
+      124,
+      130,
+      136,
+      142,
+      148
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      74,
+      76,
+      78,
+      80,
+      82,
+      84
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      68,
+      70,
+      72,
+      74,
+      76,
+      78
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      100,
+      106,
+      112,
+      118,
+      124,
+      128
+     ]
+    }
+   ]
+  },
+  {
+   "index": 57,
+   "product_id": "7438312112351",
+   "product": "Cortaviento - Purple Urban",
+   "image": "7438312112351_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      122,
+      126,
+      130,
+      134,
+      138,
+      142
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      68,
+      70,
+      72,
+      74,
+      76,
+      78
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      122,
+      126,
+      130,
+      134,
+      138,
+      142
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      45,
+      47,
+      49,
+      51,
+      53,
+      55
+     ]
+    }
+   ]
+  },
+  {
+   "index": 58,
+   "product_id": "8819135807711",
+   "product": "Cortaviento - Trail Traveler",
+   "image": "8819135807711_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      106,
+      110,
+      114,
+      118,
+      122,
+      126
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      56,
+      58,
+      60,
+      62,
+      64,
+      66
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      74,
+      76,
+      78,
+      80,
+      82,
+      84
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      110,
+      114,
+      118,
+      122,
+      126,
+      130
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+     ]
+    }
+   ]
+  },
+  {
+   "index": 59,
+   "product_id": "9035052187871",
+   "product": "Cortaviento - VINTAGE",
+   "image": "9035052187871_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      118,
+      124,
+      130,
+      136,
+      142,
+      148
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      74,
+      76,
+      78,
+      80,
+      82,
+      84
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      63,
+      65,
+      67,
+      69,
+      71,
+      73
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      118,
+      124,
+      130,
+      136,
+      142,
+      148
+     ]
+    }
+   ]
+  },
+  {
+   "index": 60,
+   "product_id": "9315694018783",
+   "product": "Falda - Camel Leather",
+   "image": "9315694018783_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno Cintura",
+     "canonical": "cintura",
+     "values": [
+      76,
+      80,
+      84,
+      88,
+      92,
+      96
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      104,
+      108,
+      112,
+      116,
+      120,
+      124
+     ]
+    },
+    {
+     "label": "Largo total",
+     "canonical": "largo",
+     "values": [
+      88,
+      88,
+      88,
+      88,
+      88,
+      88
+     ]
+    }
+   ]
+  },
+  {
+   "index": 61,
+   "product_id": "9214053482719",
+   "product": "Pantalón - FLOW MAESTRO",
+   "image": "9214053482719_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno cintura",
+     "canonical": "cintura",
+     "values": [
+      92,
+      96,
+      100,
+      104,
+      108,
+      112
+     ]
+    },
+    {
+     "label": "Contorno cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      102,
+      106,
+      110,
+      114,
+      118,
+      122
+     ]
+    },
+    {
+     "label": "Largo pierna",
+     "canonical": "otro",
+     "values": [
+      98,
+      100,
+      102,
+      104,
+      108,
+      110
+     ]
+    }
+   ]
+  },
+  {
+   "index": 62,
+   "product_id": "8553188655327",
+   "product": "Parka - ACORCHADA SIN MANGAS",
+   "image": "8553188655327_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      114,
+      120,
+      126
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      98,
+      102,
+      106,
+      110,
+      114,
+      118
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 63,
+   "product_id": "7599900950751",
+   "product": "Parka - ALLIANZ",
+   "image": "7599900950751_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      63,
+      65,
+      67,
+      69,
+      71,
+      73
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      77,
+      79,
+      81,
+      83,
+      85,
+      87
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      116,
+      120,
+      124,
+      128,
+      132,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 64,
+   "product_id": "9341577265375",
+   "product": "Parka - Impermeable Blizzard Térmica",
+   "image": "9341577265375_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      118,
+      122,
+      126,
+      130,
+      134,
+      138
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      80,
+      82,
+      84,
+      86,
+      88,
+      90
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      112,
+      116,
+      120,
+      124,
+      128,
+      132
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "index": 65,
+   "product_id": "7438438596831",
+   "product": "Parka - Impermeable Térmica Jackdaw",
+   "image": "7438438596831_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      63,
+      65,
+      67,
+      69,
+      71,
+      73
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      77,
+      79,
+      81,
+      83,
+      85,
+      87
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      116,
+      120,
+      124,
+      128,
+      132,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 66,
+   "product_id": "7641195774175",
+   "product": "Parka - Impermeable Térmica Rainproof Purple",
+   "image": "7641195774175_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      116,
+      122,
+      130,
+      136,
+      142,
+      148
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      68,
+      72,
+      76,
+      80,
+      84,
+      88
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      114,
+      120,
+      126,
+      132,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      48,
+      50,
+      52,
+      54,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 67,
+   "product_id": "7641195774175",
+   "product": "Parka - Impermeable Térmica Rainproof Purple",
+   "image": "7641195774175_1.jpg",
+   "format": "rango",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno de Busto (CM)",
+     "canonical": "otro",
+     "values": [
+      "88-92",
+      "93-97",
+      "98-102",
+      "103-107",
+      "108-112",
+      "113-117"
+     ]
+    },
+    {
+     "label": "Contorno de Cadera (CM)",
+     "canonical": "otro",
+     "values": [
+      "93-94",
+      "95-99",
+      "100-104",
+      "105-109",
+      "110-114",
+      "115-119"
+     ]
+    },
+    {
+     "label": "Largo de Mangas (CM)",
+     "canonical": "manga",
+     "values": [
+      "60-61",
+      "61-62",
+      "62-63",
+      "63-64",
+      "64-65",
+      "65-66"
+     ]
+    },
+    {
+     "label": "Ancho Hombros",
+     "canonical": "hombro",
+     "values": [
+      "34-36",
+      "36-38",
+      "38-40",
+      "40-42",
+      "42-44",
+      "44-46"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 68,
+   "product_id": "9059139485919",
+   "product": "Parka - Impermeable Térmica Winter Mosaic",
+   "image": "9059139485919_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      63,
+      65,
+      67,
+      69,
+      71,
+      73
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      77,
+      79,
+      81,
+      83,
+      85,
+      87
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      116,
+      120,
+      124,
+      128,
+      132,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 69,
+   "product_id": "7438829224159",
+   "product": "Parka - Leñadora Flags",
+   "image": "7438829224159_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      63,
+      65,
+      67,
+      69,
+      71,
+      73
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      77,
+      79,
+      81,
+      83,
+      85,
+      87
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      116,
+      120,
+      124,
+      128,
+      132,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 70,
+   "product_id": "8512279281887",
+   "product": "Parka - Lynn Térmica Impermeable",
+   "image": "8512279281887_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      106,
+      110,
+      114,
+      118,
+      122,
+      126
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      56,
+      58,
+      60,
+      62,
+      64,
+      66
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      74,
+      76,
+      78,
+      80,
+      82,
+      84
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      110,
+      114,
+      118,
+      122,
+      126,
+      130
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+     ]
+    }
+   ]
+  },
+  {
+   "index": 71,
+   "product_id": "8512279281887",
+   "product": "Parka - Lynn Térmica Impermeable",
+   "image": "8512279281887_1.jpg",
+   "format": "rango",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno de Busto (CM)",
+     "canonical": "otro",
+     "values": [
+      "88-92",
+      "93-97",
+      "98-102",
+      "103-107",
+      "108-112",
+      "113-117"
+     ]
+    },
+    {
+     "label": "Contorno de Cadera (CM)",
+     "canonical": "otro",
+     "values": [
+      "93-94",
+      "95-99",
+      "100-104",
+      "105-109",
+      "110-114",
+      "115-119"
+     ]
+    },
+    {
+     "label": "Largo de Mangas (CM)",
+     "canonical": "manga",
+     "values": [
+      "60-61",
+      "61-62",
+      "62-63",
+      "63-64",
+      "64-65",
+      "65-66"
+     ]
+    },
+    {
+     "label": "Ancho Hombros",
+     "canonical": "hombro",
+     "values": [
+      "34-36",
+      "36-38",
+      "38-40",
+      "40-42",
+      "42-44",
+      "44-46"
+     ]
+    }
+   ]
+  },
+  {
+   "index": 72,
+   "product_id": "9361581211871",
+   "product": "Parka - Mujer - Turquesa Impermeable Urban Trek",
+   "image": "9361581211871_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      118,
+      122,
+      126,
+      130,
+      134,
+      138
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      80,
+      82,
+      84,
+      86,
+      88,
+      90
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      112,
+      116,
+      120,
+      124,
+      128,
+      132
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "index": 73,
+   "product_id": "7768358813919",
+   "product": "Parka - New Jackdaw Taslan Impermeable",
+   "image": "7768358813919_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      118,
+      122,
+      126,
+      130,
+      134,
+      138
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      80,
+      82,
+      84,
+      86,
+      88,
+      90
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      112,
+      116,
+      120,
+      124,
+      128,
+      132
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "index": 74,
+   "product_id": "8037271404767",
+   "product": "Parka - Térmica Impermeable Ruster",
+   "image": "8037271404767_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      122,
+      126,
+      130,
+      134,
+      138,
+      142
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      63,
+      65,
+      67,
+      69,
+      71,
+      73
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      74,
+      76,
+      78,
+      80,
+      82,
+      84
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      122,
+      126,
+      130,
+      134,
+      138,
+      142
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      55,
+      57,
+      59,
+      61,
+      63,
+      63
+     ]
+    }
+   ]
+  },
+  {
+   "index": 75,
+   "product_id": "9025044447455",
+   "product": "Parka - WINTER MOUNTAIN",
+   "image": "9025044447455_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      63,
+      65,
+      67,
+      69,
+      71,
+      73
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      77,
+      79,
+      81,
+      83,
+      85,
+      87
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      116,
+      120,
+      124,
+      128,
+      132,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "index": 76,
+   "product_id": "9035992301791",
+   "product": "Polerón - BLUE COLORS",
+   "image": "9035992301791_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      134
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    }
+   ]
+  },
+  {
+   "index": 77,
+   "product_id": "7438931001567",
+   "product": "Polerón - Belair",
+   "image": "7438931001567_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      72,
+      74,
+      76,
+      78,
+      80,
+      82
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      61,
+      63,
+      65,
+      67,
+      69,
+      69
+     ]
+    }
+   ]
+  },
+  {
+   "index": 78,
+   "product_id": "9035960615135",
+   "product": "Polerón - CANGURO AZUL",
+   "image": "9035960615135_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      134
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    }
+   ]
+  },
+  {
+   "index": 79,
+   "product_id": "9315673014495",
+   "product": "Polerón - Duffle Cropped",
+   "image": "9315673014495_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      106,
+      112,
+      118,
+      124,
+      130,
+      136
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      50,
+      52,
+      55,
+      57,
+      58,
+      60
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      56,
+      59,
+      62,
+      65,
+      68,
+      72
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      106,
+      112,
+      118,
+      124,
+      130,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      58,
+      60,
+      63,
+      66,
+      70,
+      74
+     ]
+    }
+   ]
+  },
+  {
+   "index": 80,
+   "product_id": "7696034365663",
+   "product": "Polerón - Hoodie Morado",
+   "image": "7696034365663_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      114,
+      120,
+      126
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      98,
+      102,
+      106,
+      110,
+      114,
+      118
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 81,
+   "product_id": "7696043245791",
+   "product": "Polerón - Hoodie Yellow",
+   "image": "7696043245791_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      114,
+      120,
+      126
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      98,
+      102,
+      106,
+      110,
+      114,
+      118
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 82,
+   "product_id": "7689713058015",
+   "product": "Polerón - ICON",
+   "image": "7689713058015_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      114,
+      120,
+      126
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      98,
+      102,
+      106,
+      110,
+      114,
+      118
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 83,
+   "product_id": "9361600872671",
+   "product": "Polerón - Mujer - Ambarino",
+   "image": "9361600872671_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      106,
+      112,
+      118,
+      124,
+      130,
+      136
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      50,
+      52,
+      55,
+      57,
+      58,
+      60
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      56,
+      59,
+      62,
+      65,
+      68,
+      72
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      106,
+      112,
+      118,
+      124,
+      130,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      58,
+      60,
+      63,
+      66,
+      70,
+      74
+     ]
+    }
+   ]
+  },
+  {
+   "index": 84,
+   "product_id": "9035191779551",
+   "product": "Polerón - NOSTALGIC",
+   "image": "9035191779551_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      134
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    }
+   ]
+  },
+  {
+   "index": 85,
+   "product_id": "9035047403743",
+   "product": "Polerón - URBAN",
+   "image": "9035047403743_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      134
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    }
+   ]
+  },
+  {
+   "index": 86,
+   "product_id": "8485716951263",
+   "product": "Polerón - Unisex - ADVENTURE",
+   "image": "8485716951263_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      66,
+      68,
+      70,
+      72,
+      74,
+      76
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    }
+   ]
+  },
+  {
+   "index": 87,
+   "product_id": "9059108356319",
+   "product": "Polerón - Unisex - AUTUMN PISTACHIO",
+   "image": "9059108356319_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      114,
+      120,
+      126
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      98,
+      102,
+      106,
+      110,
+      114,
+      118
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 88,
+   "product_id": "9059088171231",
+   "product": "Polerón - Unisex - AUTUMN URBAN FASHION",
+   "image": "9059088171231_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      106,
+      112,
+      118,
+      124,
+      130,
+      136
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      50,
+      52,
+      55,
+      57,
+      58,
+      60
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      56,
+      59,
+      62,
+      65,
+      68,
+      72
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      106,
+      112,
+      118,
+      124,
+      130,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      58,
+      60,
+      63,
+      66,
+      70,
+      74
+     ]
+    }
+   ]
+  },
+  {
+   "index": 89,
+   "product_id": "9059142009055",
+   "product": "Polerón - Unisex - AUTUMN URBAN FASHION BLUE",
+   "image": "9059142009055_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      106,
+      112,
+      118,
+      124,
+      130,
+      136
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      50,
+      52,
+      55,
+      57,
+      58,
+      60
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      56,
+      59,
+      62,
+      65,
+      68,
+      72
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      106,
+      112,
+      118,
+      124,
+      130,
+      136
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      58,
+      60,
+      63,
+      66,
+      70,
+      74
+     ]
+    }
+   ]
+  },
+  {
+   "index": 90,
+   "product_id": "7894244655327",
+   "product": "Polerón - Unisex - BARD EVOLUTION",
+   "image": "7894244655327_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      104,
+      108,
+      112,
+      116,
+      120,
+      124
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      62,
+      64,
+      66,
+      68,
+      70
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "index": 91,
+   "product_id": "9059137814751",
+   "product": "Polerón - Unisex - BLACK COLORS",
+   "image": "9059137814751_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      72,
+      74,
+      76,
+      78,
+      80,
+      82
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      61,
+      63,
+      65,
+      67,
+      69,
+      69
+     ]
+    }
+   ]
+  },
+  {
+   "index": 92,
+   "product_id": "7891092898015",
+   "product": "Polerón - Unisex - CASUAL",
+   "image": "7891092898015_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      104,
+      108,
+      112,
+      116,
+      120,
+      124
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      62,
+      64,
+      66,
+      68,
+      70
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "index": 93,
+   "product_id": "7884625608927",
+   "product": "Polerón - Unisex - CROP TOP AMARILLO",
+   "image": "7884625608927_0.jpg",
+   "format": "rango",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      62,
+      64,
+      66,
+      68,
+      70
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      "78-100",
+      "82-104",
+      "86-108",
+      "90-112",
+      "94-116",
+      "98-120"
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "index": 94,
+   "product_id": "7884592644319",
+   "product": "Polerón - Unisex - CROP TOP FUCSIA",
+   "image": "7884592644319_0.jpg",
+   "format": "rango",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      62,
+      64,
+      66,
+      68,
+      70
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      "78-100",
+      "82-104",
+      "86-108",
+      "90-112",
+      "94-116",
+      "98-120"
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "index": 95,
+   "product_id": "7884542050527",
+   "product": "Polerón - Unisex - CROP TOP NARANJA",
+   "image": "7884542050527_0.jpg",
+   "format": "rango",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      62,
+      64,
+      66,
+      68,
+      70
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      "78-100",
+      "82-104",
+      "86-108",
+      "90-112",
+      "94-116",
+      "98-120"
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "index": 96,
+   "product_id": "8111306735839",
+   "product": "Polerón - Unisex - KANGARU",
+   "image": "8111306735839_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      114,
+      118,
+      122,
+      126,
+      130,
+      134
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      108,
+      112,
+      116,
+      120,
+      124,
+      128
+     ]
+    }
+   ]
+  },
+  {
+   "index": 97,
+   "product_id": "9109641003231",
+   "product": "Polerón - Unisex - MIKE CELESTE",
+   "image": "9109641003231_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      114,
+      120,
+      126
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      98,
+      102,
+      106,
+      110,
+      114,
+      118
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 98,
+   "product_id": "9109648408799",
+   "product": "Polerón - Unisex - MIKE ROSADO",
+   "image": "9109648408799_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      114,
+      120,
+      126
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      98,
+      102,
+      106,
+      110,
+      114,
+      118
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 99,
+   "product_id": "9109658632415",
+   "product": "Polerón - Unisex - MIKE VERDE",
+   "image": "9109658632415_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      114,
+      120,
+      126
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      98,
+      102,
+      106,
+      110,
+      114,
+      118
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 100,
+   "product_id": "7823891267807",
+   "product": "Polerón - Unisex - MONDANO GREEN",
+   "image": "7823891267807_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      114,
+      120,
+      126
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      98,
+      102,
+      106,
+      110,
+      114,
+      118
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 101,
+   "product_id": "7823882879199",
+   "product": "Polerón - Unisex - MONDANO ORANGE",
+   "image": "7823882879199_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      114,
+      120,
+      126
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      98,
+      102,
+      106,
+      110,
+      114,
+      118
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 102,
+   "product_id": "7823872360671",
+   "product": "Polerón - Unisex - MONDANO TREND",
+   "image": "7823872360671_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      114,
+      120,
+      126
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      98,
+      102,
+      106,
+      110,
+      114,
+      118
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 103,
+   "product_id": "7891357925599",
+   "product": "Polerón - Unisex - MULTICOLOR",
+   "image": "7891357925599_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      104,
+      108,
+      112,
+      116,
+      120,
+      124
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      62,
+      64,
+      66,
+      68,
+      70
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "index": 104,
+   "product_id": "8819210649823",
+   "product": "Polerón - Unisex - Manga Murciélago Exclusive",
+   "image": "8819210649823_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "media",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      72,
+      74,
+      76,
+      78,
+      80,
+      82
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      120,
+      124,
+      128,
+      132,
+      136,
+      140
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      61,
+      63,
+      65,
+      67,
+      69,
+      69
+     ]
+    }
+   ]
+  },
+  {
+   "index": 105,
+   "product_id": "7891376210143",
+   "product": "Polerón - Unisex - NEW COLORFUL",
+   "image": "7891376210143_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      104,
+      108,
+      112,
+      116,
+      120,
+      124
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      60,
+      62,
+      64,
+      66,
+      68,
+      70
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "index": 106,
+   "product_id": "7891376210143",
+   "product": "Polerón - Unisex - NEW COLORFUL",
+   "image": "7891376210143_1.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno elástico",
+     "canonical": "otro",
+     "values": [
+      88,
+      92,
+      96,
+      100,
+      104,
+      108
+     ]
+    },
+    {
+     "label": "Contorno cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      92,
+      96,
+      100,
+      104,
+      108,
+      112
+     ]
+    },
+    {
+     "label": "Largo pierna",
+     "canonical": "otro",
+     "values": [
+      88,
+      91,
+      94,
+      97,
+      100,
+      103
+     ]
+    }
+   ]
+  },
+  {
+   "index": 107,
+   "product_id": "8485902942431",
+   "product": "Polerón - Unisex - SUNFLOWER",
+   "image": "8485902942431_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      100,
+      104,
+      108,
+      112,
+      116,
+      120
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      67,
+      69,
+      71,
+      73,
+      75,
+      77
+     ]
+    },
+    {
+     "label": "Cortorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      98,
+      102,
+      106,
+      110,
+      114,
+      118
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 108,
+   "product_id": "7822538539231",
+   "product": "Polerón - Unisex - URBAN IDENTITY",
+   "image": "7822538539231_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "media",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      106,
+      108,
+      112,
+      116,
+      120,
+      124
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      55,
+      57,
+      59,
+      61,
+      63,
+      65
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      69,
+      71,
+      73,
+      75,
+      77,
+      79
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      106,
+      108,
+      112,
+      116,
+      120,
+      124
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 109,
+   "product_id": "7763544015071",
+   "product": "Polerón - Unisex - URBAN PERSONALITY",
+   "image": "7763544015071_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "media",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      106,
+      108,
+      112,
+      116,
+      120,
+      124
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      55,
+      57,
+      59,
+      61,
+      63,
+      65
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      69,
+      71,
+      73,
+      75,
+      77,
+      79
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      106,
+      108,
+      112,
+      116,
+      120,
+      124
+     ]
+    },
+    {
+     "label": "Ancho Hombre",
+     "canonical": "hombro",
+     "values": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "index": 110,
+   "product_id": "9018355319007",
+   "product": "Vestido - ANIMAL PRINT",
+   "image": "9018355319007_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      78,
+      84,
+      90,
+      96,
+      102,
+      108
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      51,
+      51,
+      52,
+      52,
+      53,
+      53
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      106,
+      106,
+      108,
+      108,
+      110,
+      110
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      81,
+      90,
+      99,
+      108,
+      116,
+      126
+     ]
+    },
+    {
+     "label": "Contorno Cintura",
+     "canonical": "cintura",
+     "values": [
+      64,
+      72,
+      80,
+      86,
+      94,
+      102
+     ]
+    }
+   ]
+  },
+  {
+   "index": 111,
+   "product_id": "9152851050719",
+   "product": "Vestido - BRISA de VERANO",
+   "image": "9152851050719_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      78,
+      84,
+      90,
+      96,
+      102,
+      108
+     ]
+    },
+    {
+     "label": "Contorno cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      110,
+      116,
+      122,
+      128,
+      134,
+      140
+     ]
+    },
+    {
+     "label": "Largo",
+     "canonical": "otro",
+     "values": [
+      108,
+      110,
+      112,
+      114,
+      116,
+      118
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      172,
+      180,
+      188,
+      196,
+      204,
+      212
+     ]
+    }
+   ]
+  },
+  {
+   "index": 112,
+   "product_id": "9288953495775",
+   "product": "Vestido - Brisa Carioca",
+   "image": "9288953495775_0.jpg",
+   "format": "oscuro",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Cintura",
+     "canonical": "otro",
+     "values": [
+      73,
+      75,
+      77,
+      79,
+      81
+     ]
+    },
+    {
+     "label": "Cadera",
+     "canonical": "otro",
+     "values": [
+      93,
+      95,
+      97,
+      99,
+      101
+     ]
+    },
+    {
+     "label": "Busto",
+     "canonical": "pecho",
+     "values": [
+      43,
+      45,
+      47,
+      49,
+      51
+     ]
+    },
+    {
+     "label": "Largo Total",
+     "canonical": "largo",
+     "values": [
+      73,
+      75,
+      77,
+      79,
+      81
+     ]
+    }
+   ]
+  },
+  {
+   "index": 113,
+   "product_id": "9216455114975",
+   "product": "Vestido - EOLO",
+   "image": "9216455114975_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "baja",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      86,
+      90,
+      94,
+      98,
+      102,
+      106
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      118,
+      120,
+      122,
+      124,
+      126,
+      130
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      92,
+      96,
+      100,
+      104,
+      108,
+      112
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      96,
+      100,
+      104,
+      108,
+      112,
+      116
+     ]
+    }
+   ]
+  },
+  {
+   "index": 114,
+   "product_id": "9152320176351",
+   "product": "Vestido - OLAS NÓMADAS",
+   "image": "9152320176351_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      78,
+      84,
+      90,
+      96,
+      102,
+      108
+     ]
+    },
+    {
+     "label": "Contorno cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      110,
+      116,
+      122,
+      128,
+      134,
+      140
+     ]
+    },
+    {
+     "label": "Largo",
+     "canonical": "otro",
+     "values": [
+      108,
+      110,
+      112,
+      114,
+      116,
+      118
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      172,
+      180,
+      188,
+      196,
+      204,
+      212
+     ]
+    }
+   ]
+  },
+  {
+   "index": 115,
+   "product_id": "9044997308639",
+   "product": "Vestido - PUNTO COQUETTE",
+   "image": "9044997308639_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      78,
+      84,
+      90,
+      96,
+      102,
+      108
+     ]
+    },
+    {
+     "label": "Largo manga",
+     "canonical": "manga",
+     "values": [
+      51,
+      51,
+      52,
+      52,
+      53,
+      53
+     ]
+    },
+    {
+     "label": "Largo talle",
+     "canonical": "talle",
+     "values": [
+      106,
+      106,
+      108,
+      108,
+      110,
+      110
+     ]
+    },
+    {
+     "label": "Contorno Cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      81,
+      90,
+      99,
+      108,
+      116,
+      126
+     ]
+    },
+    {
+     "label": "Contorno Cintura",
+     "canonical": "cintura",
+     "values": [
+      64,
+      72,
+      80,
+      86,
+      94,
+      102
+     ]
+    }
+   ]
+  },
+  {
+   "index": 116,
+   "product_id": "9288953954527",
+   "product": "Vestido - Samba Rosé",
+   "image": "9288953954527_0.jpg",
+   "format": "oscuro",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Cintura",
+     "canonical": "otro",
+     "values": [
+      73,
+      75,
+      77,
+      79,
+      81
+     ]
+    },
+    {
+     "label": "Cadera",
+     "canonical": "otro",
+     "values": [
+      118,
+      120,
+      122,
+      124,
+      126
+     ]
+    },
+    {
+     "label": "Busto",
+     "canonical": "pecho",
+     "values": [
+      43,
+      45,
+      47,
+      49,
+      51
+     ]
+    },
+    {
+     "label": "Largo Total",
+     "canonical": "largo",
+     "values": [
+      118,
+      120,
+      122,
+      124,
+      126
+     ]
+    }
+   ]
+  },
+  {
+   "index": 117,
+   "product_id": "8906606837983",
+   "product": "Vestido - TIRANTES FULL COLORS",
+   "image": "8906606837983_0.jpg",
+   "format": "pom",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "confidence": "alta",
+   "measures": [
+    {
+     "label": "Contorno pecho",
+     "canonical": "pecho",
+     "values": [
+      78,
+      84,
+      90,
+      96,
+      102,
+      108
+     ]
+    },
+    {
+     "label": "Contorno cadera",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      110,
+      116,
+      122,
+      128,
+      134,
+      140
+     ]
+    },
+    {
+     "label": "Largo",
+     "canonical": "otro",
+     "values": [
+      108,
+      110,
+      112,
+      114,
+      116,
+      118
+     ]
+    },
+    {
+     "label": "Contorno ruedo",
+     "canonical": "ruedo_o_cadera",
+     "values": [
+      172,
+      180,
+      188,
+      196,
+      204,
+      212
+     ]
+    }
+   ]
+  }
+ ]
+}

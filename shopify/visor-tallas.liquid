@@ -1,0 +1,199 @@
+{%- comment -%}
+  Sección: Encuentra tu talla
+  Añádela en la plantilla de producto (Editor de temas → Producto → Añadir sección).
+  El visor vive en otro dominio (Vercel); aquí solo lo abrimos en un diálogo.
+{%- endcomment -%}
+
+{%- liquid
+  assign viewer = section.settings.launch_url | default: 'https://tallas.mondano.cl'
+  assign viewer_url = viewer | append: '?sku=' | append: product.handle
+  assign size_index = 0
+  for option in product.options_with_values
+    if option.name == 'Talla' or option.name == 'Tamaño'
+      assign size_index = forloop.index0
+    endif
+  endfor
+-%}
+
+<div class="visor-root" id="visor-{{ section.id }}">
+
+  <button type="button" class="visor-btn" data-visor-open>
+    <span class="visor-btn__icon" aria-hidden="true">↔</span>
+    <span>{{ section.settings.label }}</span>
+    <span class="visor-btn__arrow" aria-hidden="true">→</span>
+  </button>
+  {%- if section.settings.hint != blank -%}
+    <p class="visor-hint">{{ section.settings.hint }}</p>
+  {%- endif -%}
+
+  <dialog class="visor-dialog" data-visor-dialog aria-label="{{ section.settings.label | escape }}">
+    <div class="visor-dialog__head">
+      <span class="visor-dialog__title">{{ product.title | escape }}</span>
+      <button type="button" class="visor-dialog__close" data-visor-close aria-label="Cerrar">✕</button>
+    </div>
+    <iframe
+      class="visor-dialog__frame"
+      data-visor-frame
+      title="{{ section.settings.label | escape }}"
+      loading="lazy"
+      allow="clipboard-write"
+    ></iframe>
+  </dialog>
+
+  {%- comment -%} Mapa talla → variant id (la talla es la primera opción en este catálogo) {%- endcomment -%}
+  <script type="application/json" data-visor-variants>
+    {
+      {%- for v in product.variants -%}
+        {%- case size_index -%}
+          {%- when 0 -%}{{ v.option1 | json }}
+          {%- when 1 -%}{{ v.option2 | json }}
+          {%- else -%}{{ v.option3 | json }}
+        {%- endcase -%}
+        : {{ v.id }}{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    }
+  </script>
+
+  <script>
+    (function () {
+      var root = document.getElementById('visor-{{ section.id }}');
+      if (!root) return;
+
+      var dlg = root.querySelector('[data-visor-dialog]');
+      var frame = root.querySelector('[data-visor-frame]');
+      var url = {{ viewer_url | json }};
+      var variants = {};
+      try { variants = JSON.parse(root.querySelector('[data-visor-variants]').textContent); } catch (e) {}
+
+      function track(event) {
+        (window.dataLayer = window.dataLayer || []).push({
+          event: event,
+          product: {{ product.handle | json }}
+        });
+      }
+
+      function open() {
+        if (!frame.getAttribute('src')) frame.setAttribute('src', url);
+        if (dlg.showModal) { dlg.showModal(); } else { dlg.setAttribute('open', ''); }
+        document.documentElement.style.overflow = 'hidden';
+        track('size_guide_open');
+      }
+
+      function close() {
+        if (dlg.close) { dlg.close(); } else { dlg.removeAttribute('open'); }
+        document.documentElement.style.overflow = '';
+      }
+
+      function selectVariant(size) {
+        var id = variants[size];
+        if (!id) return;
+
+        // Tema con <select name="id">
+        var select = document.querySelector('form[action*="/cart/add"] select[name="id"]') ||
+                     document.querySelector('select[name="id"]');
+        if (select) {
+          select.value = String(id);
+          select.dispatchEvent(new Event('change', { bubbles: true }));
+        } else {
+          // Tema con radios
+          var radio = document.querySelector('input[name="id"][value="' + id + '"]');
+          if (radio) radio.click();
+        }
+
+        try {
+          var u = new URL(location.href);
+          u.searchParams.set('variant', id);
+          history.replaceState({}, '', u);
+        } catch (e) {}
+
+        track('size_selected');
+      }
+
+      root.querySelectorAll('[data-visor-open]').forEach(function (b) {
+        b.addEventListener('click', open);
+      });
+      root.querySelectorAll('[data-visor-close]').forEach(function (b) {
+        b.addEventListener('click', close);
+      });
+
+      dlg.addEventListener('click', function (e) { if (e.target === dlg) close(); });
+      dlg.addEventListener('cancel', function () { document.documentElement.style.overflow = ''; });
+
+      window.addEventListener('message', function (e) {
+        if (!e.data) return;
+        if (e.data.type === 'mondano:close') close();
+        if (e.data.type === 'mondano:size') selectVariant(e.data.size);
+      });
+    })();
+  </script>
+
+  <style>
+    .visor-btn {
+      display: flex; align-items: center; gap: 10px; width: 100%;
+      padding: 14px 16px; border: 1px solid currentColor; border-radius: 10px;
+      background: transparent; color: inherit; font: inherit; font-size: 14px; font-weight: 600;
+      cursor: pointer; text-align: left; transition: background .15s, color .15s;
+    }
+    .visor-btn:hover { background: rgba(0, 0, 0, .04); }
+    .visor-btn:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+    .visor-btn__icon { font-size: 16px; opacity: .7; }
+    .visor-btn__arrow { margin-left: auto; opacity: .6; }
+    .visor-hint { margin: 8px 0 0; font-size: 11.5px; opacity: .65; text-align: center; }
+
+    .visor-dialog {
+      padding: 0; border: 0; border-radius: 16px; width: min(960px, 100vw);
+      max-width: 100vw; max-height: 100dvh; background: #faf6f2; overflow: hidden;
+    }
+    .visor-dialog::backdrop { background: rgba(20, 18, 24, .55); }
+    .visor-dialog__head {
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      padding: 12px 14px; border-bottom: 1px solid #ebe2d9; background: #fff;
+    }
+    .visor-dialog__title {
+      font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .visor-dialog__close {
+      flex: 0 0 auto; width: 34px; height: 34px; border: 1px solid #ebe2d9; border-radius: 9px;
+      background: #fff; font-size: 15px; line-height: 1; cursor: pointer;
+    }
+    .visor-dialog__frame { display: block; width: 100%; height: min(88dvh, 860px); border: 0; }
+
+    @media (max-width: 820px) {
+      .visor-dialog {
+        width: 100vw; height: 100dvh; max-height: 100dvh; border-radius: 0; margin: 0;
+      }
+      .visor-dialog__frame { height: calc(100dvh - 59px); }
+    }
+  </style>
+</div>
+
+{% schema %}
+{
+  "name": "Visor de talla",
+  "settings": [
+    {
+      "type": "text",
+      "id": "launch_url",
+      "label": "URL del visor",
+      "default": "https://tallas.mondano.cl",
+      "info": "Dominio en Vercel donde está desplegado el visor."
+    },
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Texto del botón",
+      "default": "Encuentra tu talla"
+    },
+    {
+      "type": "text",
+      "id": "hint",
+      "label": "Texto de ayuda",
+      "default": "Sin salir de la ficha · no se guardan tus datos"
+    }
+  ],
+  "presets": [
+    { "name": "Visor de talla" }
+  ]
+}
+{% endschema %}

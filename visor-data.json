@@ -1,0 +1,4572 @@
+{
+ "generated_at": "2026-11-09T01:05:30.827000+00:00",
+ "note": "Tablas normalizadas a 4 puntos (pecho, manga, talle, ruedo). Fuente: guías transcritas desde las descripciones de producto.",
+ "count": 83,
+ "products": [
+  {
+   "sku": "chiporro-brown",
+   "title": "Abrigo - CREAM",
+   "type": "Abrigo",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 110,
+     "sleeve": 52,
+     "talle": 76,
+     "hem": 110
+    },
+    {
+     "id": "S",
+     "chest": 114,
+     "sleeve": 54,
+     "talle": 78,
+     "hem": 114
+    },
+    {
+     "id": "M",
+     "chest": 118,
+     "sleeve": 56,
+     "talle": 80,
+     "hem": 118
+    },
+    {
+     "id": "L",
+     "chest": 122,
+     "sleeve": 58,
+     "talle": 82,
+     "hem": 122
+    },
+    {
+     "id": "XL",
+     "chest": 126,
+     "sleeve": 60,
+     "talle": 84,
+     "hem": 126
+    },
+    {
+     "id": "XXL",
+     "chest": 130,
+     "sleeve": 62,
+     "talle": 86,
+     "hem": 130
+    }
+   ],
+   "source": "8560944218335_0.jpg"
+  },
+  {
+   "sku": "abrigo-tedd-a-cuadros",
+   "title": "Abrigo - Tedd a Cuadros",
+   "type": "Abrigo",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 60,
+     "talle": 84,
+     "hem": 112
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 61,
+     "talle": 86,
+     "hem": 116
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 62,
+     "talle": 88,
+     "hem": 120
+    },
+    {
+     "id": "L",
+     "chest": 112,
+     "sleeve": 63,
+     "talle": 90,
+     "hem": 124
+    },
+    {
+     "id": "XL",
+     "chest": 116,
+     "sleeve": 64,
+     "talle": 92,
+     "hem": 128
+    },
+    {
+     "id": "XXL",
+     "chest": 120,
+     "sleeve": 65,
+     "talle": 94,
+     "hem": 132
+    }
+   ],
+   "source": "9315660726495_0.jpg"
+  },
+  {
+   "sku": "abrigo-zebra-teddy-coat",
+   "title": "Abrigo - Zebra Teddy Coat",
+   "type": "Abrigo",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 60,
+     "talle": 84,
+     "hem": 112
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 61,
+     "talle": 86,
+     "hem": 116
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 62,
+     "talle": 88,
+     "hem": 120
+    },
+    {
+     "id": "L",
+     "chest": 112,
+     "sleeve": 63,
+     "talle": 90,
+     "hem": 124
+    },
+    {
+     "id": "XL",
+     "chest": 116,
+     "sleeve": 64,
+     "talle": 92,
+     "hem": 128
+    },
+    {
+     "id": "XXL",
+     "chest": 120,
+     "sleeve": 65,
+     "talle": 94,
+     "hem": 132
+    }
+   ],
+   "source": "9315663708383_0.jpg"
+  },
+  {
+   "sku": "camisa-boho-arena-mao",
+   "title": "Camisa - BOHO ARENA MAO",
+   "type": "Camisa",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 110,
+     "sleeve": 62,
+     "talle": 64,
+     "hem": 106
+    },
+    {
+     "id": "S",
+     "chest": 114,
+     "sleeve": 63,
+     "talle": 66,
+     "hem": 110
+    },
+    {
+     "id": "M",
+     "chest": 118,
+     "sleeve": 64,
+     "talle": 68,
+     "hem": 114
+    },
+    {
+     "id": "L",
+     "chest": 122,
+     "sleeve": 65,
+     "talle": 70,
+     "hem": 118
+    },
+    {
+     "id": "XL",
+     "chest": 126,
+     "sleeve": 66,
+     "talle": 72,
+     "hem": 122
+    },
+    {
+     "id": "XXL",
+     "chest": 130,
+     "sleeve": 67,
+     "talle": 74,
+     "hem": 126
+    }
+   ],
+   "source": "9157106467039_0.jpg"
+  },
+  {
+   "sku": "camisa-celeste-mao-costera",
+   "title": "Camisa - CELESTE MAO COSTERA",
+   "type": "Camisa",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 110,
+     "sleeve": 62,
+     "talle": 64,
+     "hem": 106
+    },
+    {
+     "id": "S",
+     "chest": 114,
+     "sleeve": 63,
+     "talle": 66,
+     "hem": 110
+    },
+    {
+     "id": "M",
+     "chest": 118,
+     "sleeve": 64,
+     "talle": 68,
+     "hem": 114
+    },
+    {
+     "id": "L",
+     "chest": 122,
+     "sleeve": 65,
+     "talle": 70,
+     "hem": 118
+    },
+    {
+     "id": "XL",
+     "chest": 126,
+     "sleeve": 66,
+     "talle": 72,
+     "hem": 122
+    },
+    {
+     "id": "XXL",
+     "chest": 130,
+     "sleeve": 67,
+     "talle": 74,
+     "hem": 126
+    }
+   ],
+   "source": "9157115281631_0.jpg"
+  },
+  {
+   "sku": "casaca-capucha-poleron",
+   "title": "Casaca - CAPUCHA POLERON",
+   "type": "Casaca",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 116,
+     "sleeve": 62,
+     "talle": 68,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 122,
+     "sleeve": 64,
+     "talle": 72,
+     "hem": 114
+    },
+    {
+     "id": "M",
+     "chest": 130,
+     "sleeve": 66,
+     "talle": 76,
+     "hem": 120
+    },
+    {
+     "id": "L",
+     "chest": 136,
+     "sleeve": 68,
+     "talle": 80,
+     "hem": 126
+    },
+    {
+     "id": "XL",
+     "chest": 142,
+     "sleeve": 70,
+     "talle": 84,
+     "hem": 132
+    },
+    {
+     "id": "XXL",
+     "chest": 148,
+     "sleeve": 72,
+     "talle": 88,
+     "hem": 148
+    }
+   ],
+   "source": "7779217244383_0.jpg"
+  },
+  {
+   "sku": "casaca-mondano-collor",
+   "title": "Casaca - Impermeable Collor con Forro Thermaflecee",
+   "type": "Casaca",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 116,
+     "sleeve": 62,
+     "talle": 68,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 122,
+     "sleeve": 64,
+     "talle": 72,
+     "hem": 114
+    },
+    {
+     "id": "M",
+     "chest": 130,
+     "sleeve": 66,
+     "talle": 76,
+     "hem": 120
+    },
+    {
+     "id": "L",
+     "chest": 136,
+     "sleeve": 68,
+     "talle": 80,
+     "hem": 126
+    },
+    {
+     "id": "XL",
+     "chest": 142,
+     "sleeve": 70,
+     "talle": 84,
+     "hem": 132
+    },
+    {
+     "id": "XXL",
+     "chest": 148,
+     "sleeve": 72,
+     "talle": 88,
+     "hem": 148
+    }
+   ],
+   "source": "7785155494111_0.jpg"
+  },
+  {
+   "sku": "casaca-impermeable-wintertrainer",
+   "title": "Casaca - IMPERMEABLE WINTERTRAINER",
+   "type": "Casaca",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 120,
+     "sleeve": 63,
+     "talle": 77,
+     "hem": 116
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 65,
+     "talle": 79,
+     "hem": 120
+    },
+    {
+     "id": "M",
+     "chest": 128,
+     "sleeve": 67,
+     "talle": 81,
+     "hem": 124
+    },
+    {
+     "id": "L",
+     "chest": 132,
+     "sleeve": 69,
+     "talle": 83,
+     "hem": 128
+    },
+    {
+     "id": "XL",
+     "chest": 136,
+     "sleeve": 71,
+     "talle": 85,
+     "hem": 132
+    },
+    {
+     "id": "XXL",
+     "chest": 140,
+     "sleeve": 73,
+     "talle": 87,
+     "hem": 136
+    }
+   ],
+   "source": "9036247597279_0.jpg"
+  },
+  {
+   "sku": "casaca-impermeable-wintertrainer-edicion-limitada",
+   "title": "Casaca - IMPERMEABLE WINTERTRAINER",
+   "type": "Casaca",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 120,
+     "sleeve": 63,
+     "talle": 77,
+     "hem": 116
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 65,
+     "talle": 79,
+     "hem": 120
+    },
+    {
+     "id": "M",
+     "chest": 128,
+     "sleeve": 67,
+     "talle": 81,
+     "hem": 124
+    },
+    {
+     "id": "L",
+     "chest": 132,
+     "sleeve": 69,
+     "talle": 83,
+     "hem": 128
+    },
+    {
+     "id": "XL",
+     "chest": 136,
+     "sleeve": 71,
+     "talle": 85,
+     "hem": 132
+    },
+    {
+     "id": "XXL",
+     "chest": 140,
+     "sleeve": 73,
+     "talle": 87,
+     "hem": 136
+    }
+   ],
+   "source": "9269382119647_0.jpg"
+  },
+  {
+   "sku": "casaca-velvet-fur",
+   "title": "Casaca - Mujer - Velvet Fur",
+   "type": "Casaca",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 120,
+     "sleeve": 63,
+     "talle": 77,
+     "hem": 116
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 65,
+     "talle": 79,
+     "hem": 120
+    },
+    {
+     "id": "M",
+     "chest": 128,
+     "sleeve": 67,
+     "talle": 81,
+     "hem": 124
+    },
+    {
+     "id": "L",
+     "chest": 132,
+     "sleeve": 69,
+     "talle": 83,
+     "hem": 128
+    },
+    {
+     "id": "XL",
+     "chest": 136,
+     "sleeve": 71,
+     "talle": 85,
+     "hem": 132
+    },
+    {
+     "id": "XXL",
+     "chest": 140,
+     "sleeve": 73,
+     "talle": 87,
+     "hem": 136
+    }
+   ],
+   "source": "9361582555359_0.jpg"
+  },
+  {
+   "sku": "wind-jacket",
+   "title": "Casaca - WIND JACKET",
+   "type": "Casaca",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 116,
+     "sleeve": 62,
+     "talle": 68,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 122,
+     "sleeve": 64,
+     "talle": 72,
+     "hem": 114
+    },
+    {
+     "id": "M",
+     "chest": 130,
+     "sleeve": 66,
+     "talle": 76,
+     "hem": 120
+    },
+    {
+     "id": "L",
+     "chest": 136,
+     "sleeve": 68,
+     "talle": 80,
+     "hem": 126
+    },
+    {
+     "id": "XL",
+     "chest": 142,
+     "sleeve": 70,
+     "talle": 84,
+     "hem": 132
+    },
+    {
+     "id": "XXL",
+     "chest": 148,
+     "sleeve": 72,
+     "talle": 88,
+     "hem": 136
+    }
+   ],
+   "source": "9096587215071_0.jpg"
+  },
+  {
+   "sku": "casaca-o-parka-colour-block",
+   "title": "Casaca/Parka - COLOUR BLOCK",
+   "type": "Casaca/Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 114,
+     "sleeve": 60,
+     "talle": 65,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 118,
+     "sleeve": 61,
+     "talle": 66,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 122,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 116
+    },
+    {
+     "id": "L",
+     "chest": 126,
+     "sleeve": 63,
+     "talle": 68,
+     "hem": 120
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 134,
+     "sleeve": 65,
+     "talle": 70,
+     "hem": 128
+    }
+   ],
+   "source": "8592327377119_0.jpg"
+  },
+  {
+   "sku": "casaca-o-parka-iconic-calypso",
+   "title": "Casaca/Parka - ICONIC CALYPSO",
+   "type": "Casaca/Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 114,
+     "sleeve": 60,
+     "talle": 65,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 118,
+     "sleeve": 61,
+     "talle": 66,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 122,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 116
+    },
+    {
+     "id": "L",
+     "chest": 126,
+     "sleeve": 63,
+     "talle": 68,
+     "hem": 120
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 134,
+     "sleeve": 65,
+     "talle": 70,
+     "hem": 128
+    }
+   ],
+   "source": "8592286384351_0.jpg"
+  },
+  {
+   "sku": "casaca-o-parka-iconic-pink",
+   "title": "Casaca/Parka - ICONIC PINK",
+   "type": "Casaca/Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 114,
+     "sleeve": 60,
+     "talle": 65,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 118,
+     "sleeve": 61,
+     "talle": 66,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 122,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 116
+    },
+    {
+     "id": "L",
+     "chest": 126,
+     "sleeve": 63,
+     "talle": 68,
+     "hem": 120
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 134,
+     "sleeve": 65,
+     "talle": 70,
+     "hem": 128
+    }
+   ],
+   "source": "8571124613343_0.jpg"
+  },
+  {
+   "sku": "casaca-o-parka-iconic-purple",
+   "title": "Casaca/Parka - ICONIC PURPLE",
+   "type": "Casaca/Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 114,
+     "sleeve": 60,
+     "talle": 65,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 118,
+     "sleeve": 61,
+     "talle": 66,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 122,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 116
+    },
+    {
+     "id": "L",
+     "chest": 126,
+     "sleeve": 63,
+     "talle": 68,
+     "hem": 120
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 134,
+     "sleeve": 65,
+     "talle": 70,
+     "hem": 128
+    }
+   ],
+   "source": "8571096367327_0.jpg"
+  },
+  {
+   "sku": "casaca-o-parka-iconic-yellow",
+   "title": "Casaca/Parka - ICONIC YELLOW",
+   "type": "Casaca/Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 114,
+     "sleeve": 60,
+     "talle": 65,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 118,
+     "sleeve": 61,
+     "talle": 66,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 122,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 116
+    },
+    {
+     "id": "L",
+     "chest": 126,
+     "sleeve": 63,
+     "talle": 68,
+     "hem": 120
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 134,
+     "sleeve": 65,
+     "talle": 70,
+     "hem": 128
+    }
+   ],
+   "source": "8569716572383_0.jpg"
+  },
+  {
+   "sku": "chaqueta-la-black-fur",
+   "title": "Chaqueta - la Black Fur",
+   "type": "Chaqueta",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 108,
+     "sleeve": 56,
+     "talle": 56,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 112,
+     "sleeve": 58,
+     "talle": 58,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 116,
+     "sleeve": 60,
+     "talle": 60,
+     "hem": 116
+    },
+    {
+     "id": "L",
+     "chest": 120,
+     "sleeve": 62,
+     "talle": 62,
+     "hem": 120
+    },
+    {
+     "id": "XL",
+     "chest": 124,
+     "sleeve": 64,
+     "talle": 64,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 128,
+     "sleeve": 66,
+     "talle": 66,
+     "hem": 128
+    }
+   ],
+   "source": "9315649224927_0.jpg"
+  },
+  {
+   "sku": "conjunto-abstract-flowers",
+   "title": "Conjunto - ABSTRACT FLOWERS",
+   "type": "Conjunto",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 92,
+     "sleeve": 23,
+     "talle": 44,
+     "hem": 82
+    },
+    {
+     "id": "S",
+     "chest": 96,
+     "sleeve": 24,
+     "talle": 46,
+     "hem": 86
+    },
+    {
+     "id": "M",
+     "chest": 100,
+     "sleeve": 25,
+     "talle": 48,
+     "hem": 90
+    },
+    {
+     "id": "L",
+     "chest": 104,
+     "sleeve": 26,
+     "talle": 50,
+     "hem": 94
+    },
+    {
+     "id": "XL",
+     "chest": 108,
+     "sleeve": 27,
+     "talle": 52,
+     "hem": 98
+    },
+    {
+     "id": "XXL",
+     "chest": 112,
+     "sleeve": 28,
+     "talle": 54,
+     "hem": 102
+    }
+   ],
+   "source": "8922902429919_0.jpg"
+  },
+  {
+   "sku": "conjunto-cargo-wind",
+   "title": "Conjunto - CARGO WIND",
+   "type": "Conjunto",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 114,
+     "sleeve": 64,
+     "talle": 64,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 118,
+     "sleeve": 66,
+     "talle": 66,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 122,
+     "sleeve": 68,
+     "talle": 68,
+     "hem": 116
+    },
+    {
+     "id": "L",
+     "chest": 126,
+     "sleeve": 70,
+     "talle": 70,
+     "hem": 120
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 72,
+     "talle": 72,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 134,
+     "sleeve": 74,
+     "talle": 74,
+     "hem": 128
+    }
+   ],
+   "source": "9035017224415_0.jpg"
+  },
+  {
+   "sku": "conjunto-crop-top",
+   "title": "Conjunto - CROP TOP",
+   "type": "Conjunto",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 118,
+     "sleeve": 67,
+     "talle": 46,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 122,
+     "sleeve": 69,
+     "talle": 48,
+     "hem": 104
+    },
+    {
+     "id": "M",
+     "chest": 126,
+     "sleeve": 71,
+     "talle": 50,
+     "hem": 108
+    },
+    {
+     "id": "L",
+     "chest": 130,
+     "sleeve": 73,
+     "talle": 52,
+     "hem": 112
+    },
+    {
+     "id": "XL",
+     "chest": 134,
+     "sleeve": 75,
+     "talle": 54,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 138,
+     "sleeve": 77,
+     "talle": 56,
+     "hem": 120
+    }
+   ],
+   "source": "9035036885215_0.jpg"
+  },
+  {
+   "sku": "fucsia-bold",
+   "title": "Conjunto - FUCSIA BOLD",
+   "type": "Conjunto",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 106,
+     "sleeve": 50,
+     "talle": 56,
+     "hem": 106
+    },
+    {
+     "id": "S",
+     "chest": 112,
+     "sleeve": 52,
+     "talle": 59,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 118,
+     "sleeve": 55,
+     "talle": 62,
+     "hem": 118
+    },
+    {
+     "id": "L",
+     "chest": 124,
+     "sleeve": 57,
+     "talle": 65,
+     "hem": 124
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 58,
+     "talle": 68,
+     "hem": 130
+    },
+    {
+     "id": "XXL",
+     "chest": 136,
+     "sleeve": 60,
+     "talle": 72,
+     "hem": 136
+    }
+   ],
+   "source": "9162128818399_0.jpg"
+  },
+  {
+   "sku": "conjunto-multicolor-1",
+   "title": "Conjunto - NEW COLORFUL",
+   "type": "Conjunto",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 104,
+     "sleeve": 60,
+     "talle": 64,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 108,
+     "sleeve": 62,
+     "talle": 66,
+     "hem": 104
+    },
+    {
+     "id": "M",
+     "chest": 112,
+     "sleeve": 64,
+     "talle": 68,
+     "hem": 108
+    },
+    {
+     "id": "L",
+     "chest": 116,
+     "sleeve": 66,
+     "talle": 70,
+     "hem": 112
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 68,
+     "talle": 72,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 124,
+     "sleeve": 70,
+     "talle": 74,
+     "hem": 120
+    }
+   ],
+   "source": "7891383714015_0.jpg"
+  },
+  {
+   "sku": "conjunto-casual",
+   "title": "Conjunto - Unisex - CASUAL",
+   "type": "Conjunto",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 104,
+     "sleeve": 60,
+     "talle": 64,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 108,
+     "sleeve": 62,
+     "talle": 66,
+     "hem": 104
+    },
+    {
+     "id": "M",
+     "chest": 112,
+     "sleeve": 64,
+     "talle": 68,
+     "hem": 108
+    },
+    {
+     "id": "L",
+     "chest": 116,
+     "sleeve": 66,
+     "talle": 70,
+     "hem": 112
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 68,
+     "talle": 72,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 124,
+     "sleeve": 70,
+     "talle": 74,
+     "hem": 120
+    }
+   ],
+   "source": "7891130384607_0.jpg"
+  },
+  {
+   "sku": "conjunto-multicolor",
+   "title": "Conjunto - Unisex - MULTICOLOR",
+   "type": "Conjunto",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 104,
+     "sleeve": 60,
+     "talle": 64,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 108,
+     "sleeve": 62,
+     "talle": 66,
+     "hem": 104
+    },
+    {
+     "id": "M",
+     "chest": 112,
+     "sleeve": 64,
+     "talle": 68,
+     "hem": 108
+    },
+    {
+     "id": "L",
+     "chest": 116,
+     "sleeve": 66,
+     "talle": 70,
+     "hem": 112
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 68,
+     "talle": 72,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 124,
+     "sleeve": 70,
+     "talle": 74,
+     "hem": 120
+    }
+   ],
+   "source": "7891370541279_0.jpg"
+  },
+  {
+   "sku": "conjunto-comfy-urbano",
+   "title": "Conjunto Comfy Urbano",
+   "type": "",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 98
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 102
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 66,
+     "talle": 71,
+     "hem": 106
+    },
+    {
+     "id": "L",
+     "chest": 114,
+     "sleeve": 68,
+     "talle": 73,
+     "hem": 110
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 75,
+     "hem": 114
+    },
+    {
+     "id": "XXL",
+     "chest": 126,
+     "sleeve": 72,
+     "talle": 77,
+     "hem": 118
+    }
+   ],
+   "source": "15491931635935_0.jpg"
+  },
+  {
+   "sku": "cortaviento-ashes",
+   "title": "Cortaviento - ASHES",
+   "type": "Cortaviento",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 118,
+     "sleeve": 74,
+     "talle": 63,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 76,
+     "talle": 65,
+     "hem": 106
+    },
+    {
+     "id": "M",
+     "chest": 130,
+     "sleeve": 78,
+     "talle": 67,
+     "hem": 112
+    },
+    {
+     "id": "L",
+     "chest": 136,
+     "sleeve": 80,
+     "talle": 69,
+     "hem": 118
+    },
+    {
+     "id": "XL",
+     "chest": 142,
+     "sleeve": 82,
+     "talle": 71,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 148,
+     "sleeve": 84,
+     "talle": 73,
+     "hem": 128
+    }
+   ],
+   "source": "8090313162975_0.jpg"
+  },
+  {
+   "sku": "cortaviento-color-block-expedition",
+   "title": "Cortaviento - COLOR BLOCK EXPEDITION",
+   "type": "Cortaviento",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 116,
+     "sleeve": 60,
+     "talle": 56,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 122,
+     "sleeve": 62,
+     "talle": 58,
+     "hem": 114
+    },
+    {
+     "id": "M",
+     "chest": 130,
+     "sleeve": 64,
+     "talle": 60,
+     "hem": 120
+    },
+    {
+     "id": "L",
+     "chest": 136,
+     "sleeve": 66,
+     "talle": 62,
+     "hem": 126
+    },
+    {
+     "id": "XL",
+     "chest": 142,
+     "sleeve": 68,
+     "talle": 64,
+     "hem": 132
+    },
+    {
+     "id": "XXL",
+     "chest": 148,
+     "sleeve": 70,
+     "talle": 66,
+     "hem": 136
+    }
+   ],
+   "source": "8103820886239_0.jpg"
+  },
+  {
+   "sku": "cortaviento-women-crop-lavender",
+   "title": "Cortaviento - CROP LAVENDER",
+   "type": "Cortaviento",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 118,
+     "sleeve": 67,
+     "talle": 46,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 122,
+     "sleeve": 69,
+     "talle": 48,
+     "hem": 104
+    },
+    {
+     "id": "M",
+     "chest": 126,
+     "sleeve": 71,
+     "talle": 50,
+     "hem": 108
+    },
+    {
+     "id": "L",
+     "chest": 130,
+     "sleeve": 73,
+     "talle": 52,
+     "hem": 112
+    },
+    {
+     "id": "XL",
+     "chest": 134,
+     "sleeve": 75,
+     "talle": 54,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 138,
+     "sleeve": 77,
+     "talle": 56,
+     "hem": 120
+    }
+   ],
+   "source": "8094905565407_0.jpg"
+  },
+  {
+   "sku": "cortaviento-women-crop-pinkadelic",
+   "title": "Cortaviento - CROP PINKADELIC",
+   "type": "Cortaviento",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 118,
+     "sleeve": 67,
+     "talle": 46,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 122,
+     "sleeve": 69,
+     "talle": 48,
+     "hem": 104
+    },
+    {
+     "id": "M",
+     "chest": 126,
+     "sleeve": 71,
+     "talle": 50,
+     "hem": 108
+    },
+    {
+     "id": "L",
+     "chest": 130,
+     "sleeve": 73,
+     "talle": 52,
+     "hem": 112
+    },
+    {
+     "id": "XL",
+     "chest": 134,
+     "sleeve": 75,
+     "talle": 54,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 138,
+     "sleeve": 77,
+     "talle": 56,
+     "hem": 120
+    }
+   ],
+   "source": "8098990096607_0.jpg"
+  },
+  {
+   "sku": "fuchsia-urban-windbreaker",
+   "title": "Cortaviento - Fuchsia Urban",
+   "type": "Cortaviento",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 122,
+     "sleeve": 65,
+     "talle": 68,
+     "hem": 122
+    },
+    {
+     "id": "S",
+     "chest": 126,
+     "sleeve": 66,
+     "talle": 70,
+     "hem": 126
+    },
+    {
+     "id": "M",
+     "chest": 130,
+     "sleeve": 67,
+     "talle": 72,
+     "hem": 130
+    },
+    {
+     "id": "L",
+     "chest": 134,
+     "sleeve": 68,
+     "talle": 74,
+     "hem": 134
+    },
+    {
+     "id": "XL",
+     "chest": 138,
+     "sleeve": 69,
+     "talle": 76,
+     "hem": 138
+    },
+    {
+     "id": "XXL",
+     "chest": 142,
+     "sleeve": 70,
+     "talle": 78,
+     "hem": 142
+    }
+   ],
+   "source": "7438315225311_0.jpg"
+  },
+  {
+   "sku": "cortaviento-orange-spring-trend",
+   "title": "Cortaviento - Orange Spring Trend",
+   "type": "Cortaviento",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 118,
+     "sleeve": 74,
+     "talle": 68,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 76,
+     "talle": 70,
+     "hem": 106
+    },
+    {
+     "id": "M",
+     "chest": 130,
+     "sleeve": 78,
+     "talle": 72,
+     "hem": 112
+    },
+    {
+     "id": "L",
+     "chest": 136,
+     "sleeve": 80,
+     "talle": 74,
+     "hem": 118
+    },
+    {
+     "id": "XL",
+     "chest": 142,
+     "sleeve": 82,
+     "talle": 76,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 148,
+     "sleeve": 84,
+     "talle": 78,
+     "hem": 128
+    }
+   ],
+   "source": "7438328398047_0.jpg"
+  },
+  {
+   "sku": "pistachio-beach-windbreaker",
+   "title": "Cortaviento - Pistachio Beach",
+   "type": "Cortaviento",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 120,
+     "sleeve": 63,
+     "talle": 77,
+     "hem": 116
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 65,
+     "talle": 79,
+     "hem": 120
+    },
+    {
+     "id": "M",
+     "chest": 128,
+     "sleeve": 67,
+     "talle": 81,
+     "hem": 124
+    },
+    {
+     "id": "L",
+     "chest": 132,
+     "sleeve": 69,
+     "talle": 83,
+     "hem": 128
+    },
+    {
+     "id": "XL",
+     "chest": 136,
+     "sleeve": 71,
+     "talle": 85,
+     "hem": 132
+    },
+    {
+     "id": "XXL",
+     "chest": 140,
+     "sleeve": 73,
+     "talle": 87,
+     "hem": 136
+    }
+   ],
+   "source": "8826623721695_0.jpg"
+  },
+  {
+   "sku": "cortaviento-pistachio-spring-trend",
+   "title": "Cortaviento - Pistachio Spring Trend",
+   "type": "Cortaviento",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 118,
+     "sleeve": 74,
+     "talle": 68,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 76,
+     "talle": 70,
+     "hem": 106
+    },
+    {
+     "id": "M",
+     "chest": 130,
+     "sleeve": 78,
+     "talle": 72,
+     "hem": 112
+    },
+    {
+     "id": "L",
+     "chest": 136,
+     "sleeve": 80,
+     "talle": 74,
+     "hem": 118
+    },
+    {
+     "id": "XL",
+     "chest": 142,
+     "sleeve": 82,
+     "talle": 76,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 148,
+     "sleeve": 84,
+     "talle": 78,
+     "hem": 128
+    }
+   ],
+   "source": "7438325285087_0.jpg"
+  },
+  {
+   "sku": "cortaviento-purple-spring-trend",
+   "title": "Cortaviento - Purple Spring Trend",
+   "type": "Cortaviento",
+   "base": "M",
+   "color": null,
+   "palette": "hero",
+   "ease": 30,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 118,
+     "sleeve": 74,
+     "talle": 68,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 76,
+     "talle": 70,
+     "hem": 106
+    },
+    {
+     "id": "M",
+     "chest": 130,
+     "sleeve": 78,
+     "talle": 72,
+     "hem": 112
+    },
+    {
+     "id": "L",
+     "chest": 136,
+     "sleeve": 80,
+     "talle": 74,
+     "hem": 118
+    },
+    {
+     "id": "XL",
+     "chest": 142,
+     "sleeve": 82,
+     "talle": 76,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 148,
+     "sleeve": 84,
+     "talle": 78,
+     "hem": 128
+    }
+   ],
+   "source": "7438330069215_0.jpg"
+  },
+  {
+   "sku": "purple-urban-windbreaker",
+   "title": "Cortaviento - Purple Urban",
+   "type": "Cortaviento",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 122,
+     "sleeve": 65,
+     "talle": 68,
+     "hem": 122
+    },
+    {
+     "id": "S",
+     "chest": 126,
+     "sleeve": 66,
+     "talle": 70,
+     "hem": 126
+    },
+    {
+     "id": "M",
+     "chest": 130,
+     "sleeve": 67,
+     "talle": 72,
+     "hem": 130
+    },
+    {
+     "id": "L",
+     "chest": 134,
+     "sleeve": 68,
+     "talle": 74,
+     "hem": 134
+    },
+    {
+     "id": "XL",
+     "chest": 138,
+     "sleeve": 69,
+     "talle": 76,
+     "hem": 138
+    },
+    {
+     "id": "XXL",
+     "chest": 142,
+     "sleeve": 70,
+     "talle": 78,
+     "hem": 142
+    }
+   ],
+   "source": "7438312112351_0.jpg"
+  },
+  {
+   "sku": "cortavientos-trail-traveler",
+   "title": "Cortaviento - Trail Traveler",
+   "type": "Cortaviento",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 106,
+     "sleeve": 56,
+     "talle": 74,
+     "hem": 110
+    },
+    {
+     "id": "S",
+     "chest": 110,
+     "sleeve": 58,
+     "talle": 76,
+     "hem": 114
+    },
+    {
+     "id": "M",
+     "chest": 114,
+     "sleeve": 60,
+     "talle": 78,
+     "hem": 118
+    },
+    {
+     "id": "L",
+     "chest": 118,
+     "sleeve": 62,
+     "talle": 80,
+     "hem": 122
+    },
+    {
+     "id": "XL",
+     "chest": 122,
+     "sleeve": 64,
+     "talle": 82,
+     "hem": 126
+    },
+    {
+     "id": "XXL",
+     "chest": 126,
+     "sleeve": 66,
+     "talle": 84,
+     "hem": 130
+    }
+   ],
+   "source": "8819135807711_0.jpg"
+  },
+  {
+   "sku": "cortaviento-vintage-1",
+   "title": "Cortaviento - VINTAGE",
+   "type": "Cortaviento",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 118,
+     "sleeve": 74,
+     "talle": 63,
+     "hem": 118
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 76,
+     "talle": 65,
+     "hem": 124
+    },
+    {
+     "id": "M",
+     "chest": 130,
+     "sleeve": 78,
+     "talle": 67,
+     "hem": 130
+    },
+    {
+     "id": "L",
+     "chest": 136,
+     "sleeve": 80,
+     "talle": 69,
+     "hem": 136
+    },
+    {
+     "id": "XL",
+     "chest": 142,
+     "sleeve": 82,
+     "talle": 71,
+     "hem": 142
+    },
+    {
+     "id": "XXL",
+     "chest": 148,
+     "sleeve": 84,
+     "talle": 73,
+     "hem": 148
+    }
+   ],
+   "source": "9035052187871_0.jpg"
+  },
+  {
+   "sku": "parka-allianz",
+   "title": "Parka - ALLIANZ",
+   "type": "Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 120,
+     "sleeve": 63,
+     "talle": 77,
+     "hem": 116
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 65,
+     "talle": 79,
+     "hem": 120
+    },
+    {
+     "id": "M",
+     "chest": 128,
+     "sleeve": 67,
+     "talle": 81,
+     "hem": 124
+    },
+    {
+     "id": "L",
+     "chest": 132,
+     "sleeve": 69,
+     "talle": 83,
+     "hem": 128
+    },
+    {
+     "id": "XL",
+     "chest": 136,
+     "sleeve": 71,
+     "talle": 85,
+     "hem": 132
+    },
+    {
+     "id": "XXL",
+     "chest": 140,
+     "sleeve": 73,
+     "talle": 87,
+     "hem": 136
+    }
+   ],
+   "source": "7599900950751_0.jpg"
+  },
+  {
+   "sku": "parka-blizzard",
+   "title": "Parka - Impermeable Blizzard Térmica",
+   "type": "Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 118,
+     "sleeve": 64,
+     "talle": 80,
+     "hem": 112
+    },
+    {
+     "id": "S",
+     "chest": 122,
+     "sleeve": 66,
+     "talle": 82,
+     "hem": 116
+    },
+    {
+     "id": "M",
+     "chest": 126,
+     "sleeve": 68,
+     "talle": 84,
+     "hem": 120
+    },
+    {
+     "id": "L",
+     "chest": 130,
+     "sleeve": 70,
+     "talle": 86,
+     "hem": 124
+    },
+    {
+     "id": "XL",
+     "chest": 134,
+     "sleeve": 72,
+     "talle": 88,
+     "hem": 128
+    },
+    {
+     "id": "XXL",
+     "chest": 138,
+     "sleeve": 74,
+     "talle": 90,
+     "hem": 132
+    }
+   ],
+   "source": "9341577265375_0.jpg"
+  },
+  {
+   "sku": "parka-jackdaw",
+   "title": "Parka - Impermeable Térmica Jackdaw",
+   "type": "Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 120,
+     "sleeve": 63,
+     "talle": 77,
+     "hem": 116
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 65,
+     "talle": 79,
+     "hem": 120
+    },
+    {
+     "id": "M",
+     "chest": 128,
+     "sleeve": 67,
+     "talle": 81,
+     "hem": 124
+    },
+    {
+     "id": "L",
+     "chest": 132,
+     "sleeve": 69,
+     "talle": 83,
+     "hem": 128
+    },
+    {
+     "id": "XL",
+     "chest": 136,
+     "sleeve": 71,
+     "talle": 85,
+     "hem": 132
+    },
+    {
+     "id": "XXL",
+     "chest": 140,
+     "sleeve": 73,
+     "talle": 87,
+     "hem": 136
+    }
+   ],
+   "source": "7438438596831_0.jpg"
+  },
+  {
+   "sku": "parka-impermeable-rainproof-purple",
+   "title": "Parka - Impermeable Térmica Rainproof Purple",
+   "type": "Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 116,
+     "sleeve": 62,
+     "talle": 68,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 122,
+     "sleeve": 64,
+     "talle": 72,
+     "hem": 114
+    },
+    {
+     "id": "M",
+     "chest": 130,
+     "sleeve": 66,
+     "talle": 76,
+     "hem": 120
+    },
+    {
+     "id": "L",
+     "chest": 136,
+     "sleeve": 68,
+     "talle": 80,
+     "hem": 126
+    },
+    {
+     "id": "XL",
+     "chest": 142,
+     "sleeve": 70,
+     "talle": 84,
+     "hem": 132
+    },
+    {
+     "id": "XXL",
+     "chest": 148,
+     "sleeve": 72,
+     "talle": 88,
+     "hem": 136
+    }
+   ],
+   "source": "7641195774175_0.jpg"
+  },
+  {
+   "sku": "parka-winter-mosaic",
+   "title": "Parka - Impermeable Térmica Winter Mosaic",
+   "type": "Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 120,
+     "sleeve": 63,
+     "talle": 77,
+     "hem": 116
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 65,
+     "talle": 79,
+     "hem": 120
+    },
+    {
+     "id": "M",
+     "chest": 128,
+     "sleeve": 67,
+     "talle": 81,
+     "hem": 124
+    },
+    {
+     "id": "L",
+     "chest": 132,
+     "sleeve": 69,
+     "talle": 83,
+     "hem": 128
+    },
+    {
+     "id": "XL",
+     "chest": 136,
+     "sleeve": 71,
+     "talle": 85,
+     "hem": 132
+    },
+    {
+     "id": "XXL",
+     "chest": 140,
+     "sleeve": 73,
+     "talle": 87,
+     "hem": 136
+    }
+   ],
+   "source": "9059139485919_0.jpg"
+  },
+  {
+   "sku": "parka-lenadora-flags",
+   "title": "Parka - Leñadora Flags",
+   "type": "Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 120,
+     "sleeve": 63,
+     "talle": 77,
+     "hem": 116
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 65,
+     "talle": 79,
+     "hem": 120
+    },
+    {
+     "id": "M",
+     "chest": 128,
+     "sleeve": 67,
+     "talle": 81,
+     "hem": 124
+    },
+    {
+     "id": "L",
+     "chest": 132,
+     "sleeve": 69,
+     "talle": 83,
+     "hem": 128
+    },
+    {
+     "id": "XL",
+     "chest": 136,
+     "sleeve": 71,
+     "talle": 85,
+     "hem": 132
+    },
+    {
+     "id": "XXL",
+     "chest": 140,
+     "sleeve": 73,
+     "talle": 87,
+     "hem": 136
+    }
+   ],
+   "source": "7438829224159_0.jpg"
+  },
+  {
+   "sku": "parka",
+   "title": "Parka - Lynn Térmica Impermeable",
+   "type": "Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 106,
+     "sleeve": 56,
+     "talle": 74,
+     "hem": 110
+    },
+    {
+     "id": "S",
+     "chest": 110,
+     "sleeve": 58,
+     "talle": 76,
+     "hem": 114
+    },
+    {
+     "id": "M",
+     "chest": 114,
+     "sleeve": 60,
+     "talle": 78,
+     "hem": 118
+    },
+    {
+     "id": "L",
+     "chest": 118,
+     "sleeve": 62,
+     "talle": 80,
+     "hem": 122
+    },
+    {
+     "id": "XL",
+     "chest": 122,
+     "sleeve": 64,
+     "talle": 82,
+     "hem": 126
+    },
+    {
+     "id": "XXL",
+     "chest": 126,
+     "sleeve": 66,
+     "talle": 84,
+     "hem": 130
+    }
+   ],
+   "source": "8512279281887_0.jpg"
+  },
+  {
+   "sku": "parka-turquesa-urban-trek",
+   "title": "Parka - Mujer - Turquesa Impermeable Urban Trek",
+   "type": "Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 118,
+     "sleeve": 64,
+     "talle": 80,
+     "hem": 112
+    },
+    {
+     "id": "S",
+     "chest": 122,
+     "sleeve": 66,
+     "talle": 82,
+     "hem": 116
+    },
+    {
+     "id": "M",
+     "chest": 126,
+     "sleeve": 68,
+     "talle": 84,
+     "hem": 120
+    },
+    {
+     "id": "L",
+     "chest": 130,
+     "sleeve": 70,
+     "talle": 86,
+     "hem": 124
+    },
+    {
+     "id": "XL",
+     "chest": 134,
+     "sleeve": 72,
+     "talle": 88,
+     "hem": 128
+    },
+    {
+     "id": "XXL",
+     "chest": 138,
+     "sleeve": 74,
+     "talle": 90,
+     "hem": 132
+    }
+   ],
+   "source": "9361581211871_0.jpg"
+  },
+  {
+   "sku": "parka-new-jackdaw",
+   "title": "Parka - New Jackdaw Taslan Impermeable",
+   "type": "Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 118,
+     "sleeve": 64,
+     "talle": 80,
+     "hem": 112
+    },
+    {
+     "id": "S",
+     "chest": 122,
+     "sleeve": 66,
+     "talle": 82,
+     "hem": 116
+    },
+    {
+     "id": "M",
+     "chest": 126,
+     "sleeve": 68,
+     "talle": 84,
+     "hem": 120
+    },
+    {
+     "id": "L",
+     "chest": 130,
+     "sleeve": 70,
+     "talle": 86,
+     "hem": 124
+    },
+    {
+     "id": "XL",
+     "chest": 134,
+     "sleeve": 72,
+     "talle": 88,
+     "hem": 128
+    },
+    {
+     "id": "XXL",
+     "chest": 138,
+     "sleeve": 74,
+     "talle": 90,
+     "hem": 132
+    }
+   ],
+   "source": "7768358813919_0.jpg"
+  },
+  {
+   "sku": "parka-ruster",
+   "title": "Parka - Térmica Impermeable Ruster",
+   "type": "Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 122,
+     "sleeve": 63,
+     "talle": 74,
+     "hem": 122
+    },
+    {
+     "id": "S",
+     "chest": 126,
+     "sleeve": 65,
+     "talle": 76,
+     "hem": 126
+    },
+    {
+     "id": "M",
+     "chest": 130,
+     "sleeve": 67,
+     "talle": 78,
+     "hem": 130
+    },
+    {
+     "id": "L",
+     "chest": 134,
+     "sleeve": 69,
+     "talle": 80,
+     "hem": 134
+    },
+    {
+     "id": "XL",
+     "chest": 138,
+     "sleeve": 71,
+     "talle": 82,
+     "hem": 138
+    },
+    {
+     "id": "XXL",
+     "chest": 142,
+     "sleeve": 73,
+     "talle": 84,
+     "hem": 142
+    }
+   ],
+   "source": "8037271404767_0.jpg"
+  },
+  {
+   "sku": "parka-winter-mountain",
+   "title": "Parka - WINTER MOUNTAIN",
+   "type": "Parka",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 120,
+     "sleeve": 63,
+     "talle": 77,
+     "hem": 116
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 65,
+     "talle": 79,
+     "hem": 120
+    },
+    {
+     "id": "M",
+     "chest": 128,
+     "sleeve": 67,
+     "talle": 81,
+     "hem": 124
+    },
+    {
+     "id": "L",
+     "chest": 132,
+     "sleeve": 69,
+     "talle": 83,
+     "hem": 128
+    },
+    {
+     "id": "XL",
+     "chest": 136,
+     "sleeve": 71,
+     "talle": 85,
+     "hem": 132
+    },
+    {
+     "id": "XXL",
+     "chest": 140,
+     "sleeve": 73,
+     "talle": 87,
+     "hem": 136
+    }
+   ],
+   "source": "9025044447455_0.jpg"
+  },
+  {
+   "sku": "poleron-belair",
+   "title": "Polerón - Belair",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 120,
+     "sleeve": 63,
+     "talle": 72,
+     "hem": 120
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 64,
+     "talle": 74,
+     "hem": 124
+    },
+    {
+     "id": "M",
+     "chest": 128,
+     "sleeve": 65,
+     "talle": 76,
+     "hem": 128
+    },
+    {
+     "id": "L",
+     "chest": 132,
+     "sleeve": 66,
+     "talle": 78,
+     "hem": 132
+    },
+    {
+     "id": "XL",
+     "chest": 136,
+     "sleeve": 67,
+     "talle": 80,
+     "hem": 136
+    },
+    {
+     "id": "XXL",
+     "chest": 140,
+     "sleeve": 68,
+     "talle": 82,
+     "hem": 140
+    }
+   ],
+   "source": "7438931001567_0.jpg"
+  },
+  {
+   "sku": "poleron-blue-colors",
+   "title": "Polerón - BLUE COLORS",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 114,
+     "sleeve": 64,
+     "talle": 64,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 118,
+     "sleeve": 66,
+     "talle": 66,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 122,
+     "sleeve": 68,
+     "talle": 68,
+     "hem": 116
+    },
+    {
+     "id": "L",
+     "chest": 126,
+     "sleeve": 70,
+     "talle": 70,
+     "hem": 120
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 72,
+     "talle": 72,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 134,
+     "sleeve": 74,
+     "talle": 74,
+     "hem": 128
+    }
+   ],
+   "source": "9035992301791_0.jpg"
+  },
+  {
+   "sku": "poleron-canguro-azul",
+   "title": "Polerón - CANGURO AZUL",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 114,
+     "sleeve": 64,
+     "talle": 64,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 118,
+     "sleeve": 66,
+     "talle": 66,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 122,
+     "sleeve": 68,
+     "talle": 68,
+     "hem": 116
+    },
+    {
+     "id": "L",
+     "chest": 126,
+     "sleeve": 70,
+     "talle": 70,
+     "hem": 120
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 72,
+     "talle": 72,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 134,
+     "sleeve": 74,
+     "talle": 74,
+     "hem": 128
+    }
+   ],
+   "source": "9035960615135_0.jpg"
+  },
+  {
+   "sku": "poleron-duffle-cropped",
+   "title": "Polerón - Duffle Cropped",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 106,
+     "sleeve": 50,
+     "talle": 56,
+     "hem": 106
+    },
+    {
+     "id": "S",
+     "chest": 112,
+     "sleeve": 52,
+     "talle": 59,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 118,
+     "sleeve": 55,
+     "talle": 62,
+     "hem": 118
+    },
+    {
+     "id": "L",
+     "chest": 124,
+     "sleeve": 57,
+     "talle": 65,
+     "hem": 124
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 58,
+     "talle": 68,
+     "hem": 130
+    },
+    {
+     "id": "XXL",
+     "chest": 136,
+     "sleeve": 60,
+     "talle": 72,
+     "hem": 136
+    }
+   ],
+   "source": "9315673014495_0.jpg"
+  },
+  {
+   "sku": "poleron-hoodie-morado",
+   "title": "Polerón - Hoodie Morado",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 98
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 102
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 66,
+     "talle": 71,
+     "hem": 106
+    },
+    {
+     "id": "L",
+     "chest": 114,
+     "sleeve": 68,
+     "talle": 73,
+     "hem": 110
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 75,
+     "hem": 114
+    },
+    {
+     "id": "XXL",
+     "chest": 126,
+     "sleeve": 72,
+     "talle": 77,
+     "hem": 118
+    }
+   ],
+   "source": "7696034365663_0.jpg"
+  },
+  {
+   "sku": "poleron-hoodie-yellow",
+   "title": "Polerón - Hoodie Yellow",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 98
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 102
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 66,
+     "talle": 71,
+     "hem": 106
+    },
+    {
+     "id": "L",
+     "chest": 114,
+     "sleeve": 68,
+     "talle": 73,
+     "hem": 110
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 75,
+     "hem": 114
+    },
+    {
+     "id": "XXL",
+     "chest": 126,
+     "sleeve": 72,
+     "talle": 77,
+     "hem": 118
+    }
+   ],
+   "source": "7696043245791_0.jpg"
+  },
+  {
+   "sku": "poleron-icon",
+   "title": "Polerón - ICON",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 98
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 102
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 66,
+     "talle": 71,
+     "hem": 106
+    },
+    {
+     "id": "L",
+     "chest": 114,
+     "sleeve": 68,
+     "talle": 73,
+     "hem": 110
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 75,
+     "hem": 114
+    },
+    {
+     "id": "XXL",
+     "chest": 126,
+     "sleeve": 72,
+     "talle": 77,
+     "hem": 118
+    }
+   ],
+   "source": "7689713058015_0.jpg"
+  },
+  {
+   "sku": "poleron-ambarino",
+   "title": "Polerón - Mujer - Ambarino",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 106,
+     "sleeve": 50,
+     "talle": 56,
+     "hem": 106
+    },
+    {
+     "id": "S",
+     "chest": 112,
+     "sleeve": 52,
+     "talle": 59,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 118,
+     "sleeve": 55,
+     "talle": 62,
+     "hem": 118
+    },
+    {
+     "id": "L",
+     "chest": 124,
+     "sleeve": 57,
+     "talle": 65,
+     "hem": 124
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 58,
+     "talle": 68,
+     "hem": 130
+    },
+    {
+     "id": "XXL",
+     "chest": 136,
+     "sleeve": 60,
+     "talle": 72,
+     "hem": 136
+    }
+   ],
+   "source": "9361600872671_0.jpg"
+  },
+  {
+   "sku": "poleron-nostalgic",
+   "title": "Polerón - NOSTALGIC",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 114,
+     "sleeve": 64,
+     "talle": 64,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 118,
+     "sleeve": 66,
+     "talle": 66,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 122,
+     "sleeve": 68,
+     "talle": 68,
+     "hem": 116
+    },
+    {
+     "id": "L",
+     "chest": 126,
+     "sleeve": 70,
+     "talle": 70,
+     "hem": 120
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 72,
+     "talle": 72,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 134,
+     "sleeve": 74,
+     "talle": 74,
+     "hem": 128
+    }
+   ],
+   "source": "9035191779551_0.jpg"
+  },
+  {
+   "sku": "poleron-adventure",
+   "title": "Polerón - Unisex - ADVENTURE",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 108,
+     "sleeve": 64,
+     "talle": 66,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 112,
+     "sleeve": 66,
+     "talle": 68,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 116,
+     "sleeve": 68,
+     "talle": 70,
+     "hem": 116
+    },
+    {
+     "id": "L",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 72,
+     "hem": 120
+    },
+    {
+     "id": "XL",
+     "chest": 124,
+     "sleeve": 72,
+     "talle": 74,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 128,
+     "sleeve": 74,
+     "talle": 76,
+     "hem": 128
+    }
+   ],
+   "source": "8485716951263_0.jpg"
+  },
+  {
+   "sku": "poleron-autumn-pistachio",
+   "title": "Polerón - Unisex - AUTUMN PISTACHIO",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 98
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 102
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 66,
+     "talle": 71,
+     "hem": 106
+    },
+    {
+     "id": "L",
+     "chest": 114,
+     "sleeve": 68,
+     "talle": 73,
+     "hem": 110
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 75,
+     "hem": 114
+    },
+    {
+     "id": "XXL",
+     "chest": 126,
+     "sleeve": 72,
+     "talle": 77,
+     "hem": 118
+    }
+   ],
+   "source": "9059108356319_0.jpg"
+  },
+  {
+   "sku": "poleron-autumn-urban-fashion",
+   "title": "Polerón - Unisex - AUTUMN URBAN FASHION",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 106,
+     "sleeve": 50,
+     "talle": 56,
+     "hem": 106
+    },
+    {
+     "id": "S",
+     "chest": 112,
+     "sleeve": 52,
+     "talle": 59,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 118,
+     "sleeve": 55,
+     "talle": 62,
+     "hem": 118
+    },
+    {
+     "id": "L",
+     "chest": 124,
+     "sleeve": 57,
+     "talle": 65,
+     "hem": 124
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 58,
+     "talle": 68,
+     "hem": 130
+    },
+    {
+     "id": "XXL",
+     "chest": 136,
+     "sleeve": 60,
+     "talle": 72,
+     "hem": 136
+    }
+   ],
+   "source": "9059088171231_0.jpg"
+  },
+  {
+   "sku": "poleron-autumn-urban-fashion-blue",
+   "title": "Polerón - Unisex - AUTUMN URBAN FASHION BLUE",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 106,
+     "sleeve": 50,
+     "talle": 56,
+     "hem": 106
+    },
+    {
+     "id": "S",
+     "chest": 112,
+     "sleeve": 52,
+     "talle": 59,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 118,
+     "sleeve": 55,
+     "talle": 62,
+     "hem": 118
+    },
+    {
+     "id": "L",
+     "chest": 124,
+     "sleeve": 57,
+     "talle": 65,
+     "hem": 124
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 58,
+     "talle": 68,
+     "hem": 130
+    },
+    {
+     "id": "XXL",
+     "chest": 136,
+     "sleeve": 60,
+     "talle": 72,
+     "hem": 136
+    }
+   ],
+   "source": "9059142009055_0.jpg"
+  },
+  {
+   "sku": "poleron-bard-evolution",
+   "title": "Polerón - Unisex - BARD EVOLUTION",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 104,
+     "sleeve": 60,
+     "talle": 64,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 108,
+     "sleeve": 62,
+     "talle": 66,
+     "hem": 104
+    },
+    {
+     "id": "M",
+     "chest": 112,
+     "sleeve": 64,
+     "talle": 68,
+     "hem": 108
+    },
+    {
+     "id": "L",
+     "chest": 116,
+     "sleeve": 66,
+     "talle": 70,
+     "hem": 112
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 68,
+     "talle": 72,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 124,
+     "sleeve": 70,
+     "talle": 74,
+     "hem": 120
+    }
+   ],
+   "source": "7894244655327_0.jpg"
+  },
+  {
+   "sku": "poleron-black-colors",
+   "title": "Polerón - Unisex - BLACK COLORS",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 120,
+     "sleeve": 63,
+     "talle": 72,
+     "hem": 120
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 64,
+     "talle": 74,
+     "hem": 124
+    },
+    {
+     "id": "M",
+     "chest": 128,
+     "sleeve": 65,
+     "talle": 76,
+     "hem": 128
+    },
+    {
+     "id": "L",
+     "chest": 132,
+     "sleeve": 66,
+     "talle": 78,
+     "hem": 132
+    },
+    {
+     "id": "XL",
+     "chest": 136,
+     "sleeve": 67,
+     "talle": 80,
+     "hem": 136
+    },
+    {
+     "id": "XXL",
+     "chest": 140,
+     "sleeve": 68,
+     "talle": 82,
+     "hem": 140
+    }
+   ],
+   "source": "9059137814751_0.jpg"
+  },
+  {
+   "sku": "poleron-casual",
+   "title": "Polerón - Unisex - CASUAL",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 104,
+     "sleeve": 60,
+     "talle": 64,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 108,
+     "sleeve": 62,
+     "talle": 66,
+     "hem": 104
+    },
+    {
+     "id": "M",
+     "chest": 112,
+     "sleeve": 64,
+     "talle": 68,
+     "hem": 108
+    },
+    {
+     "id": "L",
+     "chest": 116,
+     "sleeve": 66,
+     "talle": 70,
+     "hem": 112
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 68,
+     "talle": 72,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 124,
+     "sleeve": 70,
+     "talle": 74,
+     "hem": 120
+    }
+   ],
+   "source": "7891092898015_0.jpg"
+  },
+  {
+   "sku": "poleron-crop-top-amarillo",
+   "title": "Polerón - Unisex - CROP TOP AMARILLO",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": true,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 60,
+     "talle": 44,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 62,
+     "talle": 46,
+     "hem": 104
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 64,
+     "talle": 48,
+     "hem": 108
+    },
+    {
+     "id": "L",
+     "chest": 112,
+     "sleeve": 66,
+     "talle": 50,
+     "hem": 112
+    },
+    {
+     "id": "XL",
+     "chest": 116,
+     "sleeve": 68,
+     "talle": 52,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 54,
+     "hem": 120
+    }
+   ],
+   "source": "7884625608927_0.jpg"
+  },
+  {
+   "sku": "poleron-crop-top-fucsia",
+   "title": "Polerón - Unisex - CROP TOP FUCSIA",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": true,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 60,
+     "talle": 44,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 62,
+     "talle": 46,
+     "hem": 104
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 64,
+     "talle": 48,
+     "hem": 108
+    },
+    {
+     "id": "L",
+     "chest": 112,
+     "sleeve": 66,
+     "talle": 50,
+     "hem": 112
+    },
+    {
+     "id": "XL",
+     "chest": 116,
+     "sleeve": 68,
+     "talle": 52,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 54,
+     "hem": 120
+    }
+   ],
+   "source": "7884592644319_0.jpg"
+  },
+  {
+   "sku": "crop-top-naranja",
+   "title": "Polerón - Unisex - CROP TOP NARANJA",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": true,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 60,
+     "talle": 44,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 62,
+     "talle": 46,
+     "hem": 104
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 64,
+     "talle": 48,
+     "hem": 108
+    },
+    {
+     "id": "L",
+     "chest": 112,
+     "sleeve": 66,
+     "talle": 50,
+     "hem": 112
+    },
+    {
+     "id": "XL",
+     "chest": 116,
+     "sleeve": 68,
+     "talle": 52,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 54,
+     "hem": 120
+    }
+   ],
+   "source": "7884542050527_0.jpg"
+  },
+  {
+   "sku": "poleron-kangaru",
+   "title": "Polerón - Unisex - KANGARU",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 114,
+     "sleeve": 64,
+     "talle": 64,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 118,
+     "sleeve": 66,
+     "talle": 66,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 122,
+     "sleeve": 68,
+     "talle": 68,
+     "hem": 116
+    },
+    {
+     "id": "L",
+     "chest": 126,
+     "sleeve": 70,
+     "talle": 70,
+     "hem": 120
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 72,
+     "talle": 72,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 134,
+     "sleeve": 74,
+     "talle": 74,
+     "hem": 128
+    }
+   ],
+   "source": "8111306735839_0.jpg"
+  },
+  {
+   "sku": "poleron-manga-murcielago-exclusive",
+   "title": "Polerón - Unisex - Manga Murciélago Exclusive",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 120,
+     "sleeve": 63,
+     "talle": 72,
+     "hem": 120
+    },
+    {
+     "id": "S",
+     "chest": 124,
+     "sleeve": 64,
+     "talle": 74,
+     "hem": 124
+    },
+    {
+     "id": "M",
+     "chest": 128,
+     "sleeve": 65,
+     "talle": 76,
+     "hem": 128
+    },
+    {
+     "id": "L",
+     "chest": 132,
+     "sleeve": 66,
+     "talle": 78,
+     "hem": 132
+    },
+    {
+     "id": "XL",
+     "chest": 136,
+     "sleeve": 67,
+     "talle": 80,
+     "hem": 136
+    },
+    {
+     "id": "XXL",
+     "chest": 140,
+     "sleeve": 68,
+     "talle": 82,
+     "hem": 140
+    }
+   ],
+   "source": "8819210649823_0.jpg"
+  },
+  {
+   "sku": "poleron-mike-celeste",
+   "title": "Polerón - Unisex - MIKE CELESTE",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 98
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 102
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 66,
+     "talle": 71,
+     "hem": 106
+    },
+    {
+     "id": "L",
+     "chest": 114,
+     "sleeve": 68,
+     "talle": 73,
+     "hem": 110
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 75,
+     "hem": 114
+    },
+    {
+     "id": "XXL",
+     "chest": 126,
+     "sleeve": 72,
+     "talle": 77,
+     "hem": 118
+    }
+   ],
+   "source": "9109641003231_0.jpg"
+  },
+  {
+   "sku": "poleron-mike-rosado",
+   "title": "Polerón - Unisex - MIKE ROSADO",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 98
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 102
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 66,
+     "talle": 71,
+     "hem": 106
+    },
+    {
+     "id": "L",
+     "chest": 114,
+     "sleeve": 68,
+     "talle": 73,
+     "hem": 110
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 75,
+     "hem": 114
+    },
+    {
+     "id": "XXL",
+     "chest": 126,
+     "sleeve": 72,
+     "talle": 77,
+     "hem": 118
+    }
+   ],
+   "source": "9109648408799_0.jpg"
+  },
+  {
+   "sku": "poleron-mike-verde",
+   "title": "Polerón - Unisex - MIKE VERDE",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 98
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 102
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 66,
+     "talle": 71,
+     "hem": 106
+    },
+    {
+     "id": "L",
+     "chest": 114,
+     "sleeve": 68,
+     "talle": 73,
+     "hem": 110
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 75,
+     "hem": 114
+    },
+    {
+     "id": "XXL",
+     "chest": 126,
+     "sleeve": 72,
+     "talle": 77,
+     "hem": 118
+    }
+   ],
+   "source": "9109658632415_0.jpg"
+  },
+  {
+   "sku": "poleron-mondano-green",
+   "title": "Polerón - Unisex - MONDANO GREEN",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 98
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 102
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 66,
+     "talle": 71,
+     "hem": 106
+    },
+    {
+     "id": "L",
+     "chest": 114,
+     "sleeve": 68,
+     "talle": 73,
+     "hem": 110
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 75,
+     "hem": 114
+    },
+    {
+     "id": "XXL",
+     "chest": 126,
+     "sleeve": 72,
+     "talle": 77,
+     "hem": 118
+    }
+   ],
+   "source": "7823891267807_0.jpg"
+  },
+  {
+   "sku": "poleron-mondano-orange",
+   "title": "Polerón - Unisex - MONDANO ORANGE",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 98
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 102
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 66,
+     "talle": 71,
+     "hem": 106
+    },
+    {
+     "id": "L",
+     "chest": 114,
+     "sleeve": 68,
+     "talle": 73,
+     "hem": 110
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 75,
+     "hem": 114
+    },
+    {
+     "id": "XXL",
+     "chest": 126,
+     "sleeve": 72,
+     "talle": 77,
+     "hem": 118
+    }
+   ],
+   "source": "7823882879199_0.jpg"
+  },
+  {
+   "sku": "poleron-mondano-trend",
+   "title": "Polerón - Unisex - MONDANO TREND",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 98
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 102
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 66,
+     "talle": 71,
+     "hem": 106
+    },
+    {
+     "id": "L",
+     "chest": 114,
+     "sleeve": 68,
+     "talle": 73,
+     "hem": 110
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 70,
+     "talle": 75,
+     "hem": 114
+    },
+    {
+     "id": "XXL",
+     "chest": 126,
+     "sleeve": 72,
+     "talle": 77,
+     "hem": 118
+    }
+   ],
+   "source": "7823872360671_0.jpg"
+  },
+  {
+   "sku": "poleron-multicolor",
+   "title": "Polerón - Unisex - MULTICOLOR",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 104,
+     "sleeve": 60,
+     "talle": 64,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 108,
+     "sleeve": 62,
+     "talle": 66,
+     "hem": 104
+    },
+    {
+     "id": "M",
+     "chest": 112,
+     "sleeve": 64,
+     "talle": 68,
+     "hem": 108
+    },
+    {
+     "id": "L",
+     "chest": 116,
+     "sleeve": 66,
+     "talle": 70,
+     "hem": 112
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 68,
+     "talle": 72,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 124,
+     "sleeve": 70,
+     "talle": 74,
+     "hem": 120
+    }
+   ],
+   "source": "7891357925599_0.jpg"
+  },
+  {
+   "sku": "new-colorful",
+   "title": "Polerón - Unisex - NEW COLORFUL",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 104,
+     "sleeve": 60,
+     "talle": 64,
+     "hem": 100
+    },
+    {
+     "id": "S",
+     "chest": 108,
+     "sleeve": 62,
+     "talle": 66,
+     "hem": 104
+    },
+    {
+     "id": "M",
+     "chest": 112,
+     "sleeve": 64,
+     "talle": 68,
+     "hem": 108
+    },
+    {
+     "id": "L",
+     "chest": 116,
+     "sleeve": 66,
+     "talle": 70,
+     "hem": 112
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 68,
+     "talle": 72,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 124,
+     "sleeve": 70,
+     "talle": 74,
+     "hem": 120
+    }
+   ],
+   "source": "7891376210143_0.jpg"
+  },
+  {
+   "sku": "poleron-sunflower",
+   "title": "Polerón - Unisex - SUNFLOWER",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 100,
+     "sleeve": 62,
+     "talle": 67,
+     "hem": 98
+    },
+    {
+     "id": "S",
+     "chest": 104,
+     "sleeve": 64,
+     "talle": 69,
+     "hem": 102
+    },
+    {
+     "id": "M",
+     "chest": 108,
+     "sleeve": 66,
+     "talle": 71,
+     "hem": 106
+    },
+    {
+     "id": "L",
+     "chest": 112,
+     "sleeve": 68,
+     "talle": 73,
+     "hem": 110
+    },
+    {
+     "id": "XL",
+     "chest": 116,
+     "sleeve": 70,
+     "talle": 75,
+     "hem": 114
+    },
+    {
+     "id": "XXL",
+     "chest": 120,
+     "sleeve": 72,
+     "talle": 77,
+     "hem": 118
+    }
+   ],
+   "source": "8485902942431_0.jpg"
+  },
+  {
+   "sku": "poleron-urban-identity",
+   "title": "Polerón - Unisex - URBAN IDENTITY",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 106,
+     "sleeve": 55,
+     "talle": 69,
+     "hem": 106
+    },
+    {
+     "id": "S",
+     "chest": 108,
+     "sleeve": 57,
+     "talle": 71,
+     "hem": 108
+    },
+    {
+     "id": "M",
+     "chest": 112,
+     "sleeve": 59,
+     "talle": 73,
+     "hem": 112
+    },
+    {
+     "id": "L",
+     "chest": 116,
+     "sleeve": 61,
+     "talle": 75,
+     "hem": 116
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 63,
+     "talle": 77,
+     "hem": 120
+    },
+    {
+     "id": "XXL",
+     "chest": 124,
+     "sleeve": 65,
+     "talle": 79,
+     "hem": 124
+    }
+   ],
+   "source": "7822538539231_0.jpg"
+  },
+  {
+   "sku": "poleron-urban-personality",
+   "title": "Polerón - Unisex - URBAN PERSONALITY",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 106,
+     "sleeve": 55,
+     "talle": 69,
+     "hem": 106
+    },
+    {
+     "id": "S",
+     "chest": 108,
+     "sleeve": 57,
+     "talle": 71,
+     "hem": 108
+    },
+    {
+     "id": "M",
+     "chest": 112,
+     "sleeve": 59,
+     "talle": 73,
+     "hem": 112
+    },
+    {
+     "id": "L",
+     "chest": 116,
+     "sleeve": 61,
+     "talle": 75,
+     "hem": 116
+    },
+    {
+     "id": "XL",
+     "chest": 120,
+     "sleeve": 63,
+     "talle": 77,
+     "hem": 120
+    },
+    {
+     "id": "XXL",
+     "chest": 124,
+     "sleeve": 65,
+     "talle": 79,
+     "hem": 124
+    }
+   ],
+   "source": "7763544015071_0.jpg"
+  },
+  {
+   "sku": "poleron-urban",
+   "title": "Polerón - URBAN",
+   "type": "Polerón",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 114,
+     "sleeve": 64,
+     "talle": 64,
+     "hem": 108
+    },
+    {
+     "id": "S",
+     "chest": 118,
+     "sleeve": 66,
+     "talle": 66,
+     "hem": 112
+    },
+    {
+     "id": "M",
+     "chest": 122,
+     "sleeve": 68,
+     "talle": 68,
+     "hem": 116
+    },
+    {
+     "id": "L",
+     "chest": 126,
+     "sleeve": 70,
+     "talle": 70,
+     "hem": 120
+    },
+    {
+     "id": "XL",
+     "chest": 130,
+     "sleeve": 72,
+     "talle": 72,
+     "hem": 124
+    },
+    {
+     "id": "XXL",
+     "chest": 134,
+     "sleeve": 74,
+     "talle": 74,
+     "hem": 128
+    }
+   ],
+   "source": "9035047403743_0.jpg"
+  },
+  {
+   "sku": "vestido-animal-print",
+   "title": "Vestido - ANIMAL PRINT",
+   "type": "Vestido",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 78,
+     "sleeve": 51,
+     "talle": 106,
+     "hem": 81
+    },
+    {
+     "id": "S",
+     "chest": 84,
+     "sleeve": 51,
+     "talle": 106,
+     "hem": 90
+    },
+    {
+     "id": "M",
+     "chest": 90,
+     "sleeve": 52,
+     "talle": 108,
+     "hem": 99
+    },
+    {
+     "id": "L",
+     "chest": 96,
+     "sleeve": 52,
+     "talle": 108,
+     "hem": 108
+    },
+    {
+     "id": "XL",
+     "chest": 102,
+     "sleeve": 53,
+     "talle": 110,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 108,
+     "sleeve": 53,
+     "talle": 110,
+     "hem": 126
+    }
+   ],
+   "source": "9018355319007_0.jpg"
+  },
+  {
+   "sku": "vestido-punto-coquette",
+   "title": "Vestido - PUNTO COQUETTE",
+   "type": "Vestido",
+   "base": "M",
+   "color": null,
+   "palette": "neutral",
+   "ease": 16,
+   "approx": false,
+   "sizes": [
+    {
+     "id": "XS",
+     "chest": 78,
+     "sleeve": 51,
+     "talle": 106,
+     "hem": 81
+    },
+    {
+     "id": "S",
+     "chest": 84,
+     "sleeve": 51,
+     "talle": 106,
+     "hem": 90
+    },
+    {
+     "id": "M",
+     "chest": 90,
+     "sleeve": 52,
+     "talle": 108,
+     "hem": 99
+    },
+    {
+     "id": "L",
+     "chest": 96,
+     "sleeve": 52,
+     "talle": 108,
+     "hem": 108
+    },
+    {
+     "id": "XL",
+     "chest": 102,
+     "sleeve": 53,
+     "talle": 110,
+     "hem": 116
+    },
+    {
+     "id": "XXL",
+     "chest": 108,
+     "sleeve": 53,
+     "talle": 110,
+     "hem": 126
+    }
+   ],
+   "source": "9044997308639_0.jpg"
+  }
+ ]
+}
