@@ -5,6 +5,7 @@ node_modules/
 *.log
 .env
 .env.*
+!.env.example
 
 # Datos internos del negocio — el repositorio es público.
 # Se mantienen solo en local (no se versionan).

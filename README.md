@@ -78,6 +78,26 @@ Están en la carpeta local y listados en `.gitignore`.
 
 ---
 
+## Conectar con Shopify (scripts)
+
+El visor es estático: **no usa credenciales en el navegador**. Las credenciales sirven para los scripts que sincronizan catálogo o datos.
+
+```bash
+cp .env.example .env.local   # completar con las del app de Shopify
+node --env-file=.env.local scripts/shopify-check.mjs
+```
+
+`.env.local` está ignorado por git. Las variables:
+
+| Variable | Para qué |
+|---|---|
+| `SHOPIFY_SHOP` | subdominio (`mondano-chile`) |
+| `SHOPIFY_CLIENT_ID` / `SHOPIFY_CLIENT_SECRET` | client credentials de la app |
+| `SHOPIFY_API_VERSION` | `2026-10` |
+| `SHOPIFY_SECRET` | firma de webhooks (si se añaden) |
+
+`shopify-check.mjs` verifica la conexión y reporta los scopes. Hoy la app tiene `read_orders,read_all_orders`; **le falta `read_products`** para leer el catálogo por Admin API. Mientras tanto, los datos salen del catálogo público (`shopify-productos.json`).
+
 ## Desplegar
 
 ```bash
