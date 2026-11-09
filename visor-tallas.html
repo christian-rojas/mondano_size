@@ -244,6 +244,13 @@
         </div>
       </div>
 
+      <!-- SIN TABLA -->
+      <div class="slide" data-step="99">
+        <p class="kicker">Guía de tallas</p>
+        <h2>Aún no tenemos la guía de este producto</h2>
+        <p class="sub">Estamos midiendo las prendas para publicarla. Mientras tanto, revisa la tabla de medidas en la ficha del producto.</p>
+      </div>
+
       <!-- RESULTADO -->
       <div class="slide" data-step="4">
         <div class="result-figure"><svg id="figureResult" viewBox="0 0 300 540"></svg></div>
@@ -460,6 +467,16 @@
   }
 
   /* ---------- UI ---------- */
+  function showMissing(){
+    app.setAttribute('data-step', '99');
+    Array.prototype.forEach.call(document.querySelectorAll('.slide'), function(el){
+      el.classList.toggle('on', el.getAttribute('data-step') === '99');
+    });
+    foot.style.display = 'none';
+    backBtn.disabled = true;
+    document.getElementById('progress').style.display = 'none';
+  }
+
   function setStep(n){
     state.step = n;
     app.setAttribute("data-step", String(n));
@@ -601,6 +618,8 @@
 
   var params = new URLSearchParams(location.search);
   var sku = params.get("sku") || params.get("handle") || params.get("p");
+  var pname = params.get("name");
+  if (pname) productName.textContent = pname.length > 34 ? pname.slice(0, 32) + "…" : pname;
 
   applyProduct(DEFAULT_PRODUCT);
   setStep(0);
@@ -612,6 +631,7 @@
         if (data.products[i].sku.toLowerCase() === String(sku).toLowerCase()){ found = data.products[i]; break; }
       }
       if (found) applyProduct(found);
+      else showMissing();
     }).catch(function(){});
   }
 })();

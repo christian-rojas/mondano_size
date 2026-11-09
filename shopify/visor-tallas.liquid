@@ -6,7 +6,8 @@
 
 {%- liquid
   assign viewer = section.settings.launch_url | default: 'https://mondanosize.vercel.app'
-  assign viewer_url = viewer | append: '?sku=' | append: product.handle
+  assign name_enc = product.title | url_encode
+  assign viewer_url = viewer | append: '?sku=' | append: product.handle | append: '&name=' | append: name_enc
   assign size_index = 0
   for option in product.options_with_values
     if option.name == 'Talla' or option.name == 'Tamaño'
