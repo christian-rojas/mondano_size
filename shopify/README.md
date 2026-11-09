@@ -6,7 +6,7 @@
 
 El visor ya está construido como un HTML autónomo (`visor-tallas.html` + `visor-data.json`). Lo más rápido y con mejor conversión es:
 
-1. Desplegarlo en Vercel en un subdominio (`tallas.mondano.cl`).
+1. Desplegarlo en Vercel (ya está en `https://mondanosize.vercel.app`).
 2. Poner un botón **"Encuentra tu talla"** en la ficha de producto.
 3. Abrirlo en un `<dialog>` a pantalla completa con un iframe.
 4. Sincronizar la talla elegida con la variante de Shopify.
@@ -55,7 +55,7 @@ npx vercel login
 npx vercel --prod
 ```
 
-Queda en `https://<proyecto>.vercel.app`. Para el subdominio:
+Queda en `https://mondanosize.vercel.app` (ya desplegado). Para el subdominio:
 
 ```bash
 npx vercel domains add tallas.mondano.cl
@@ -71,7 +71,7 @@ DNS: `CNAME tallas → cdn.vercel.com`.
 
 1. Copia `shopify/visor-tallas.liquid` a `sections/visor-tallas.liquid` del tema (o súbelo con Shopify CLI: `shopify theme push --only sections/visor-tallas.liquid`).
 2. Editor de temas → **Producto** → *Añadir sección* → **Visor de talla**.
-3. En los ajustes de la sección, pon la URL: `https://tallas.mondano.cl`.
+3. En los ajustes de la sección, pon la URL: `https://mondanosize.vercel.app` (o el subdominio cuando exista).
 4. Colócala justo debajo del selector de talla.
 
 `shopify theme push` o el editor visual; no hace falta tocar el código del tema.

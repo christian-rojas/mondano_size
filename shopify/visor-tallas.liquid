@@ -5,7 +5,7 @@
 {%- endcomment -%}
 
 {%- liquid
-  assign viewer = section.settings.launch_url | default: 'https://tallas.mondano.cl'
+  assign viewer = section.settings.launch_url | default: 'https://mondanosize.vercel.app'
   assign viewer_url = viewer | append: '?sku=' | append: product.handle
   assign size_index = 0
   for option in product.options_with_values
@@ -176,7 +176,7 @@
       "type": "text",
       "id": "launch_url",
       "label": "URL del visor",
-      "default": "https://tallas.mondano.cl",
+      "default": "https://mondanosize.vercel.app",
       "info": "Dominio en Vercel donde está desplegado el visor."
     },
     {
