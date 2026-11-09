@@ -618,11 +618,15 @@
 
   var params = new URLSearchParams(location.search);
   var sku = params.get("sku") || params.get("handle") || params.get("p");
-  var pname = params.get("name");
-  if (pname) productName.textContent = pname.length > 34 ? pname.slice(0, 32) + "…" : pname;
 
   applyProduct(DEFAULT_PRODUCT);
   setStep(0);
+
+  var pname = params.get("name");
+  if (pname) productName.textContent = pname.length > 34 ? pname.slice(0, 32) + "…" : pname;
+
+  // embebido: el diálogo del tema ya tiene su ✕
+  if (window.parent !== window) document.getElementById("close").style.display = "none";
 
   if (sku){
     fetch("visor-data.json").then(function(r){ return r.json(); }).then(function(data){
