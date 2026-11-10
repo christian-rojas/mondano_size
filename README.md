@@ -1,7 +1,7 @@
 # Mondano · Visor de talla
 
 Quiz de talla mobile-first con maniquí neutro, más el análisis de devoluciones que lo justifica.
-Todo estático: sin backend, sin imágenes de modelos, sin dependencias.
+Todo estático: sin backend, sin modelos reales y sin dependencias. Las tres fotos del paso de calce son generadas con IA.
 
 **Demo local**
 
