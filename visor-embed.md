@@ -1,25 +1,27 @@
 # Visor de talla — quiz por pasos (mobile-first)
 
 **Archivos:**
-- `visor-tallas.html` — el quiz + maniquí (sin dependencias, sin imágenes).
+- `visor-tallas.html` — el quiz + maniquí (sin dependencias; solo las 3 fotos del paso de calce).
 - `visor-data.json` — 83 productos con su tabla normalizada.
+- `fits/` — ajustado.jpg, regular.jpg, oversize.jpg (misma modelo y prenda, generadas con IA).
 - `build-visor-data.py` — regenera el JSON.
 
 ---
 
 ## 1. Cómo funciona
 
-Cinco pasos, uno por pantalla. En móvil ocupa la pantalla completa; en escritorio se ve el maniquí a la izquierda y el quiz a la derecha.
+Seis pasos, uno por pantalla. En móvil ocupa la pantalla completa; en escritorio se ve el maniquí a la izquierda y el quiz a la derecha.
 
 | Paso | Pregunta | Obligatorio |
 |---|---|---|
 | 1 | ¿Para quién es? (mujer / hombre / unisex) | Sí |
 | 2 | Estatura y peso | Sí |
-| 3 | Tipo de cuerpo (recta / curva / redondeada) | Sí |
-| 4 | Contorno de pecho | **No** |
-| 5 | Resultado: talla + maniquí + medidas | — |
+| 3 | Calce deseado (ajustado / regular / oversize) | Sí |
+| 4 | Tipo de cuerpo (recta / curva / redondeada) | Sí |
+| 5 | Contorno de pecho | **No** |
+| 6 | Resultado: talla + maniquí + medidas | — |
 
-- **Progreso** en 5 barras, botón atrás y ✕ para reiniciar.
+- **Progreso** en 6 barras, botón atrás y ✕ para reiniciar.
 - **Nada se guarda ni se envía**: todo se calcula en el navegador.
 - Deep link: `visor-tallas.html?sku=casaca-capucha-poleron`.
 - Navegación con ← → (fuera de los sliders).
@@ -46,11 +48,11 @@ pecho ≈ 0,55 × estatura + 0,35 × peso − 22,75 + ajuste_persona + ajuste_ti
 
 El paso "¿Para quién es?" no cambia el precio ni la disponibilidad: solo corrige la estimación antropométrica del pecho.
 
-2. Si el cliente **ingresa su contorno de pecho** en el paso 4, se usa ese valor y se ignora la estimación.
-3. Se elige la talla de la tabla cuyo pecho quede más cerca de la **holgura de diseño** del producto (30 cm en el cortaviento, 16 cm por defecto).
+2. Si el cliente **ingresa su contorno de pecho** en el paso 5, se usa ese valor y se ignora la estimación.
+3. Se elige la talla de la tabla cuyo pecho quede más cerca de la **holgura elegida** en el paso 3: ajustado 8 cm, regular 16 cm, oversize 30 cm.
 4. El maniquí se dibuja con el pecho estimado y la talla elegida: el ancho y el largo cambian de verdad.
 
-> La estimación es antropométrica aproximada, no una medición. El paso 3 existe justamente para corregirla.
+> La estimación es antropométrica aproximada, no una medición. El paso 5 existe justamente para corregirla; el paso 3 ajusta cuánto abrigo sobra según cómo le gusta usar la prenda.
 
 ## 3. Embeber
 
@@ -91,7 +93,7 @@ python3 build-visor-data.py
 |---|---|
 | Estimación | Fórmula aproximada; el dato exacto es el contorno de pecho del paso 3. |
 | Precisión | Proyección 2D calibrada con la tabla; no es simulación de tejido. |
-| Holgura | 30 cm en el cortaviento, 16 cm por defecto (la marca no declara la intención de calce del resto). |
+| Holgura | 8 / 16 / 30 cm según el calce elegido (ajustado / regular / oversize). |
 | Productos | Solo prendas superiores (83). |
 | Privacidad | Estatura, peso y tipo de cuerpo no salen del navegador. |
 | `file://` | El `fetch` de `visor-data.json` no funciona sin servidor: cae al producto de ejemplo. |

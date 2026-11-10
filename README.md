@@ -18,7 +18,8 @@ Con producto: `visor-tallas.html?sku=casaca-capucha-poleron`
 
 ### 1. El visor (`visor-tallas.html`)
 
-- **5 pasos**: ¿para quién es? → estatura y peso → tipo de cuerpo → pecho (opcional) → resultado.
+- **6 pasos**: ¿para quién es? → estatura y peso → calce deseado → tipo de cuerpo → pecho (opcional) → resultado.
+- **Paso de calce**: tres fotos de la misma modelo (generadas con IA, sin persona real) con la misma parka en ajustado, regular y oversize. Define la holgura objetivo (8 / 16 / 30 cm).
 - En móvil, una pantalla por paso; en escritorio, maniquí a la izquierda y quiz a la derecha.
 - **Maniquí neutro**: no se usa el cuerpo de una modelo; evita lecturas sobre peso o cuerpo ajeno.
 - Estima el pecho con `0,55 × estatura + 0,35 × peso − 22,75` más ajustes de persona y tipo de cuerpo.
