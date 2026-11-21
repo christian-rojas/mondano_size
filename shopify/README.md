@@ -131,6 +131,43 @@ Con GA4 configurado en el tema, se leen como eventos personalizados. Permite med
 - En móvil, el diálogo ocupa `100dvh` (sin barras del navegador).
 - Peso total: ~30 KB de HTML + 71 KB de JSON + 0 imágenes.
 
+## 6. Cambios hechos en el tema (Wookiee)
+
+El tema es de terceros (`Mondano SEO Fix v3`, esquema Wookiee). Estos cambios se hicieron
+con Shopify CLI sobre el tema; el repo no guarda los archivos del tema, solo queda el
+registro de qué se tocó y cómo revertirlo.
+
+### 6.1 Quitar el enlace "Guía de tallas" de las fichas (2026-11-21)
+
+**Archivo:** `snippets/snippet-main-product-sidebar.liquid` (caso `variant_picker`).
+
+Se eliminó el bloque que enlazaba a `/pages/guia-de-tallas` desde cada ficha:
+
+```liquid
+{%- assign guia_tallas_handle = 'guia-de-tallas' -%}
+{%- assign guia_tallas = pages[guia_tallas_handle] -%}
+{%- if guia_tallas != blank -%}
+  <p class="product__size-guide body3 mt--small">
+    <a class="link link__base-to-accent-color clear-underline" href="{{ guia_tallas.url }}">
+      Guía de tallas
+    </a>
+  </p>
+{%- endif -%}
+```
+
+**Motivo:** esa guía es una tabla general de la marca y no corresponde a la prenda que
+el cliente está viendo; con el visor (que usa la tabla real de cada producto) confunde
+más que ayuda. La página **no se borra**: sigue enlazada desde el texto del home y
+sigue sirviéndose en `/pages/guia-de-tallas`.
+
+**Revertir:** restaurar el bloque anterior en el snippet y volver a subirlo con
+`shopify theme push --live --only snippets/snippet-main-product-sidebar.liquid --nodelete --allow-live`.
+
+### 6.2 Sección "Visor de talla" (2026-11-21)
+
+Sección nueva (`sections/visor-tallas.liquid`, en este repo) añadida a la plantilla de
+producto. Ver §2.
+
 ---
 
 ## Resumen de la decisión
