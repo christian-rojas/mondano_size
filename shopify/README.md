@@ -94,7 +94,7 @@ DNS: `CNAME tallas → cdn.vercel.com`.
 
 La sección ya lo resuelve:
 
-- El visor avisa `{type:"mondano:size", size:"M"}` al llegar al resultado.
+- El visor avisa `{type:"mondano:size", size:"M"}` cuando el cliente pulsa **"Seleccionar M"** en el último paso (y `{type:"mondano:close"}` para cerrar el visor).
 - La sección busca la talla en el selector del tema y la marca:
   - **radios** `input[type=radio][name="Talla"|"Tamaño"]` (Wokiee, Dawn 2.0…),
   - o `<select name="id">` (temas con lista desplegable),

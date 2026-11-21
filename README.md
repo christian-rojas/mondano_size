@@ -25,6 +25,7 @@ Con producto: `visor-tallas.html?sku=casaca-capucha-poleron`
 - Estima el pecho con `0,55 × estatura + 0,35 × peso − 22,75` más ajustes de persona y tipo de cuerpo.
 - Si el cliente sabe su contorno de pecho, se usa ese dato y se ignora la estimación.
 - Recomienda la talla de **la tabla real del producto** y la dibuja sobre el maniquí.
+- El último paso tiene un botón **"Seleccionar {talla}"**: aplica la talla en la ficha y cierra el visor.
 - Nada se guarda ni se envía: todo se calcula en el navegador.
 - **Modo embebido** (`?mode=inline`): se adapta a un iframe en la ficha de producto y avisa su alto para que el contenedor se ajuste a cada paso.
 

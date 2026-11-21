@@ -382,14 +382,21 @@
   <style>
     .visor-btn {
       display: flex; align-items: center; gap: 10px; width: 100%;
-      padding: 14px 16px; border: 1px solid currentColor; border-radius: 10px;
-      background: transparent; color: inherit; font: inherit; font-size: 14px; font-weight: 600;
-      cursor: pointer; text-align: left; transition: background .15s, color .15s;
+      padding: 14px 16px; border: 1px solid transparent; border-radius: 10px;
+      background: var(--color-accent, #d81c64); color: #fff;
+      font: inherit; font-size: 14px; font-weight: 650;
+      cursor: pointer; text-align: left;
+      box-shadow: 0 6px 18px rgba(216, 28, 100, .22);
+      transition: background .15s, box-shadow .15s, transform .15s;
     }
-    .visor-btn:hover { background: rgba(0, 0, 0, .04); }
-    .visor-btn:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
-    .visor-btn__icon { font-size: 16px; opacity: .7; }
-    .visor-btn__arrow { margin-left: auto; opacity: .6; }
+    .visor-btn:hover {
+      background: var(--color-button-hover-block, #ff1066); color: #fff;
+      box-shadow: 0 8px 22px rgba(216, 28, 100, .3);
+    }
+    .visor-btn:active { transform: translateY(1px); }
+    .visor-btn:focus-visible { outline: 2px solid var(--color-accent, #d81c64); outline-offset: 2px; }
+    .visor-btn__icon { font-size: 16px; opacity: .9; }
+    .visor-btn__arrow { margin-left: auto; opacity: .85; }
     .visor-hint { margin: 8px 0 0; font-size: 11.5px; opacity: .65; text-align: center; }
     .visor-status { margin: 8px 0 0; font-size: 12px; text-align: center; opacity: .8; }
 

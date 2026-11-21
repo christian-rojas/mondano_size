@@ -68,7 +68,23 @@
   .field .val{font-size:26px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
   .field .val small{font-size:11px;color:var(--muted);font-weight:600;margin-left:2px}
   .field .hint{font-size:11px;color:var(--muted);margin-top:2px}
-  input[type=range]{width:100%;accent-color:var(--pink-deep);height:26px;margin:0;cursor:pointer}
+  input[type=range]{
+    -webkit-appearance:none;appearance:none;
+    width:100%;height:34px;margin:0;background:transparent;cursor:pointer;
+    /* sin esto, en móvil el dedo hace scroll en vez de mover el control */
+    touch-action:none;-webkit-tap-highlight-color:transparent;user-select:none
+  }
+  input[type=range]::-webkit-slider-runnable-track{height:6px;border-radius:3px;background:var(--soft)}
+  input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance:none;appearance:none;width:26px;height:26px;margin-top:-10px;
+    border-radius:50%;background:var(--pink-deep);border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.22)
+  }
+  input[type=range]::-moz-range-track{height:6px;border-radius:3px;background:var(--soft)}
+  input[type=range]::-moz-range-thumb{
+    width:20px;height:20px;border-radius:50%;background:var(--pink-deep);
+    border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.22)
+  }
+  input[type=range]:focus-visible{outline:2px solid var(--pink-deep);outline-offset:4px;border-radius:8px}
 
   .types{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:12px}
   .people .type{padding:18px 8px 16px}
@@ -134,6 +150,11 @@
     border:1px solid transparent;border-radius:9px;min-width:44px;padding:8px 6px;cursor:pointer
   }
   .chips button[aria-pressed=true]{background:var(--purple);color:#fff}
+  .btn--select{
+    width:100%;background:var(--pink-deep);color:#fff;font-size:15px;font-weight:700;
+    padding:15px;border-radius:12px;margin-bottom:10px
+  }
+  .btn--select:hover{opacity:.9}
   .reset{font-size:12px;color:var(--pink-deep);background:none;border:0;padding:6px 0;cursor:pointer;text-decoration:underline}
   .privacy{font-size:10px;color:var(--muted);margin-top:10px}
 
@@ -320,6 +341,7 @@
           <div><dt>Contorno ruedo</dt><dd id="mHem">112<small>cm</small></dd></div>
         </dl>
         <div class="chips" id="chips"></div>
+        <button class="btn btn--select" id="selectSize">Seleccionar M</button>
         <button class="reset" id="restart">Repetir el test</button>
         <p class="privacy">Tus datos no se guardan ni se envían. La talla es una recomendación basada en la tabla del producto.</p>
       </div>
@@ -387,6 +409,7 @@
   var sizeBig = document.getElementById("sizeBig");
   var resultMeta = document.getElementById("resultMeta");
   var chips = document.getElementById("chips");
+  var selectSizeBtn = document.getElementById("selectSize");
   var productName = document.getElementById("productName");
 
   function list(){ return state.product.sizes; }
@@ -582,7 +605,7 @@
     document.getElementById("mHem").innerHTML = size.hem + "<small>cm</small>";
     drawInto(resultSvg, "R");
     buildChips();
-    if (window.parent !== window) window.parent.postMessage({ type:"mondano:size", size: size.id }, "*");
+    selectSizeBtn.textContent = "Seleccionar " + size.id;
   }
 
   function buildChips(){
@@ -600,6 +623,7 @@
         document.getElementById("mSleeve").innerHTML = s.sleeve + "<small>cm</small>";
         document.getElementById("mTalle").innerHTML = s.talle + "<small>cm</small>";
         document.getElementById("mHem").innerHTML = s.hem + "<small>cm</small>";
+        selectSizeBtn.textContent = "Seleccionar " + s.id;
         drawInto(resultSvg, "R"); drawInto(previewSvg, "P");
       });
       chips.appendChild(b);
@@ -675,6 +699,18 @@
     state.step = 0; state.chestOverride = null; state.forced = false;
     setStep(0); syncInputs();
   });
+
+  // Botón "Seleccionar {talla}": aplica la talla en la ficha y cierra el visor
+  selectSizeBtn.addEventListener("click", function(){
+    if (window.parent !== window) {
+      window.parent.postMessage({ type:"mondano:size", size: state.size }, "*");
+      window.parent.postMessage({ type:"mondano:close" }, "*");
+    } else {
+      state.step = 0; state.chestOverride = null; state.forced = false;
+      setStep(0); syncInputs();
+    }
+  });
+
   document.getElementById("close").addEventListener("click", function(){
     if (window.parent !== window) window.parent.postMessage({ type: "mondano:close" }, "*");
     else { state.step = 0; state.chestOverride = null; state.forced = false; setStep(0); syncInputs(); }

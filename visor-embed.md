@@ -91,9 +91,16 @@ window.addEventListener('message', function (e) {
 // el visor avisa su alto (solo en modo en línea)
 { type: "mondano:height", height: 480 }
 
+// el visor avisa la talla cuando el cliente pulsa "Seleccionar {talla}"
+{ type: "mondano:size", size: "L" }
+
 // la página puede abrir una talla concreta
 iframe.contentWindow.postMessage({ type: "mondano:set", size: "L" }, "*");
 ```
+
+> La talla **no** se aplica sola al llegar al resultado: se aplica al pulsar el botón
+> "Seleccionar {talla}", que además cierra el visor. Los chips del resultado permiten
+> ver otras tallas antes de decidir.
 
 ## 4. Qué productos entran
 
