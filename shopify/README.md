@@ -101,6 +101,7 @@ La sección ya lo resuelve:
   - o `input[name="id"][value="<variant id>"]`.
 - El tema actualiza el input oculto del formulario y la URL `?variant=<id>`.
 - La sección confirma con un aviso bajo el botón: *"Talla M aplicada a la variante"*.
+- La talla se marca **sin enfocar** el input (en Wookiee está oculto con `position:absolute` fuera de pantalla): enfocarlo hacía que el navegador lo trajera a la vista y la página saltara al top. Al cerrar el visor también se libera el foco del iframe y se restaura la posición del scroll.
 
 > El mapa de Liquid usa la opción de talla del producto (la primera en este catálogo: 52 productos usan "Talla" y 40 "Tamaño"), así que sirve también con productos que tengan color + talla.
 
