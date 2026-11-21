@@ -26,6 +26,7 @@ Con producto: `visor-tallas.html?sku=casaca-capucha-poleron`
 - Si el cliente sabe su contorno de pecho, se usa ese dato y se ignora la estimación.
 - Recomienda la talla de **la tabla real del producto** y la dibuja sobre el maniquí.
 - Nada se guarda ni se envía: todo se calcula en el navegador.
+- **Modo embebido** (`?mode=inline`): se adapta a un iframe en la ficha de producto y avisa su alto para que el contenedor se ajuste a cada paso.
 
 ### 2. Los datos (`visor-data.json`)
 
@@ -40,7 +41,7 @@ Fuente: `transcripciones-tallas.json` (118 guías leídas y transcritas) + `cata
 
 ### 3. Integración con Shopify (`shopify/`)
 
-- `visor-tallas.liquid`: sección validada con Theme Check. Botón "Encuentra tu talla" + diálogo con iframe, sincronización de variante y eventos `dataLayer`.
+- `visor-tallas.liquid`: sección validada con Theme Check. Se coloca sola **debajo del selector de tallas** (con JS, sin tocar el tema) y abre el visor en línea o en modal. Sincroniza la variante y empuja eventos `dataLayer`.
 - `README.md`: decisión (Vercel + iframe, sin redirección), deploy e instalación.
 
 ### 4. Informe de devoluciones (local)

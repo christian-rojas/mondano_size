@@ -67,11 +67,29 @@ El paso "¿Para quién es?" no cambia el precio ni la disponibilidad: solo corri
 
 Sugerencia: `height:100dvh` en móvil y 780 px en escritorio. El quiz ya trae su propio fondo y layout.
 
+### Modo en línea (`?mode=inline`)
+
+Para incrustar el visor **dentro de la ficha** (debajo del selector de tallas), se añade `mode=inline`:
+
+- El visor deja de usar unidades `vh`: su alto depende solo del contenido.
+- Avisa su alto al padre con `{ type:"mondano:height", height: 480 }` cada vez que cambia el paso, para que el `iframe` se ajuste:
+
+```js
+window.addEventListener('message', function (e) {
+  if (e.data && e.data.type === 'mondano:height') {
+    iframe.style.height = e.data.height + 'px';
+  }
+});
+```
+
 ### API
 
 ```js
 // el visor avisa al cerrar (✕)
 { type: "mondano:close" }
+
+// el visor avisa su alto (solo en modo en línea)
+{ type: "mondano:height", height: 480 }
 
 // la página puede abrir una talla concreta
 iframe.contentWindow.postMessage({ type: "mondano:set", size: "L" }, "*");

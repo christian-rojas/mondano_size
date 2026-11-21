@@ -159,6 +159,20 @@
     .types{gap:6px}
     .type{padding:10px 4px 8px}
   }
+
+  /* ---------- modo embebido (?mode=inline): vive dentro de la ficha ---------- */
+  /* ---------- modo embebido (?mode=inline): vive dentro de la ficha ---------- */
+  /* El alto lo fija el padre (ajuste automático), así que nada depende del viewport. */
+  html.embed{min-height:0;height:auto}
+  html.embed body{display:block;padding:0;min-height:0;height:auto}
+  html.embed .app{height:auto;max-width:none;align-items:stretch}
+  html.embed .preview{height:auto;min-height:0;border-radius:0}
+  html.embed .quiz{
+    border:0;border-radius:0;box-shadow:none;min-height:0;height:auto;
+    padding:calc(12px + env(safe-area-inset-top)) 16px calc(14px + env(safe-area-inset-bottom));
+  }
+  html.embed .slide.on{padding-top:14px}
+  html.embed .result-figure{height:240px}
 </style>
 </head>
 <body>
@@ -320,6 +334,11 @@
 <script>
 (function(){
   "use strict";
+
+  // Modo embebido: el visor se muestra dentro de un iframe en la ficha de producto
+  var params = new URLSearchParams(location.search);
+  var embedMode = params.get("mode") === "inline" || params.get("mode") === "embed";
+  if (embedMode) document.documentElement.classList.add("embed");
 
   var DEFAULT_PRODUCT = {
     sku: "cortaviento-purple-spring-trend",
@@ -511,6 +530,17 @@
   }
 
   /* ---------- UI ---------- */
+  var lastHeight = 0;
+
+  // En modo embebido el padre ajusta el alto del iframe al contenido
+  function reportHeight(){
+    if (!embedMode || window.parent === window) return;
+    var h = Math.ceil(Math.max(document.body.scrollHeight, app.scrollHeight));
+    if (!h || Math.abs(h - lastHeight) < 2) return;
+    lastHeight = h;
+    window.parent.postMessage({ type: "mondano:height", height: h }, "*");
+  }
+
   function showMissing(){
     app.setAttribute('data-step', '99');
     Array.prototype.forEach.call(document.querySelectorAll('.slide'), function(el){
@@ -534,6 +564,7 @@
       el.classList.toggle("on", i <= n);
     });
     if (n === 5) renderResult();
+    reportHeight();
   }
 
   function renderResult(){
@@ -671,11 +702,21 @@
     syncInputs();
   }
 
-  var params = new URLSearchParams(location.search);
   var sku = params.get("sku") || params.get("handle") || params.get("p");
 
   applyProduct(DEFAULT_PRODUCT);
   setStep(0);
+
+  // el padre necesita saber el alto del contenido (modo embebido)
+  if (embedMode) {
+    if (window.ResizeObserver) {
+      var ro = new ResizeObserver(function () { reportHeight(); });
+      ro.observe(document.getElementById("app"));
+    }
+    reportHeight();
+    setTimeout(reportHeight, 80);
+    setTimeout(reportHeight, 500);
+  }
 
   var pname = params.get("name");
   if (pname) productName.textContent = pname.length > 34 ? pname.slice(0, 32) + "…" : pname;
