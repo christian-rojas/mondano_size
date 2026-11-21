@@ -60,7 +60,8 @@
     assign key = ',' | append: size_label | append: ','
     unless seen contains key
       assign seen = seen | append: size_label | append: ','
-      assign variants_json = variants_json | append: size_label | json | append: ':' | append: v.id | append: ','
+      assign label_json = size_label | json
+      assign variants_json = variants_json | append: label_json | append: ':' | append: v.id | append: ','
     endunless
   endfor
   assign variants_json = variants_json | remove_last: ','
