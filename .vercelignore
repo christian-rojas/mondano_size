@@ -1,7 +1,10 @@
-# Publicar solo el visor y sus datos
-*
-!visor-tallas.html
-!visor-data.json
-!vercel.json
-!fits/
-!fits/**
+# Publicar solo el visor y sus datos.
+# `/*` excluye la raíz; cadanegación vuelve a incluir lo necesario.
+# Ojo: con `*` (sin barra) la carpeta fits/ quedaba fuera y las fotos
+# del paso de calce devolvían 404.
+/*
+!/visor-tallas.html
+!/visor-data.json
+!/vercel.json
+!/fits
+!/fits/**
